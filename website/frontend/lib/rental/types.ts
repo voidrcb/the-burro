@@ -16,6 +16,11 @@ export type RentalBookingState = z.infer<typeof rentalBookingStateSchema>;
 // Rental asset categories - single flagship for A-2.2.2
 export const rentalAssetCategorySchema = z.enum([
   'excavator',
+  'heavy-equipment',
+  'camera',
+  'telescope',
+  'outdoor-gear',
+  'craft-supplies',
   'tractor',
   'utility-vehicle',
   'trailer',

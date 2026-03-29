@@ -3,7 +3,7 @@ import { notFound } from 'next/navigation';
 
 import { AddToCartButton } from '@/components/shop/AddToCartButton';
 import { getPublicShopProductBySlug } from '@/lib/content/shop';
-import { getShippingProfileLabel, getShopStatusLabel, isShopProductPurchasable } from '@/lib/shop/helpers';
+import { getShippingProfileLabel, getShopStatusLabel, getShopCategoryLabel, isShopProductPurchasable } from '@/lib/shop/helpers';
 
 export default async function ShopProductPage({ params }: { params: { slug: string } }) {
   const product = await getPublicShopProductBySlug(params.slug);
@@ -24,7 +24,7 @@ export default async function ShopProductPage({ params }: { params: { slug: stri
 
       <div className="rounded-panel border border-text-strong/10 bg-white/90 p-6 shadow-soft">
         <div className="flex flex-wrap gap-3 text-xs font-semibold uppercase tracking-[0.18em] text-accent-earth">
-          <span>{product.category}</span>
+          <span>{getShopCategoryLabel(product.category)}</span>
           <span>{getShippingProfileLabel(product.shippingProfile)}</span>
           <span>{getShopStatusLabel(product.status)}</span>
         </div>

@@ -1,25 +1,37 @@
-import { readFile, readdir } from 'fs/promises';
-import path from 'path';
-
-import { getCmsPath } from '@/lib/server/repo';
+import { type EquipmentAsset, listEquipmentAssets } from '@/lib/content/equipment';
 import { rentalAssetSchema, type RentalAsset } from '@/lib/rental/types';
 
-const rentalsDirectory = getCmsPath('rentals');
+function mapEquipmentToRentalAsset(asset: EquipmentAsset): RentalAsset {
+  const normalizedImages = (asset.images ?? []).map((image) => (
+    typeof image === 'string'
+      ? { url: image, alt: asset.name }
+      : image
+  ));
 
-async function readAssetFile(fileName: string): Promise<RentalAsset> {
-  const raw = await readFile(path.join(rentalsDirectory, fileName), 'utf8');
-  return rentalAssetSchema.parse(JSON.parse(raw));
+  return rentalAssetSchema.parse({
+    id: asset.id,
+    slug: asset.slug,
+    name: asset.name,
+    category: asset.category,
+    description: asset.description,
+    specifications: asset.specifications ?? [],
+    dailyRate: asset.dailyRate,
+    weeklyRate: asset.weeklyRate,
+    depositRequired: asset.depositRequired,
+    deliveryFee: asset.deliveryFee ?? 0,
+    status: asset.status,
+    maintenanceFlag: asset.status === 'maintenance',
+    images: normalizedImages,
+    deliveryNotes: asset.deliveryNotes,
+    operatingRequirements: asset.operatingRequirements ?? [],
+    insuranceRequired: asset.insuranceRequired ?? false,
+    featured: asset.featured ?? false,
+  });
 }
 
 export async function listRentalAssets(): Promise<RentalAsset[]> {
-  try {
-    const entries = await readdir(rentalsDirectory);
-    const files = entries.filter((entry) => entry.endsWith('.json') && entry !== 'schema.json');
-    const assets = await Promise.all(files.map(async (fileName) => readAssetFile(fileName)));
-    return assets.sort((left, right) => left.name.localeCompare(right.name));
-  } catch {
-    return [];
-  }
+  const assets = await listEquipmentAssets();
+  return assets.map(mapEquipmentToRentalAsset).sort((left, right) => left.name.localeCompare(right.name));
 }
 
 export async function listAvailableRentalAssets(): Promise<RentalAsset[]> {
@@ -42,7 +54,6 @@ export async function getRentalAssetBySlug(slug: string): Promise<RentalAsset | 
   return assets.find((asset) => asset.slug === slug) ?? null;
 }
 
-// Helper to check if asset is available for a date range
 export async function checkAssetAvailability(
   assetId: string,
   startDate: string,
@@ -54,6 +65,10 @@ export async function checkAssetAvailability(
     return { available: false, reason: 'Asset not found' };
   }
 
+  if (!startDate || !endDate) {
+    return { available: false, reason: 'Start and end dates are required' };
+  }
+
   if (asset.status !== 'available') {
     return { available: false, reason: `Asset is currently ${asset.status}` };
   }
@@ -62,7 +77,5 @@ export async function checkAssetAvailability(
     return { available: false, reason: 'Asset is under maintenance' };
   }
 
-  // In a real implementation, we would check against existing bookings
-  // For now, we assume available if status is 'available'
   return { available: true };
 }

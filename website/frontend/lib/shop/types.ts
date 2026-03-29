@@ -1,6 +1,6 @@
 import { z } from 'zod';
 
-export const shopCategorySchema = z.enum(['prints', 'giftables', 'print-on-demand']);
+export const shopCategorySchema = z.enum(['prints', 'giftables', 'print-on-demand', 'tiles', 'pottery', 'apparel']);
 export const shippingProfileSchema = z.enum(['pickup-only', 'parcel', 'print-on-demand']);
 export const productStatusSchema = z.enum(['available', 'sold-out', 'coming-soon', 'private']);
 
@@ -30,6 +30,10 @@ export const shopProductSchema = z.object({
   badge: z.string().optional(),
   leadTimeNote: z.string().optional(),
   highlights: z.array(z.string()).optional(),
+  variants: z.array(z.object({
+    name: z.string(),
+    price: z.number().nonnegative(),
+  })).optional(),
 });
 
 export const shopOrderItemSchema = z.object({

@@ -1,0 +1,31 @@
+{
+  "id": "product_giftables_burro_sticker_pack",
+  "slug": "burro-sticker-pack",
+  "title": "Burro Sticker Pack",
+  "description": "Set of 5 vinyl stickers featuring Big Bend Burro designs. Weather-resistant.",
+  "category": "giftables",
+  "price": {
+    "amount": 12,
+    "currency": "USD"
+  },
+  "images": [
+    {
+      "url": "/images/palette/rio-grande-bend.jpg",
+      "alt": "Big Bend landscape artwork used across the Burro sticker pack"
+    }
+  ],
+  "story": "Stick them on your water bottle, laptop, or truck bumper. Each pack includes five different designs.",
+  "shippingProfile": "parcel",
+  "status": "available",
+  "inventory": {
+    "available": 50
+  },
+  "featured": false,
+  "badge": "Bestseller",
+  "leadTimeNote": "Ships within 3 business days.",
+  "highlights": [
+    "5 vinyl stickers",
+    "Weatherproof",
+    "Various sizes"
+  ]
+}

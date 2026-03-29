@@ -401,3 +401,34 @@ Deferred to later sprint: rich maintenance editing, drag-drop calendar, reservat
 **Rationale:** Prevents accidental launch with known credentials; aligns auth behavior with the deployment checklist; reduces the gap between local validation and production posture.
 
 ---
+
+
+### DEC-035: Equipment CMS Is the Canonical Rental Source (2026-03-28, Sprint 15/16 Post-Mortem)
+
+**Context:** Sprint 16 added `website/cms/equipment/` as the richer equipment contract, but the public rental catalog was still reading from the older `website/cms/rentals/` lane and the Kubota asset existed in both places.
+
+**Decision:** `website/cms/equipment/` is the canonical source for public rental pages and internal equipment surfaces. `website/cms/rentals/` is retired and should not receive new inventory.
+
+**Rationale:** Removes duplicate asset records, keeps public and internal views aligned, and lets one schema carry weekly rates, delivery fees, and richer operational notes.
+
+---
+
+### DEC-036: Inspiration Media Beats Broken Product Media (2026-03-28, Sprint 15/16 Post-Mortem)
+
+**Context:** Several Sprint 16 shop products launched with image paths that did not exist in `website/frontend/public/`.
+
+**Decision:** When dedicated product photography is not available yet, use valid on-site inspiration media from existing workshop or palette imagery rather than shipping broken image paths.
+
+**Rationale:** Preserves public catalog integrity immediately while making the missing photography work explicit and trackable.
+
+---
+
+### DEC-037: Legacy Product IDs Require Planned Migration (2026-03-28, Sprint 15/16 Post-Mortem)
+
+**Context:** Older shop products use mixed historical ID formats while Sprint 16 introduced a cleaner `product_[category]_[descriptor]` pattern.
+
+**Decision:** Normalize IDs for new products only. Preserve legacy IDs until a dedicated migration is planned and validated against stored orders and integrations.
+
+**Rationale:** Avoids silent breakage in persisted records while still moving the catalog toward a consistent identifier standard.
+
+---

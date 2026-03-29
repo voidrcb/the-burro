@@ -1,9 +1,14 @@
 {
-  "id": "rental_kubota_kx040",
+  "id": "asset_excavator_kubota_kx040",
   "slug": "kubota-kx040-excavator",
   "name": "Kubota KX040-4 Mini Excavator",
   "category": "excavator",
-  "description": "The Kubota KX040-4 is a versatile mini excavator perfect for Big Bend ranch work, water projects, and land clearing. With a 40 horsepower engine and 9,000 lb operating weight, it handles serious digging while remaining maneuverable on remote properties. Ideal for pond excavation, trenching, brush clearing, and foundation work.",
+  "description": "The Kubota KX040-4 is a versatile mini excavator perfect for Big Bend ranch work, water projects, and land clearing. With a 40 horsepower engine and 9,000 lb operating weight, it handles serious digging while remaining maneuverable on remote properties.",
+  "dailyRate": 450,
+  "weeklyRate": 2250,
+  "depositRequired": 2500,
+  "deliveryFee": 250,
+  "status": "available",
   "specifications": [
     "Engine: 40.4 HP Kubota diesel",
     "Operating weight: 9,039 lbs",
@@ -13,12 +18,6 @@
     "Track width: 12.6 in",
     "Fuel capacity: 15.9 gal"
   ],
-  "dailyRate": 450,
-  "weeklyRate": 2250,
-  "depositRequired": 2500,
-  "deliveryFee": 250,
-  "status": "available",
-  "maintenanceFlag": false,
   "images": [
     {
       "url": "/images/rentals/kubota-kx040-hero.jpg",
@@ -37,5 +36,6 @@
     "Proof of liability insurance or rental insurance purchase"
   ],
   "insuranceRequired": true,
-  "featured": true
+  "featured": true,
+  "maintenanceLog": []
 }

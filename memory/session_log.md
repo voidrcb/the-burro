@@ -1174,3 +1174,39 @@ Changes:
 - Knowledge base updated for Custom GPT
 
 ---
+
+
+## 2026-03-28 - Sprint 15/16 Post-Mortem
+
+**Agent:** The Burro  
+**Scope:** Verification, defect correction, documentation sync, and quality-gate revalidation after Sprint 15 (4.1) and Sprint 16 (Unified)
+
+### Defects Confirmed
+- Duplicate Kubota content existed in both `website/cms/rentals/` and `website/cms/equipment/`.
+- Public rentals pages were still hardcoded and bypassing the equipment CMS.
+- Several Sprint 16 shop items referenced missing images.
+- New shop categories were not rendered with human labels in all public shop surfaces.
+- Lodging soft-launch statuses were inconsistent with the documented status convention.
+- `website/cms/BOOKING_FRAMEWORK.md` referenced a non-existent CRM implementation path.
+- `/api/crm/history` emitted a dynamic server usage warning during builds.
+- GPT knowledge files for lodging, workshops, shop, and equipment had drifted from CMS.
+
+### Fixes Applied
+- Moved public rentals to the equipment CMS source and removed the legacy Kubota rental file.
+- Repaired shop media references and normalized Sprint 16 product IDs.
+- Updated shop helpers and public UI to render the new category labels consistently.
+- Normalized lodging `coming-soon` status values in CMS and schema.
+- Rewrote the canonical CMS registry, booking framework, and site architecture docs.
+- Resynced GPT files `04_LODGING_STAYS.md`, `05_EXPERIENCES.md`, `06_EQUIPMENT_RENTAL.md`, and `07_SHOP_ARTISAN.md`.
+- Added `dynamic = 'force-dynamic'` to `/api/crm/history`.
+
+### Quality Gates
+- `pnpm lint`: PASS
+- `pnpm typecheck`: PASS
+- `pnpm test -- --run`: PASS
+- `pnpm build`: PASS (86 routes)
+
+### Follow-On Work
+- Plan a clean migration for legacy shop IDs.
+- Capture dedicated product photography for Sprint 16 items.
+- Finish public policy pages and newsletter lane.

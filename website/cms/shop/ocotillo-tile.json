@@ -1,0 +1,31 @@
+{
+  "id": "product_tiles_ocotillo_tile",
+  "slug": "ocotillo-tile",
+  "title": "Ocotillo Design Tile",
+  "description": "Striking ocotillo silhouette on a handmade ceramic tile, capturing the iconic Big Bend plant.",
+  "category": "tiles",
+  "price": {
+    "amount": 55,
+    "currency": "USD"
+  },
+  "images": [
+    {
+      "url": "/images/workshops/tile-making.jpg",
+      "alt": "Handmade ocotillo tile design in Susan's desert workshop"
+    }
+  ],
+  "story": "The ocotillo is Big Bend's signature plant - thorny arms reaching skyward, bursting into red blooms after rain. Susan's tiles capture this desert spirit.",
+  "shippingProfile": "parcel",
+  "status": "available",
+  "inventory": {
+    "available": 8
+  },
+  "featured": true,
+  "badge": "Handmade by Susan",
+  "leadTimeNote": "Allow 2-3 weeks for completion.",
+  "highlights": [
+    "4x4 inch handmade tile",
+    "Desert ochre and sage glaze",
+    "Ready to hang or install"
+  ]
+}

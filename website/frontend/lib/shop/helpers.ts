@@ -34,6 +34,12 @@ export function getShippingProfileLabel(profile: ShopProduct['shippingProfile'])
 
 export function getShopCategoryLabel(category: ShopCategory): string {
   switch (category) {
+    case 'tiles':
+      return 'Handmade Tiles';
+    case 'pottery':
+      return 'Pottery';
+    case 'apparel':
+      return 'Apparel';
     case 'print-on-demand':
       return 'Print on demand';
     case 'giftables':

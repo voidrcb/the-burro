@@ -5,7 +5,7 @@ import { useMemo, useState } from 'react';
 
 import { AddToCartButton } from '@/components/shop/AddToCartButton';
 import { ImageWithFallback } from '@/components/ui/ImageWithFallback';
-import { getShippingProfileLabel, getShopStatusLabel, isShopProductPurchasable } from '@/lib/shop/helpers';
+import { getShippingProfileLabel, getShopStatusLabel, getShopCategoryLabel, isShopProductPurchasable } from '@/lib/shop/helpers';
 import type { ShopCategory, ShopProduct } from '@/lib/shop/types';
 
 export function ShopCatalogClient({
@@ -41,7 +41,7 @@ export function ShopCatalogClient({
             onClick={() => setCategory(entry)}
             className={category === entry ? 'rounded-full bg-text-strong px-4 py-2 text-sm font-semibold text-text-inverse' : 'rounded-full bg-surface-elevated px-4 py-2 text-sm font-semibold text-text-strong'}
           >
-            {entry}
+            {getShopCategoryLabel(entry)}
           </button>
         ))}
       </div>
@@ -59,7 +59,7 @@ export function ShopCatalogClient({
                 className="h-48 rounded-[22px]"
               />
               <div className="mt-4 flex flex-wrap items-center justify-between gap-3">
-                <p className="text-xs font-semibold uppercase tracking-[0.18em] text-accent-earth">{product.category}</p>
+                <p className="text-xs font-semibold uppercase tracking-[0.18em] text-accent-earth">{getShopCategoryLabel(product.category)}</p>
                 <div className="flex flex-wrap gap-2 text-xs uppercase tracking-[0.16em] text-text-muted">
                   <span>{getShippingProfileLabel(product.shippingProfile)}</span>
                   <span>{getShopStatusLabel(product.status)}</span>

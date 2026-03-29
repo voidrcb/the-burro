@@ -30,6 +30,6 @@
     "weather": "Soft-launch inventory will open only in suitable weather windows."
   },
   "lodgifyPropertyId": "lodgify_ocotillo_lookout",
-  "status": "coming_soon",
+  "status": "coming-soon",
   "featured": false
 }

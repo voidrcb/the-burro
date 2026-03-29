@@ -113,13 +113,20 @@ export type EquipmentAsset = {
   id: string;
   slug: string;
   name: string;
-  category: 'camera' | 'telescope' | 'outdoor-gear' | 'craft-supplies';
+  category: 'camera' | 'telescope' | 'outdoor-gear' | 'craft-supplies' | 'excavator' | 'heavy-equipment';
   description: string;
   dailyRate: number;
+  weeklyRate?: number;
   depositRequired: number;
+  deliveryFee?: number;
   status: 'available' | 'reserved' | 'maintenance' | 'retired';
-  maintenanceLog: MaintenanceEntry[];
-  images?: string[];
+  maintenanceLog: Array<MaintenanceEntry & { resolution?: string }>;
+  images?: Array<string | { url: string; alt: string }>;
+  specifications?: string[];
+  deliveryNotes?: string;
+  operatingRequirements?: string[];
+  insuranceRequired?: boolean;
+  featured?: boolean;
 };
 
 /** @deprecated Use ExperienceProduct from `@/lib/experience/types` as the canonical experience contract. */
@@ -271,13 +278,20 @@ export const equipmentAssetSchema = z.object({
   id: z.string(),
   slug: z.string(),
   name: z.string(),
-  category: z.enum(['camera', 'telescope', 'outdoor-gear', 'craft-supplies']),
+  category: z.enum(['camera', 'telescope', 'outdoor-gear', 'craft-supplies', 'excavator', 'heavy-equipment']),
   description: z.string(),
   dailyRate: z.number().nonnegative(),
+  weeklyRate: z.number().nonnegative().optional(),
   depositRequired: z.number().nonnegative(),
+  deliveryFee: z.number().nonnegative().optional(),
   status: z.enum(['available', 'reserved', 'maintenance', 'retired']),
-  maintenanceLog: z.array(maintenanceEntrySchema),
-  images: z.array(z.string()).optional(),
+  maintenanceLog: z.array(maintenanceEntrySchema.extend({ resolution: z.string().optional() })),
+  images: z.array(z.union([z.string(), z.object({ url: z.string(), alt: z.string() })])).optional(),
+  specifications: z.array(z.string()).optional(),
+  deliveryNotes: z.string().optional(),
+  operatingRequirements: z.array(z.string()).optional(),
+  insuranceRequired: z.boolean().optional(),
+  featured: z.boolean().optional(),
 });
 
 export const experienceSchema = z.object({

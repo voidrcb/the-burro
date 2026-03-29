@@ -68,6 +68,12 @@ export function getShopCategoryLabel(category: ShopCategory): string {
       return 'Giftables';
     case 'print-on-demand':
       return 'Print on demand';
+    case 'tiles':
+      return 'Handmade Tiles';
+    case 'pottery':
+      return 'Pottery';
+    case 'apparel':
+      return 'Apparel';
   }
 }
 

@@ -29,7 +29,7 @@ export const lodgingUnitSchema = z.object({
   photos: z.array(stayPhotoSchema).min(1),
   policies: stayPoliciesSchema,
   lodgifyPropertyId: z.string().optional(),
-  status: z.enum(['available', 'coming_soon', 'private']),
+  status: z.enum(['available', 'coming-soon', 'private']),
   featured: z.boolean().default(false),
 });
 

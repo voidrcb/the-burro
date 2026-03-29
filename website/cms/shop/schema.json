@@ -2,43 +2,132 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "title": "Big Bend Burro Shop Product",
   "type": "object",
-  "required": ["id", "slug", "title", "description", "category", "price", "images", "story", "shippingProfile", "status"],
+  "required": [
+    "id",
+    "slug",
+    "title",
+    "description",
+    "category",
+    "price",
+    "images",
+    "story",
+    "shippingProfile",
+    "status"
+  ],
   "properties": {
-    "id": { "type": "string" },
-    "slug": { "type": "string" },
-    "title": { "type": "string" },
-    "description": { "type": "string" },
-    "category": { "enum": ["prints", "giftables", "print-on-demand"] },
+    "id": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "category": {
+      "enum": [
+        "prints",
+        "giftables",
+        "print-on-demand",
+        "tiles",
+        "pottery",
+        "apparel"
+      ]
+    },
     "price": {
       "type": "object",
-      "required": ["amount", "currency"],
+      "required": [
+        "amount",
+        "currency"
+      ],
       "properties": {
-        "amount": { "type": "number" },
-        "currency": { "const": "USD" }
+        "amount": {
+          "type": "number"
+        },
+        "currency": {
+          "const": "USD"
+        }
       }
     },
     "images": {
       "type": "array",
       "items": {
         "type": "object",
-        "required": ["url", "alt"],
+        "required": [
+          "url",
+          "alt"
+        ],
         "properties": {
-          "url": { "type": "string" },
-          "alt": { "type": "string" }
+          "url": {
+            "type": "string"
+          },
+          "alt": {
+            "type": "string"
+          }
         }
       }
     },
-    "story": { "type": "string" },
-    "shippingProfile": { "enum": ["pickup-only", "parcel", "print-on-demand"] },
-    "status": { "enum": ["available", "sold-out", "coming-soon", "private"] },
+    "story": {
+      "type": "string"
+    },
+    "shippingProfile": {
+      "enum": [
+        "pickup-only",
+        "parcel",
+        "print-on-demand"
+      ]
+    },
+    "status": {
+      "enum": [
+        "available",
+        "sold-out",
+        "coming-soon",
+        "private"
+      ]
+    },
     "inventory": {
       "type": "object",
       "properties": {
-        "available": { "type": "integer" }
+        "available": {
+          "type": "integer"
+        }
       }
     },
-    "featured": { "type": "boolean" },
-    "badge": { "type": "string" },
-    "leadTimeNote": { "type": "string" }
+    "featured": {
+      "type": "boolean"
+    },
+    "badge": {
+      "type": "string"
+    },
+    "leadTimeNote": {
+      "type": "string"
+    },
+    "highlights": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "variants": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "name",
+          "price"
+        ],
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "price": {
+            "type": "number"
+          }
+        }
+      }
+    }
   }
 }

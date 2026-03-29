@@ -1,0 +1,41 @@
+{
+  "id": "product_tiles_desert_scene_tile",
+  "slug": "desert-scene-tile",
+  "title": "Desert Scene Tile",
+  "description": "Handmade decorative tile featuring desert landscape motifs - ocotillo, agave, and mountain silhouettes.",
+  "category": "tiles",
+  "price": {
+    "amount": 45,
+    "currency": "USD"
+  },
+  "images": [
+    {
+      "url": "/images/workshops/tile-making.jpg",
+      "alt": "Susan shaping handmade desert tiles in the workshop studio"
+    }
+  ],
+  "story": "Each tile is hand-pressed and glazed by Susan in her Terlingua studio. The desert scenes are carved while the clay is still soft, then fired in the kiln until the colors come alive.",
+  "shippingProfile": "parcel",
+  "status": "available",
+  "inventory": {
+    "available": 12
+  },
+  "featured": true,
+  "badge": "Handmade by Susan",
+  "leadTimeNote": "Each tile is made to order. Allow 2-3 weeks for completion.",
+  "highlights": [
+    "4x4 inch handmade tile",
+    "Food-safe glaze",
+    "Signed on back"
+  ],
+  "variants": [
+    {
+      "name": "4x4",
+      "price": 45
+    },
+    {
+      "name": "6x6",
+      "price": 65
+    }
+  ]
+}

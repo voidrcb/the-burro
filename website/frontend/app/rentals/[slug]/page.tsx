@@ -1,10 +1,18 @@
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 
+import { ImageWithFallback } from '@/components/ui/ImageWithFallback';
 import { getRentalAssetBySlug, listRentalAssets } from '@/lib/content/rentals';
 
 interface PageProps {
   params: Promise<{ slug: string }>;
+}
+
+function getCategoryLabel(category: string): string {
+  return category
+    .split('-')
+    .map((part) => part.charAt(0).toUpperCase() + part.slice(1))
+    .join(' ');
 }
 
 export async function generateStaticParams() {
@@ -38,7 +46,6 @@ export default async function RentalAssetPage({ params }: PageProps) {
 
   return (
     <main className="min-h-screen bg-surface-base">
-      {/* Breadcrumb */}
       <div className="border-b border-text-strong/10 bg-white/80 px-6 py-4">
         <div className="mx-auto max-w-5xl">
           <nav className="flex items-center gap-2 text-sm text-text-muted">
@@ -51,27 +58,19 @@ export default async function RentalAssetPage({ params }: PageProps) {
         </div>
       </div>
 
-      {/* Hero */}
       <section className="px-6 py-12">
         <div className="mx-auto max-w-5xl">
           <div className="grid gap-8 lg:grid-cols-[1fr_360px]">
-            {/* Left: Image & Description */}
             <div>
-              {/* Image placeholder */}
-              <div className="aspect-[16/10] overflow-hidden rounded-[28px] bg-gradient-to-br from-accent-earth/20 to-accent-earth/5">
-                <div className="flex h-full items-center justify-center">
-                  <div className="text-center p-8">
-                    <p className="text-xs uppercase tracking-[0.16em] text-accent-earth">
-                      {asset.category}
-                    </p>
-                    <p className="mt-4 font-display text-2xl text-text-strong">
-                      {asset.name}
-                    </p>
-                  </div>
-                </div>
-              </div>
+              <ImageWithFallback
+                src={asset.images[0]?.url ?? ''}
+                alt={asset.images[0]?.alt ?? asset.name}
+                fill
+                sizes="(max-width: 1024px) 100vw, 60vw"
+                className="h-[22rem] rounded-[28px]"
+                priority
+              />
 
-              {/* Status badge */}
               <div className="mt-6 flex items-center gap-3">
                 <span
                   className={`rounded-full px-3 py-1 text-xs font-semibold uppercase tracking-wider ${
@@ -83,7 +82,7 @@ export default async function RentalAssetPage({ params }: PageProps) {
                   {isAvailable ? 'Available' : asset.maintenanceFlag ? 'Under Maintenance' : asset.status}
                 </span>
                 <span className="text-xs uppercase tracking-[0.16em] text-text-muted">
-                  {asset.category}
+                  {getCategoryLabel(asset.category)}
                 </span>
               </div>
 
@@ -95,43 +94,44 @@ export default async function RentalAssetPage({ params }: PageProps) {
                 {asset.description}
               </p>
 
-              {/* Specifications */}
-              <div className="mt-8">
-                <h2 className="text-sm font-semibold uppercase tracking-[0.16em] text-text-strong">
-                  Specifications
-                </h2>
-                <ul className="mt-4 grid gap-2 sm:grid-cols-2">
-                  {asset.specifications.map((spec, idx) => (
-                    <li
-                      key={idx}
-                      className="flex items-start gap-2 text-sm text-text-body"
-                    >
-                      <span className="mt-1.5 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-accent-earth" />
-                      {spec}
-                    </li>
-                  ))}
-                </ul>
-              </div>
+              {asset.specifications.length ? (
+                <div className="mt-8">
+                  <h2 className="text-sm font-semibold uppercase tracking-[0.16em] text-text-strong">
+                    Specifications
+                  </h2>
+                  <ul className="mt-4 grid gap-2 sm:grid-cols-2">
+                    {asset.specifications.map((spec, idx) => (
+                      <li
+                        key={idx}
+                        className="flex items-start gap-2 text-sm text-text-body"
+                      >
+                        <span className="mt-1.5 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-accent-earth" />
+                        {spec}
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              ) : null}
 
-              {/* Operating Requirements */}
-              <div className="mt-8">
-                <h2 className="text-sm font-semibold uppercase tracking-[0.16em] text-text-strong">
-                  Operating Requirements
-                </h2>
-                <ul className="mt-4 space-y-2">
-                  {asset.operatingRequirements.map((req, idx) => (
-                    <li
-                      key={idx}
-                      className="flex items-start gap-2 text-sm text-text-body"
-                    >
-                      <span className="mt-1.5 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-text-muted" />
-                      {req}
-                    </li>
-                  ))}
-                </ul>
-              </div>
+              {asset.operatingRequirements.length ? (
+                <div className="mt-8">
+                  <h2 className="text-sm font-semibold uppercase tracking-[0.16em] text-text-strong">
+                    Operating Requirements
+                  </h2>
+                  <ul className="mt-4 space-y-2">
+                    {asset.operatingRequirements.map((req, idx) => (
+                      <li
+                        key={idx}
+                        className="flex items-start gap-2 text-sm text-text-body"
+                      >
+                        <span className="mt-1.5 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-text-muted" />
+                        {req}
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              ) : null}
 
-              {/* Delivery Notes */}
               {asset.deliveryNotes ? (
                 <div className="mt-8 rounded-[20px] border border-text-strong/10 bg-white/80 p-6">
                   <h2 className="text-sm font-semibold uppercase tracking-[0.16em] text-text-strong">
@@ -144,7 +144,6 @@ export default async function RentalAssetPage({ params }: PageProps) {
               ) : null}
             </div>
 
-            {/* Right: Pricing Card */}
             <div>
               <div className="sticky top-6 rounded-[28px] border border-text-strong/10 bg-white shadow-soft">
                 <div className="p-6">
@@ -167,12 +166,14 @@ export default async function RentalAssetPage({ params }: PageProps) {
                         </span>
                       </div>
                     ) : null}
-                    <div className="flex items-baseline justify-between border-t border-text-strong/10 pt-3">
-                      <span className="text-text-body">Delivery Fee</span>
-                      <span className="text-text-strong">
-                        ${asset.deliveryFee}
-                      </span>
-                    </div>
+                    {asset.deliveryFee > 0 ? (
+                      <div className="flex items-baseline justify-between border-t border-text-strong/10 pt-3">
+                        <span className="text-text-body">Delivery Fee</span>
+                        <span className="text-text-strong">
+                          ${asset.deliveryFee}
+                        </span>
+                      </div>
+                    ) : null}
                     <div className="flex items-baseline justify-between">
                       <span className="text-text-body">Security Deposit</span>
                       <span className="text-text-strong">
@@ -214,7 +215,6 @@ export default async function RentalAssetPage({ params }: PageProps) {
         </div>
       </section>
 
-      {/* Back to catalog */}
       <section className="border-t border-text-strong/10 px-6 py-8">
         <div className="mx-auto max-w-5xl">
           <Link

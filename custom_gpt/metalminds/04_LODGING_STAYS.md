@@ -2,7 +2,7 @@
 
 ## Overview
 
-Big Bend Burro offers premium eco-accommodations in the heart of dark sky country. Each unit is designed for the desert environment with dark sky compliance and off-grid capability.
+Big Bend Burro currently presents two featured bookable lodging units and two soft-launch lookouts. All public lodging pricing comes from `website/cms/rates/seasonal.json` and all unit details come from `website/cms/units/*.json`.
 
 ---
 
@@ -12,173 +12,88 @@ Big Bend Burro offers premium eco-accommodations in the heart of dark sky countr
 | Attribute | Value |
 |-----------|-------|
 | Type | Cabin |
-| Sleeps | 4 |
-| Beds | 1 King + Sleeper Sofa |
-| Bathroom | Full private |
-| Kitchen | Kitchenette |
-| Features | A/C, heat, dark sky deck |
-| Rate | $228/night (market average) |
-
-**Best For:** Couples wanting comfort, families with young kids, photographers needing stable base
+| Sleeps | 2 adults + 1 child |
+| Bath | Private bath |
+| Key Amenities | Queen bed, porch seating, solar-backed lighting, cooler and water station |
+| Rate | $225-$285/night |
+| Status | Available |
 
 ### Casa de la Luna
 | Attribute | Value |
 |-----------|-------|
-| Type | Adobe-style casita |
-| Sleeps | 2 |
-| Beds | 1 Queen |
-| Bathroom | Full private |
-| Kitchen | Mini kitchen |
-| Features | Authentic Southwestern style, private patio |
-| Rate | $195/night |
+| Type | Desert cabin |
+| Sleeps | 2 adults + 1 child |
+| Bath | Private bath |
+| Key Amenities | Private bath, solar-backed power, covered outdoor seating, dark-sky viewing deck |
+| Rate | $195-$265/night |
+| Status | Available |
 
-**Best For:** Romantic getaways, couples seeking authentic desert experience
+### Cottonwood Lookout Tent
+| Attribute | Value |
+|-----------|-------|
+| Type | Soft-launch canvas tent |
+| Sleeps | 2 |
+| Bath | Shared rinse station / shared bath concept |
+| Key Amenities | Raised deck, shade structure, camp seating, night-sky orientation |
+| Rate | $175-$210/night |
+| Status | Coming soon |
 
 ### Ocotillo Lookout
 | Attribute | Value |
 |-----------|-------|
-| Type | Elevated platform tent |
+| Type | Soft-launch canvas stay |
 | Sleeps | 2 |
-| Beds | 1 Queen |
-| Bathroom | Shared bathhouse |
-| Kitchen | None (meals available) |
-| Features | 360° views, stargazing platform |
-| Rate | $150/night |
-
-**Best For:** Adventurous couples, photographers, glamping experience
-
-### Cottonwood Lookout
-| Attribute | Value |
-|-----------|-------|
-| Type | Elevated platform tent |
-| Sleeps | 2 |
-| Beds | 1 Queen |
-| Bathroom | Shared bathhouse |
-| Kitchen | None (meals available) |
-| Features | Cottonwood shade, morning sun |
-| Rate | $150/night |
-
-**Best For:** Nature lovers, birders, those seeking shade
+| Bath | Shared outdoor rinse station / shared bath concept |
+| Key Amenities | Queen bed platform, shade canopy, sunrise-facing deck |
+| Rate | $150-$195/night |
+| Status | Coming soon |
 
 ---
 
-## Booking Process
+## Check-In and Policies
 
-### Current Flow (Lodgify Integration)
-1. Guest browses units on website
-2. Selects dates and unit
-3. Redirected to Lodgify for payment
-4. Confirmation email sent
-5. Pre-arrival info sent 3 days before
-
-### What Chuck/Susan See
-- Dashboard shows upcoming arrivals
-- Guest contact info available
-- Special requests noted
-- Payment handled by Lodgify
-
-### Check-in/Check-out
-| | Time |
-|--|------|
-| Check-in | 3:00 PM |
-| Check-out | 11:00 AM |
-| Early/late | By arrangement |
+| Policy | Value |
+|--------|-------|
+| Check-in | 4:00 PM Central |
+| Check-out | 10:00 AM Central |
+| Cancellation | Full refund with 14 days notice; manual review for weather exceptions |
+| Access | Remote roads require planning before sunset |
+| Weather | Heat, wind, dust, and rapid temperature swings are normal |
 
 ---
 
-## Guest Preparation
+## Seasonal Rates
 
-### Pre-Arrival Email (3 Days Before)
-Include:
-- Driving directions with GPS coordinates
-- What to bring (water, groceries, flashlight)
-- Cell service warning
-- Property entry instructions
-- Emergency contact
+| Season | Mesa Glow | Casa de la Luna | Cottonwood | Ocotillo |
+|--------|-----------|-----------------|------------|----------|
+| Spring Peak | $285 | $265 | $210 | $195 |
+| Summer Reset | $225 | $195 | $175 | $150 |
+| Dark Sky Season | $265 | $245 | $195 | $175 |
 
-### What Guests Should Know
-1. **Access:** 16 miles unpaved - 4WD recommended
-2. **Water:** Bring drinking water or plan to filter
-3. **Groceries:** Nearest store is Study Butte (45 min round trip)
-4. **Cell:** Limited or no service
-5. **Dark:** Very dark at night - bring flashlights
-6. **Heat:** Summer days exceed 100°F by mid-morning
+Cleaning fees vary by unit and season. Weekly discounts currently range from 8% to 12%.
 
 ---
 
-## Amenities by Unit
+## Booking Flow
 
-| Amenity | Mesa Glow | Casa Luna | Ocotillo | Cottonwood |
-|---------|-----------|-----------|----------|------------|
-| A/C | Yes | Yes | Fan only | Fan only |
-| Heat | Yes | Yes | Heater | Heater |
-| Private Bath | Yes | Yes | Shared | Shared |
-| Kitchen | Kitchenette | Mini | No | No |
-| WiFi | Starlink | Starlink | No | No |
-| Linens | Provided | Provided | Provided | Provided |
-| Dark Sky Deck | Yes | Patio | Platform | Platform |
+### Current Flow
+1. Guest views a unit on `/stay` or `/stay/[slug]`.
+2. Guest starts the handoff from `/stay/[slug]/book`.
+3. Lodgify handles the external booking completion.
+4. Pre-arrival reminders follow once the booking is confirmed.
 
----
-
-## Pricing Strategy
-
-### Seasonal Rates
-| Season | Multiplier | Notes |
-|--------|------------|-------|
-| Peak (Mar-Apr, Nov-Dec) | 1.2x | High demand |
-| Standard (Jan-Feb, Sep-Oct) | 1.0x | Good weather |
-| Shoulder (May) | 0.9x | Getting hot |
-| Low (Jun-Aug) | 0.7x | Focus on night activities |
-
-### Market Benchmarks
-- Terlingua market ADR: $228/night
-- Premium dark sky lodging: $250-350/night
-- Glamping (tent): $125-175/night
-
-### Minimum Stay
-- Peak season: 2 nights
-- Standard: 1 night
-- Holidays: 3 nights
+### Reminder Cadence
+- Immediate confirmation state
+- 7-day logistics reminder
+- 1-day final reminder
 
 ---
 
-## Housekeeping
+## Guest Expectations
 
-### Turnover Checklist
-- [ ] Strip and remake beds
-- [ ] Clean bathroom(s)
-- [ ] Restock consumables
-- [ ] Check A/C, heat, appliances
-- [ ] Sweep/mop floors
-- [ ] Empty trash
-- [ ] Check outdoor areas
-- [ ] Test lights (dark sky compliant)
-- [ ] Restock firewood (if applicable)
+- High-clearance vehicle is strongly recommended.
+- Cell coverage is limited.
+- Guests should stock up before arrival.
+- The night sky is a primary part of the stay, not a side feature.
 
-### Between Guests
-- 2-hour minimum turnover time
-- Report any damage immediately
-- Document issues with photos
-
----
-
-## Common Guest Questions
-
-**Q: Is it really that remote?**
-A: Yes. 16 miles of unpaved road. Bring supplies.
-
-**Q: Will my phone work?**
-A: Probably not. Some units have Starlink WiFi.
-
-**Q: What about wildlife?**
-A: Snakes, scorpions, javelinas are present. Watch where you step.
-
-**Q: Can I see the Milky Way?**
-A: Absolutely. This is world-class dark sky viewing.
-
-**Q: Is it safe?**
-A: Yes, but self-reliance is important. Know the basics.
-
----
-
-*Lodging knowledge for The Burro operations*
+*Lodging knowledge aligned with CMS on 2026-03-28 post-mortem*

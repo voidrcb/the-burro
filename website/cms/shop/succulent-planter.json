@@ -1,0 +1,31 @@
+{
+  "id": "product_pottery_succulent_planter",
+  "slug": "succulent-planter",
+  "title": "Succulent Planter",
+  "description": "Small handmade planter perfect for succulents and desert plants. Drainage hole included.",
+  "category": "pottery",
+  "price": {
+    "amount": 45,
+    "currency": "USD"
+  },
+  "images": [
+    {
+      "url": "/images/palette/casa-grande-cactus.jpg",
+      "alt": "Desert cactus palette that inspires the Succulent Planter glaze"
+    }
+  ],
+  "story": "Designed for the hardy plants that thrive in our desert climate. Each planter is hand-formed with a drainage hole so your plants can breathe.",
+  "shippingProfile": "parcel",
+  "status": "available",
+  "inventory": {
+    "available": 15
+  },
+  "featured": false,
+  "badge": "Workshop Pottery",
+  "leadTimeNote": "Ships within 1-2 weeks.",
+  "highlights": [
+    "4 inch diameter",
+    "Includes drainage saucer",
+    "Plant not included"
+  ]
+}

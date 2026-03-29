@@ -2,31 +2,135 @@
   "$schema": "http://json-schema.org/draft-07/schema#",
   "title": "EquipmentAsset",
   "type": "object",
-  "required": ["id", "slug", "name", "category", "description", "dailyRate", "depositRequired", "status", "maintenanceLog"],
+  "required": [
+    "id",
+    "slug",
+    "name",
+    "category",
+    "description",
+    "dailyRate",
+    "depositRequired",
+    "status",
+    "maintenanceLog"
+  ],
   "properties": {
-    "id": { "type": "string" },
-    "slug": { "type": "string" },
-    "name": { "type": "string" },
-    "category": { "type": "string", "enum": ["camera", "telescope", "outdoor-gear", "craft-supplies"] },
-    "description": { "type": "string" },
-    "dailyRate": { "type": "number", "minimum": 0 },
-    "depositRequired": { "type": "number", "minimum": 0 },
-    "status": { "type": "string", "enum": ["available", "reserved", "maintenance", "retired"] },
+    "id": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "category": {
+      "type": "string",
+      "enum": [
+        "camera",
+        "telescope",
+        "outdoor-gear",
+        "craft-supplies",
+        "excavator",
+        "heavy-equipment"
+      ]
+    },
+    "description": {
+      "type": "string"
+    },
+    "dailyRate": {
+      "type": "number",
+      "minimum": 0
+    },
+    "weeklyRate": {
+      "type": "number",
+      "minimum": 0
+    },
+    "depositRequired": {
+      "type": "number",
+      "minimum": 0
+    },
+    "deliveryFee": {
+      "type": "number",
+      "minimum": 0
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "available",
+        "reserved",
+        "maintenance",
+        "retired"
+      ]
+    },
     "maintenanceLog": {
       "type": "array",
       "items": {
         "type": "object",
-        "required": ["date", "description"],
+        "required": [
+          "date",
+          "description"
+        ],
         "properties": {
-          "date": { "type": "string" },
-          "description": { "type": "string" },
-          "resolvedAt": { "type": "string" }
+          "date": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string"
+          },
+          "resolvedAt": {
+            "type": "string"
+          },
+          "resolution": {
+            "type": "string"
+          }
         }
       }
     },
     "images": {
       "type": "array",
-      "items": { "type": "string" }
+      "items": {
+        "anyOf": [
+          {
+            "type": "string"
+          },
+          {
+            "type": "object",
+            "required": [
+              "url",
+              "alt"
+            ],
+            "properties": {
+              "url": {
+                "type": "string"
+              },
+              "alt": {
+                "type": "string"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "specifications": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "deliveryNotes": {
+      "type": "string"
+    },
+    "operatingRequirements": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "insuranceRequired": {
+      "type": "boolean"
+    },
+    "featured": {
+      "type": "boolean"
     }
   }
 }

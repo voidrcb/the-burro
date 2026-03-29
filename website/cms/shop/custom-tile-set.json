@@ -1,0 +1,31 @@
+{
+  "id": "product_tiles_custom_tile_set",
+  "slug": "custom-tile-set",
+  "title": "Custom Tile Set",
+  "description": "Commission a custom set of handmade tiles for your kitchen, bathroom, or fireplace surround.",
+  "category": "tiles",
+  "price": {
+    "amount": 120,
+    "currency": "USD"
+  },
+  "images": [
+    {
+      "url": "/images/workshops/tile-making.jpg",
+      "alt": "Custom tile commission samples drying in Susan's studio"
+    }
+  ],
+  "story": "Work directly with Susan to design tiles that tell your story. We start with a consultation to understand your space, then create a custom design just for you.",
+  "shippingProfile": "parcel",
+  "status": "coming-soon",
+  "inventory": {
+    "available": 0
+  },
+  "featured": false,
+  "badge": "Custom Commission",
+  "leadTimeNote": "Custom orders require 4-6 weeks. Contact us to begin the consultation process.",
+  "highlights": [
+    "Set of 4 custom tiles",
+    "Design consultation included",
+    "Your choice of colors and motifs"
+  ]
+}

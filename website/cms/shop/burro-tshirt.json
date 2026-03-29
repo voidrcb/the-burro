@@ -1,0 +1,31 @@
+{
+  "id": "product_apparel_burro_tshirt",
+  "slug": "burro-tshirt",
+  "title": "Big Bend Burro T-Shirt",
+  "description": "Soft cotton t-shirt with the Big Bend Burro logo. Unisex fit.",
+  "category": "apparel",
+  "price": {
+    "amount": 28,
+    "currency": "USD"
+  },
+  "images": [
+    {
+      "url": "/images/palette/chisos-road.jpg",
+      "alt": "Big Bend roadscape used in the Burro apparel collection"
+    }
+  ],
+  "story": "Wear your love for Big Bend. Our classic logo tee features the Burro silhouette against a desert sunset.",
+  "shippingProfile": "parcel",
+  "status": "coming-soon",
+  "inventory": {
+    "available": 0
+  },
+  "featured": false,
+  "badge": "Coming Soon",
+  "leadTimeNote": "Available soon. Join our newsletter to be notified.",
+  "highlights": [
+    "100% cotton",
+    "Unisex S-XXL",
+    "Desert sand color"
+  ]
+}

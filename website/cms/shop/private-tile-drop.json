@@ -10,8 +10,8 @@
   },
   "images": [
     {
-      "url": "/shop/private-tile-drop.jpg",
-      "alt": "Private tile drop placeholder"
+      "url": "/images/workshops/tile-making.jpg",
+      "alt": "Private tile collection reserved for patron release"
     }
   ],
   "story": "This stays hidden from the public catalog so the status visibility rules are explicit in the codebase.",

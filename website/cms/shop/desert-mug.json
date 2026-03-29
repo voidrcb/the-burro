@@ -1,0 +1,31 @@
+{
+  "id": "product_pottery_desert_mug",
+  "slug": "desert-mug",
+  "title": "Desert Morning Mug",
+  "description": "Handthrown ceramic mug with desert-inspired glaze, perfect for morning coffee on the porch.",
+  "category": "pottery",
+  "price": {
+    "amount": 38,
+    "currency": "USD"
+  },
+  "images": [
+    {
+      "url": "/images/palette/chisos-mountains.jpg",
+      "alt": "Big Bend dawn colors that inform the Desert Morning Mug glaze"
+    }
+  ],
+  "story": "Each mug is thrown on the wheel in Susan's studio and glazed in colors pulled from the Big Bend landscape - sunrise orange, sage green, and desert tan.",
+  "shippingProfile": "parcel",
+  "status": "available",
+  "inventory": {
+    "available": 20
+  },
+  "featured": true,
+  "badge": "Workshop Pottery",
+  "leadTimeNote": "Ships within 1-2 weeks. Packed with extra care.",
+  "highlights": [
+    "12 oz capacity",
+    "Dishwasher and microwave safe",
+    "Handthrown stoneware"
+  ]
+}

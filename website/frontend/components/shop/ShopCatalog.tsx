@@ -10,6 +10,9 @@ const filters: Array<{ id: 'all' | ShopCategory; label: string }> = [
   { id: 'all', label: 'All' },
   { id: 'prints', label: 'Prints' },
   { id: 'giftables', label: 'Giftables' },
+  { id: 'tiles', label: 'Handmade Tiles' },
+  { id: 'pottery', label: 'Pottery' },
+  { id: 'apparel', label: 'Apparel' },
   { id: 'print-on-demand', label: 'Print on Demand' },
 ];
 

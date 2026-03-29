@@ -6,11 +6,13 @@
   "description": "Portable equatorial tracker with alignment accessories for astrophotography demos.",
   "dailyRate": 70,
   "depositRequired": 180,
-  "status": "maintenance",
+  "status": "available",
   "maintenanceLog": [
     {
       "date": "2026-03-12",
-      "description": "Mount head drift noted during setup; recalibration pending."
+      "description": "Mount head drift noted during setup; recalibration pending.",
+      "resolvedAt": "2026-03-28",
+      "resolution": "Polar alignment reset and calibration completed. Drift within acceptable tolerance."
     }
   ]
 }

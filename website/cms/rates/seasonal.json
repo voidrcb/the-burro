@@ -17,8 +17,20 @@
           "cleaningFee": 48
         },
         {
+          "unitId": "unit_casa_de_la_luna",
+          "nightly": 265,
+          "weeklyDiscount": 0.1,
+          "cleaningFee": 45
+        },
+        {
           "unitId": "unit_cottonwood_lookout",
           "nightly": 210,
+          "weeklyDiscount": 0.08,
+          "cleaningFee": 30
+        },
+        {
+          "unitId": "unit_ocotillo_lookout",
+          "nightly": 195,
           "weeklyDiscount": 0.08,
           "cleaningFee": 30
         }
@@ -40,8 +52,20 @@
           "cleaningFee": 42
         },
         {
+          "unitId": "unit_casa_de_la_luna",
+          "nightly": 195,
+          "weeklyDiscount": 0.12,
+          "cleaningFee": 38
+        },
+        {
           "unitId": "unit_cottonwood_lookout",
           "nightly": 175,
+          "weeklyDiscount": 0.1,
+          "cleaningFee": 28
+        },
+        {
+          "unitId": "unit_ocotillo_lookout",
+          "nightly": 150,
           "weeklyDiscount": 0.1,
           "cleaningFee": 28
         }
@@ -63,8 +87,20 @@
           "cleaningFee": 45
         },
         {
+          "unitId": "unit_casa_de_la_luna",
+          "nightly": 245,
+          "weeklyDiscount": 0.1,
+          "cleaningFee": 42
+        },
+        {
           "unitId": "unit_cottonwood_lookout",
           "nightly": 195,
+          "weeklyDiscount": 0.08,
+          "cleaningFee": 30
+        },
+        {
+          "unitId": "unit_ocotillo_lookout",
+          "nightly": 175,
           "weeklyDiscount": 0.08,
           "cleaningFee": 30
         }

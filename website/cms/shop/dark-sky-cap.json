@@ -1,0 +1,31 @@
+{
+  "id": "product_apparel_dark_sky_cap",
+  "slug": "dark-sky-cap",
+  "title": "Dark Sky Cap",
+  "description": "Low-profile cap with embroidered constellation design. Perfect for stargazing.",
+  "category": "apparel",
+  "price": {
+    "amount": 24,
+    "currency": "USD"
+  },
+  "images": [
+    {
+      "url": "/images/workshops/dark-sky.jpg",
+      "alt": "Night photography scene that inspires the Dark Sky Cap embroidery"
+    }
+  ],
+  "story": "Navy blue cap with subtle constellation embroidery. The low profile keeps your view clear when you're looking up at the stars.",
+  "shippingProfile": "parcel",
+  "status": "coming-soon",
+  "inventory": {
+    "available": 0
+  },
+  "featured": false,
+  "badge": "Coming Soon",
+  "leadTimeNote": "Available soon.",
+  "highlights": [
+    "Adjustable strap",
+    "Low profile fit",
+    "Embroidered design"
+  ]
+}
