@@ -1,0 +1,35 @@
+{
+  "id": "unit_cottonwood_lookout",
+  "slug": "cottonwood-lookout",
+  "name": "Cottonwood Lookout Tent",
+  "description": "A soft-launch canvas stay planned for guests who want a more exposed desert feel once the water and shade systems are fully dialed in.",
+  "shortDescription": "Canvas stay coming after the first pilot unit proves reliable.",
+  "capacity": {
+    "adults": 2,
+    "children": 0
+  },
+  "amenities": [
+    "Raised deck",
+    "Shared rinse station",
+    "Shade structure",
+    "Camp seating",
+    "Night-sky orientation"
+  ],
+  "photos": [
+    {
+      "url": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1200&q=80",
+      "alt": "Desert canvas tent site at dusk with mountains in the distance."
+    }
+  ],
+  "policies": {
+    "checkIn": "Planned for 4:00 PM self check-in after activation.",
+    "checkOut": "Planned for 10:00 AM checkout.",
+    "cancellation": "Policy will publish when the unit is activated.",
+    "pets": "Not yet determined.",
+    "smoking": "No smoking near canvas or brush.",
+    "access": "Final access conditions still being evaluated.",
+    "weather": "This unit will only open once heat, wind, and storm SOPs are finalized."
+  },
+  "status": "coming_soon",
+  "featured": false
+}

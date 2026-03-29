@@ -1,0 +1,7 @@
+Subject: Thank you for spending time with Big Bend Burro
+
+Hi {{guestName}},
+
+Thank you for booking {{unitId}} from {{checkIn}} to {{checkOut}}. This draft keeps the follow-up lightweight: gratitude first, one practical next step, and one gentle review request once the stay is complete.
+
+If anything from the trip needs a human follow-up, Chuck and Susan should answer directly before anything is sent.

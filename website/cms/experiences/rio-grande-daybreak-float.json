@@ -1,0 +1,25 @@
+{
+  "id": "experience_rio_grande_float",
+  "slug": "rio-grande-daybreak-float",
+  "name": "Rio Grande Daybreak Float",
+  "category": "river",
+  "deliveryModel": "partner_led",
+  "partnerRef": "partner_rio_bravo_guides",
+  "partnerName": "Rio Bravo Guides",
+  "locationSummary": "Launch at dawn on the Rio Grande with experienced river guides who know every bend and bird call.",
+  "meetingPoint": "Lajitas partner launch check-in",
+  "durationHours": 5,
+  "priceUsd": 240,
+  "maxGroupSize": 8,
+  "seasonality": {
+    "available": ["feb", "mar", "apr", "may", "oct", "nov"],
+    "peakMonths": ["mar", "apr"],
+    "unavailable": ["jun", "jul", "aug"]
+  },
+  "safetyLevel": "medium",
+  "waiverRequired": true,
+  "status": "seasonal",
+  "summary": "Paddle through canyon corridors at first light when the water is glass and the birds are waking up.",
+  "description": "Our partners at Rio Bravo Guides have floated these waters for decades. They'll put you on the river at dawn—the best light, the quietest water, the most wildlife. Float through towering canyon walls, stop for coffee on a sandbar, and return before the afternoon heat. Each trip is personally confirmed based on current water levels and weather.",
+  "images": ["/images/experiences/rio-grande-float-1.jpg"]
+}

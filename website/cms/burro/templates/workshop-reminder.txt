@@ -1,0 +1,7 @@
+Subject: Reminder for your Big Bend Burro workshop
+
+Hi {{guestName}},
+
+This is a draft reminder for {{workshopSlug}} session {{sessionId}}. Confirm the timing, what to bring, weather realities, and whether pickup or parking instructions need to be included.
+
+Keep the tone practical and grounded. No automated send should happen without a human review.

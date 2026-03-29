@@ -1,0 +1,27 @@
+{
+  "schemaRef": "craft",
+  "schemaVersion": "1.0.0",
+  "title": "Craft workshop intake",
+  "description": "Short operator prep questions for tile-making and related craft sessions.",
+  "questions": [
+    {
+      "questionId": "craft_experience_level",
+      "label": "What best describes your clay experience level?",
+      "type": "single_select",
+      "required": true,
+      "options": ["First time", "A few sessions", "Comfortable on my own"]
+    },
+    {
+      "questionId": "craft_material_preferences",
+      "label": "Do you have any color or finish preferences we should prepare for?",
+      "type": "long_text",
+      "required": false
+    },
+    {
+      "questionId": "craft_shipping_follow_up",
+      "label": "Would you like a follow-up note about pickup or freight options for finished pieces?",
+      "type": "boolean",
+      "required": true
+    }
+  ]
+}

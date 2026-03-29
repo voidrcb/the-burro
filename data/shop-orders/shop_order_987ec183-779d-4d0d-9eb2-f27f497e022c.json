@@ -1,0 +1,23 @@
+{
+  "id": "shop_order_987ec183-779d-4d0d-9eb2-f27f497e022c",
+  "guestEmail": "guest@example.com",
+  "guestName": "Test Guest",
+  "items": [
+    {
+      "productId": "shop_pod_night_sky_poster",
+      "quantity": 1,
+      "priceAtOrder": 48
+    }
+  ],
+  "shippingAddress": {
+    "line1": "123 Desert Rd",
+    "city": "Terlingua",
+    "state": "TX",
+    "zip": "79852"
+  },
+  "shippingProfile": "print-on-demand",
+  "status": "confirmed",
+  "createdAt": "2026-03-28T19:19:53.537Z",
+  "confirmedAt": "2026-03-28T19:19:53.538Z",
+  "subtotalAmount": 48
+}

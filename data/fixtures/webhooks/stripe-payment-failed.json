@@ -1,0 +1,17 @@
+{
+  "id": "evt_1_test_payment_failed",
+  "type": "payment_intent.payment_failed",
+  "created": 1773637300,
+  "data": {
+    "object": {
+      "id": "pi_test_001",
+      "amount": 72500,
+      "currency": "usd",
+      "status": "requires_payment_method",
+      "last_payment_error": {
+        "message": "Card declined in test mode"
+      }
+    }
+  },
+  "source": "fixture"
+}

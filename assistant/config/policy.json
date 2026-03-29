@@ -1,0 +1,31 @@
+{
+  "schema_version": "0.3.0",
+  "default_mode": "R1_ASSISTED",
+  "tool_categories": {
+    "read": {
+      "allowed": true,
+      "requires_human_approval": false,
+      "logging": "required"
+    },
+    "draft": {
+      "allowed": true,
+      "requires_human_approval": false,
+      "logging": "required"
+    },
+    "lookup": {
+      "allowed": true,
+      "requires_human_approval": false,
+      "logging": "required"
+    },
+    "execute": {
+      "allowed": false,
+      "requires_human_approval": true,
+      "logging": "required"
+    }
+  },
+  "hard_rules": [
+    "cite_or_unknown",
+    "no_unreviewed_external_mutation",
+    "no_production_credentials_in_repo"
+  ]
+}

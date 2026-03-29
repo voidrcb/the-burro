@@ -1,0 +1,37 @@
+{
+  "id": "unit_mesa_glow_cabin",
+  "slug": "mesa-glow-cabin",
+  "name": "Mesa Glow Cabin",
+  "description": "A hard-sided desert cabin for guests who want dark-sky quiet, a private bath, and enough shelter to handle Big Bend wind without losing the sense of remoteness.",
+  "shortDescription": "Private cabin with a bath, shaded porch, and dark-sky orientation.",
+  "capacity": {
+    "adults": 2,
+    "children": 1
+  },
+  "amenities": [
+    "Queen bed",
+    "Private bath",
+    "Porch seating",
+    "Solar-backed lighting",
+    "Night-sky guide",
+    "Cooler and water station"
+  ],
+  "photos": [
+    {
+      "url": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+      "alt": "Sunlit desert cabin with a wide view toward distant mesas."
+    }
+  ],
+  "policies": {
+    "checkIn": "Self check-in window starts at 4:00 PM Central.",
+    "checkOut": "Checkout is 10:00 AM Central.",
+    "cancellation": "Full refund up to 14 days before arrival. After that, dates may be rebooked at operator discretion.",
+    "pets": "No pets in the first-release unit while wildlife patterns are still being monitored.",
+    "smoking": "No smoking or open flame inside or near the structure.",
+    "access": "High-clearance vehicle strongly recommended. Final access notes are sent after booking confirmation.",
+    "weather": "Wind, dust, heat, and rapid overnight temperature changes are normal desert conditions."
+  },
+  "lodgifyPropertyId": "lodgify-mesa-glow-cabin",
+  "status": "available",
+  "featured": true
+}

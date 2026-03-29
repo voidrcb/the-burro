@@ -1,0 +1,164 @@
+{
+  "registry_version": "0.1.0",
+  "generated_at": "2026-03-15T19:15:31-05:00",
+  "policy": {
+    "blueprint_id_range": "S001-S016",
+    "burro_local_id_range": "B001+",
+    "notes": [
+      "Blueprint IDs are reserved for files named in Docs/Big_Bend_Burro_Blueprint_Final.json.",
+      "Additional repo-local evidence receives Burro-local IDs.",
+      "Blueprint entries not present in this repo are retained with status not_in_repo."
+    ]
+  },
+  "sources": [
+    {
+      "source_id": "S001",
+      "path": "metalminds_L3_canonical_combined.md",
+      "role": "governance_canonical",
+      "trust_level": "authoritative_internal",
+      "status": "not_in_repo",
+      "notes": "Referenced by blueprint source_registry but not present in The Burro workspace."
+    },
+    {
+      "source_id": "S002",
+      "path": "source/conversation/03-08 Conversation_ AI-Free Days, Big Bend Activism, Health Wins, and Tourism Startup Plans-Summary.txt",
+      "role": "conversation_summary",
+      "trust_level": "user_primary",
+      "status": "present"
+    },
+    {
+      "source_id": "S003",
+      "path": "source/conversation/03-08 Conversation_ AI-Free Days, Big Bend Activism, Health Wins, and Tourism Startup Plans-transcript.txt",
+      "role": "conversation_transcript",
+      "trust_level": "user_primary",
+      "status": "present"
+    },
+    {
+      "source_id": "S004",
+      "path": "Docs/Research/Brewster_County_Equipment_Rental_Economics_Final.md",
+      "role": "equipment_rental_research",
+      "trust_level": "validated_research",
+      "status": "present"
+    },
+    {
+      "source_id": "S005",
+      "path": "Docs/Research/Art_Tiles_and_Pottery_L3_DS.md",
+      "role": "artisan_tile_research",
+      "trust_level": "validated_research",
+      "status": "present"
+    },
+    {
+      "source_id": "S006",
+      "path": "Docs/Research/Big_Bend_Glamping_Economics_and_Seasonality_Canonical.md",
+      "role": "glamping_economics_research",
+      "trust_level": "validated_research",
+      "status": "present"
+    },
+    {
+      "source_id": "S007",
+      "path": "Docs/Research/Big_Bend_Terlingua_Tourism_Encyclopedia.md",
+      "role": "tourism_research",
+      "trust_level": "validated_research",
+      "status": "present"
+    },
+    {
+      "source_id": "S008",
+      "path": "Docs/Research/Big_Bend_Border_Wall_Encyclopedia.md",
+      "role": "activism_policy_research",
+      "trust_level": "validated_research",
+      "status": "present"
+    },
+    {
+      "source_id": "S009",
+      "path": "Docs/Research/Handicrafts_Big_Bend_Encyclopedia.md",
+      "role": "workshop_and_handicrafts_research",
+      "trust_level": "validated_research",
+      "status": "present"
+    },
+    {
+      "source_id": "S010",
+      "path": "Docs/Research/Landscape_Dark_Sky_Photography_Business_Encyclopedia.md",
+      "role": "photography_business_research",
+      "trust_level": "validated_research",
+      "status": "present"
+    },
+    {
+      "source_id": "S011",
+      "path": "assets/design-palettes/2865254852305039943.JPG",
+      "role": "design_palette_photo",
+      "trust_level": "user_owned",
+      "status": "present"
+    },
+    {
+      "source_id": "S012",
+      "path": "assets/design-palettes/6567172662815848629.JPG",
+      "role": "design_palette_photo",
+      "trust_level": "user_owned",
+      "status": "present"
+    },
+    {
+      "source_id": "S013",
+      "path": "assets/design-palettes/563351913455552699.JPG",
+      "role": "design_palette_photo",
+      "trust_level": "user_owned",
+      "status": "present"
+    },
+    {
+      "source_id": "S014",
+      "path": "assets/design-palettes/7285160637428274289.JPG",
+      "role": "design_palette_photo",
+      "trust_level": "user_owned",
+      "status": "present"
+    },
+    {
+      "source_id": "S015",
+      "path": "assets/design-palettes/7343761061173119617.JPG",
+      "role": "design_palette_photo",
+      "trust_level": "user_owned",
+      "status": "present"
+    },
+    {
+      "source_id": "S016",
+      "path": "assets/design-palettes/619714753442070768.JPG",
+      "role": "design_palette_photo",
+      "trust_level": "user_owned",
+      "status": "present"
+    },
+    {
+      "source_id": "B001",
+      "path": "Docs/Big_Bend_Burro_Blueprint_Final.json",
+      "role": "technical_blueprint",
+      "trust_level": "authoritative_internal",
+      "status": "present"
+    },
+    {
+      "source_id": "B002",
+      "path": "Docs/Big_Bend_Burro_Pro_Draft_White_Paper_Suite.docx",
+      "role": "white_paper_suite",
+      "trust_level": "authoritative_internal",
+      "status": "present"
+    },
+    {
+      "source_id": "B003",
+      "path": "source/conversation/03-08 Conversation_ AI-Free Days, Big Bend Activism, Health Wins, and Tourism Startup Plans-Highlights.docx",
+      "role": "conversation_highlights",
+      "trust_level": "user_primary",
+      "status": "present"
+    },
+    {
+      "source_id": "B004",
+      "path": "source/conversation/03-08 Conversation_ AI-Free Days, Big Bend Activism, Health Wins, and Tourism Startup Plans-Summary.png",
+      "role": "conversation_summary_image",
+      "trust_level": "user_primary",
+      "status": "present"
+    },
+    {
+      "source_id": "B005",
+      "path": "assets/design-palettes/6402042159658353253.JPG",
+      "role": "design_palette_photo",
+      "trust_level": "user_owned",
+      "status": "present",
+      "notes": "Additional palette image present locally but not listed in the blueprint source registry."
+    }
+  ]
+}

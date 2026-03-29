@@ -1,0 +1,2347 @@
+{
+  "metalmind_doc_id": "BBB-L3-DS-001",
+  "metalmind_doc_type": "L3_DS",
+  "metalmind_title": "Big Bend Burro – Final Technical Blueprint",
+  "version": "1.1.0",
+  "status": "PRODUCTION_READY",
+  "canonical_format": "json",
+  "canonical_intent": "MACHINE_FIRST",
+  "created_utc": "2026-03-15T21:04:28Z",
+  "last_updated_utc": "2026-03-28T00:00:00Z",
+  "owners": [
+    "RCB",
+    "Project Burro"
+  ],
+  "classification": "internal",
+  "acl_scopes": [
+    "project:big_bend_burro"
+  ],
+  "change_control": {
+    "default_mode": "patch_plan_then_apply",
+    "required_for": [
+      "schema_changes",
+      "production_integrations",
+      "public_launch",
+      "payment_flow_changes",
+      "assistant_action_changes"
+    ]
+  },
+  "source_registry": [
+    {
+      "source_id": "S001",
+      "path": "metalminds_L3_canonical_combined.md",
+      "role": "governance_canonical",
+      "trust_level": "authoritative_internal"
+    },
+    {
+      "source_id": "S002",
+      "path": "03-08 Conversation_ AI-Free Days, Big Bend Activism, Health Wins, and Tourism Startup Plans-Summary.txt",
+      "role": "conversation_summary",
+      "trust_level": "user_primary"
+    },
+    {
+      "source_id": "S003",
+      "path": "03-08 Conversation_ AI-Free Days, Big Bend Activism, Health Wins, and Tourism Startup Plans-transcript.txt",
+      "role": "conversation_transcript",
+      "trust_level": "user_primary"
+    },
+    {
+      "source_id": "S004",
+      "path": "Brewster_County_Equipment_Rental_Economics_Final.md",
+      "role": "equipment_rental_research",
+      "trust_level": "validated_research"
+    },
+    {
+      "source_id": "S005",
+      "path": "Art_Tiles_and_Pottery_L3_DS.md",
+      "role": "artisan_tile_research",
+      "trust_level": "validated_research"
+    },
+    {
+      "source_id": "S006",
+      "path": "Big_Bend_Glamping_Economics_and_Seasonality_Canonical.md",
+      "role": "glamping_economics_research",
+      "trust_level": "validated_research"
+    },
+    {
+      "source_id": "S007",
+      "path": "Big_Bend_Terlingua_Tourism_Encyclopedia.md",
+      "role": "tourism_research",
+      "trust_level": "validated_research"
+    },
+    {
+      "source_id": "S008",
+      "path": "Big_Bend_Border_Wall_Encyclopedia.md",
+      "role": "activism_policy_research",
+      "trust_level": "validated_research"
+    },
+    {
+      "source_id": "S009",
+      "path": "Handicrafts_Big_Bend_Encyclopedia.md",
+      "role": "workshop_and_handicrafts_research",
+      "trust_level": "validated_research"
+    },
+    {
+      "source_id": "S010",
+      "path": "Landscape_Dark_Sky_Photography_Business_Encyclopedia.md",
+      "role": "photography_business_research",
+      "trust_level": "validated_research"
+    },
+    {
+      "source_id": "S011",
+      "path": "2865254852305039943.JPG",
+      "role": "design_palette_photo",
+      "trust_level": "user_owned"
+    },
+    {
+      "source_id": "S012",
+      "path": "6567172662815848629.JPG",
+      "role": "design_palette_photo",
+      "trust_level": "user_owned"
+    },
+    {
+      "source_id": "S013",
+      "path": "563351913455552699.JPG",
+      "role": "design_palette_photo",
+      "trust_level": "user_owned"
+    },
+    {
+      "source_id": "S014",
+      "path": "7285160637428274289.JPG",
+      "role": "design_palette_photo",
+      "trust_level": "user_owned"
+    },
+    {
+      "source_id": "S015",
+      "path": "7343761061173119617.JPG",
+      "role": "design_palette_photo",
+      "trust_level": "user_owned"
+    },
+    {
+      "source_id": "S016",
+      "path": "619714753442070768.JPG",
+      "role": "design_palette_photo",
+      "trust_level": "user_owned"
+    }
+  ],
+  "program_principles": [
+    "Build the full system architecture now, but activate customer-facing and operator-facing features gradually.",
+    "Protect the private retirement/home zone from the public tourism zone.",
+    "Solve water, wastewater, power, and access before scaling lodging.",
+    "Prefer premium, differentiated experiences over commoditized capacity.",
+    "Use local labor, local guides, and local makers wherever feasible.",
+    "Treat activism as conservation-aligned business defense, not as a separate gimmick.",
+    "Avoid AI Hub; use pragmatic SaaS and custom AI only where it materially helps.",
+    "Design all customer systems to degrade gracefully in low-connectivity conditions."
+  ],
+  "business_context": {
+    "primary_goal": "Create a sustainable Big Bend eco-tourism and artisan project that can start small, teach Chuck and Susan gradually, and expand into a durable local business with conservation value.",
+    "secondary_goals": [
+      "Support construction and planning of the retirement cabin/home site.",
+      "Create additional revenue from workshops, equipment rental, artisan products, and photography.",
+      "Build a digital presence that can drive tourism, community awareness, and conservation support.",
+      "Create a scoped AI assistant that helps operators and later helps guests."
+    ],
+    "non_goals": [
+      "Do not build a general-purpose AI Hub.",
+      "Do not launch a large multi-machine rental yard in phase 0 or phase 1.",
+      "Do not launch regulated ferry/cross-border transport as an initial product.",
+      "Do not rely on summer daytime occupancy for business viability.",
+      "Do not depend on fragile online tile shipping as the core artisan revenue stream."
+    ]
+  },
+  "validated_assumptions": {
+    "seasonality": {
+      "confidence": "high",
+      "facts": {
+        "2024_big_bend_visits": 561458,
+        "2025_big_bend_visits": 568105,
+        "peak_month": "March",
+        "low_month": "August",
+        "notes": "Spring is primary peak; June-August are structurally weak; fall-winter is strong shoulder/secondary peak."
+      }
+    },
+    "glamping_market": {
+      "confidence": "medium",
+      "facts": {
+        "starter_unit_shell_ranges_usd": {
+          "basic_canvas_or_bell_tent_shared": [
+            14000,
+            35000
+          ],
+          "safari_tent_shared": [
+            30000,
+            80000
+          ],
+          "yurt_shared": [
+            30000,
+            90000
+          ],
+          "dome_shared": [
+            35000,
+            60000
+          ],
+          "hard_sided_small_cabin_or_a_frame": [
+            75000,
+            175000
+          ]
+        },
+        "private_full_service_unit_ranges_usd": {
+          "basic_canvas_or_bell_tent_private": [
+            90000,
+            100000
+          ],
+          "safari_tent_private": [
+            190000,
+            250000
+          ],
+          "yurt_private": [
+            200000,
+            260000
+          ],
+          "dome_private": [
+            60000,
+            150000
+          ],
+          "pod_or_small_prefab_private": [
+            280000,
+            350000
+          ]
+        },
+        "market_adr_signals_usd": {
+          "budget": [
+            100,
+            150
+          ],
+          "midscale": [
+            175,
+            250
+          ],
+          "premium": [
+            250,
+            350
+          ],
+          "top_end": [
+            400,
+            500
+          ]
+        },
+        "terlingua_market_baseline": {
+          "short_term_rental_inventory": 527,
+          "occupancy_pct": 47.0,
+          "adr_usd": 228.2,
+          "average_annual_revenue_usd": 27900
+        }
+      }
+    },
+    "equipment_rental_market": {
+      "confidence": "medium",
+      "facts": {
+        "county_population_approx": 9500,
+        "county_area_sq_miles_approx": 6100,
+        "nearest_major_rental_hubs_miles": {
+          "Odessa": 143,
+          "Midland": 165,
+          "El_Paso": 220,
+          "San_Antonio": 378
+        },
+        "used_purchase_ranges_usd": {
+          "mini_excavator_3_to_5_ton": [
+            35000,
+            55000
+          ],
+          "skid_steer_mid_frame": [
+            25000,
+            40000
+          ],
+          "backhoe_loader": [
+            50000,
+            70000
+          ]
+        },
+        "benchmark_rental_rates_usd": {
+          "mini_excavator_day": [
+            225,
+            450
+          ],
+          "skid_steer_day": [
+            290,
+            400
+          ],
+          "backhoe_day": [
+            358,
+            703
+          ]
+        },
+        "likely_payback_years": [
+          2,
+          5
+        ]
+      }
+    },
+    "artisan_and_workshop_market": {
+      "confidence": "medium",
+      "facts": {
+        "global_handicrafts_market_band_usd": [
+          740000000000,
+          1220000000000
+        ],
+        "us_etsy_marketplace_2025_gms_usd": 10460700000,
+        "active_etsy_sellers_2025": 5600000,
+        "premium_handmade_tile_price_per_sqft_usd": [
+          18,
+          92
+        ],
+        "commodity_tile_price_per_sqft_usd": [
+          1,
+          4
+        ],
+        "workshop_advantage": "Experience-led sales are more viable than pure heavy-item ecommerce because shipping is expensive and fragile."
+      }
+    },
+    "photography_business": {
+      "confidence": "medium",
+      "facts": {
+        "photo_printing_market_2025_usd": 26600000000,
+        "print_on_demand_market_2025_usd": 12150000000,
+        "dark_sky_workshop_fee_ranges_usd": {
+          "single_night_or_overnight": [
+            700,
+            1100
+          ],
+          "short_domestic_multi_day": [
+            1500,
+            3500
+          ],
+          "premium_domestic_small_group": [
+            4000,
+            6000
+          ],
+          "expedition_or_signature": [
+            6000,
+            8000
+          ]
+        },
+        "business_rule": "Workshops are the cash engine; prints are the margin layer; stock is long-tail; merch is a support SKU set."
+      }
+    },
+    "activism_and_policy": {
+      "confidence": "high",
+      "facts": {
+        "waiver_date": "2026-02-17",
+        "laws_waived_count": 28,
+        "park_plan_change_date": "2026-03-06",
+        "park_plan_status": "detection_technology_inside_big_bend_national_park",
+        "broader_corridor_status": "physical_wall_planning_still_unresolved_outside_park",
+        "big_bend_gateway_spending_2024_usd": 56800000,
+        "brewster_county_visitor_spending_2022_usd": 191600000
+      }
+    }
+  },
+  "operator_onboarding_model": {
+    "activation_profiles": [
+      {
+        "profile_id": "R0_OBSERVE",
+        "description": "Feature is built but hidden; operator only watches reports or internal demos.",
+        "allowed_actions": [
+          "view",
+          "approve",
+          "comment"
+        ]
+      },
+      {
+        "profile_id": "R1_ASSISTED",
+        "description": "Feature is visible and usable with guided steps, presets, and human approval gates.",
+        "allowed_actions": [
+          "start_with_template",
+          "preview",
+          "approve",
+          "send_after_review"
+        ]
+      },
+      {
+        "profile_id": "R2_SELF_SERVICE",
+        "description": "Feature is in regular use with SOPs and guardrails, but still has audit logging and rollback.",
+        "allowed_actions": [
+          "create",
+          "edit",
+          "publish",
+          "schedule"
+        ]
+      },
+      {
+        "profile_id": "R3_ADMIN",
+        "description": "Feature is fully trusted by operators; advanced settings and automation are available.",
+        "allowed_actions": [
+          "configure",
+          "manage_roles",
+          "tune_rules",
+          "override"
+        ]
+      }
+    ],
+    "global_rule": "Default all new features to R0_OBSERVE or R1_ASSISTED. Promotion to a higher readiness profile requires successful use in the prior profile and explicit operator approval."
+  },
+  "workspace_layout": {
+    "root": "Big_Bend_Burro/",
+    "directories": [
+      {
+        "path": "README.md",
+        "type": "workspace_primitive",
+        "purpose": "human overview"
+      },
+      {
+        "path": "STATE.json",
+        "type": "workspace_primitive",
+        "purpose": "current deterministic config"
+      },
+      {
+        "path": "DECISIONS.log",
+        "type": "workspace_primitive",
+        "purpose": "append-only approvals"
+      },
+      {
+        "path": "BACKLOG.md",
+        "type": "workspace_primitive",
+        "purpose": "work queue"
+      },
+      {
+        "path": "RUNS.jsonl",
+        "type": "workspace_primitive",
+        "purpose": "pipeline run records"
+      },
+      {
+        "path": "PACK_REGISTRY.md",
+        "type": "workspace_primitive",
+        "purpose": "published pack index"
+      },
+      {
+        "path": "memory/l0/",
+        "type": "evidence_store",
+        "purpose": "raw transcripts, notes, photos, external evidence"
+      },
+      {
+        "path": "memory/l2/ds/",
+        "type": "working_truth",
+        "purpose": "deep research source files"
+      },
+      {
+        "path": "memory/l2/dr/",
+        "type": "working_truth",
+        "purpose": "deep research reconciliations"
+      },
+      {
+        "path": "memory/l2/capsules/",
+        "type": "working_truth",
+        "purpose": "session capsules and DARQ registers"
+      },
+      {
+        "path": "memory/l3/",
+        "type": "published_truth",
+        "purpose": "canonical packs for website and assistant"
+      },
+      {
+        "path": "assistant/prompts/",
+        "type": "machine_first",
+        "purpose": "bootstrap and task prompts"
+      },
+      {
+        "path": "assistant/config/",
+        "type": "machine_first",
+        "purpose": "assistant policies, tool allowlists, feature flags"
+      },
+      {
+        "path": "assistant/services/",
+        "type": "code",
+        "purpose": "retrieval and orchestration services"
+      },
+      {
+        "path": "website/frontend/",
+        "type": "code",
+        "purpose": "public website ui"
+      },
+      {
+        "path": "website/backend/",
+        "type": "code",
+        "purpose": "api services and webhook handlers"
+      },
+      {
+        "path": "website/cms/",
+        "type": "content",
+        "purpose": "structured content, MDX, and media manifests"
+      },
+      {
+        "path": "ops/runbooks/",
+        "type": "ops",
+        "purpose": "incident and support SOPs"
+      },
+      {
+        "path": "ops/policy/",
+        "type": "ops",
+        "purpose": "policy gateway rules, acl maps, retention"
+      },
+      {
+        "path": "infra/",
+        "type": "deployment",
+        "purpose": "infrastructure as code, compose files, env templates"
+      },
+      {
+        "path": "data/analytics/",
+        "type": "derived",
+        "purpose": "anonymized metrics and dashboards"
+      },
+      {
+        "path": "data/seeds/",
+        "type": "machine_first",
+        "purpose": "lookup tables, default content, design tokens"
+      }
+    ]
+  },
+  "knowledge_system": {
+    "authoring_paradigm": "MACHINE_FIRST",
+    "pipeline": [
+      {
+        "step": "ingest_to_l0",
+        "inputs": [
+          "transcript",
+          "summary",
+          "research_docs",
+          "photos"
+        ],
+        "outputs": [
+          "raw evidence registry"
+        ]
+      },
+      {
+        "step": "normalize_to_l2_ds",
+        "inputs": [
+          "research docs"
+        ],
+        "outputs": [
+          "topic ds files with metadata"
+        ]
+      },
+      {
+        "step": "stitch_to_l2_dr",
+        "inputs": [
+          "related ds files"
+        ],
+        "outputs": [
+          "reconciled dr packs with uncertainties"
+        ]
+      },
+      {
+        "step": "build_conversation_capsule",
+        "inputs": [
+          "transcript",
+          "summary"
+        ],
+        "outputs": [
+          "capsule with DARQ register and anchor map"
+        ]
+      },
+      {
+        "step": "publish_l3_packs",
+        "inputs": [
+          "dr packs",
+          "capsule",
+          "white papers"
+        ],
+        "outputs": [
+          "canonical l3 packs with manifests"
+        ]
+      },
+      {
+        "step": "index_retrieval_views",
+        "inputs": [
+          "l3 packs"
+        ],
+        "outputs": [
+          "high_trust",
+          "summary",
+          "darq",
+          "deep_dive",
+          "activism"
+        ]
+      },
+      {
+        "step": "assistant_grounding",
+        "inputs": [
+          "retrieval views"
+        ],
+        "outputs": [
+          "burro response contexts"
+        ]
+      }
+    ],
+    "views": [
+      {
+        "view_id": "high_trust",
+        "includes": [
+          "validated l3 facts only"
+        ],
+        "excludes": [
+          "questionable claims",
+          "draft-only content"
+        ]
+      },
+      {
+        "view_id": "summary",
+        "includes": [
+          "curated summaries",
+          "operator overviews"
+        ],
+        "excludes": [
+          "deep evidence fragments unless linked"
+        ]
+      },
+      {
+        "view_id": "darq",
+        "includes": [
+          "decisions",
+          "assertions",
+          "risks",
+          "questions"
+        ],
+        "excludes": [
+          "general narrative unless cited"
+        ]
+      },
+      {
+        "view_id": "deep_dive",
+        "includes": [
+          "evidence excerpts",
+          "full citations",
+          "research notes"
+        ],
+        "excludes": []
+      },
+      {
+        "view_id": "activism",
+        "includes": [
+          "border wall facts",
+          "contact scripts",
+          "current status"
+        ],
+        "excludes": [
+          "unverified rumors"
+        ]
+      }
+    ]
+  },
+  "design_system": {
+    "palette_sets": [
+      {
+        "palette_id": "night_sky_blue",
+        "source_asset": "2865254852305039943.JPG",
+        "hex": [
+          "#5471a6",
+          "#3167ae",
+          "#7085ad",
+          "#8f756b",
+          "#9a979c",
+          "#f0f0f0"
+        ],
+        "intended_use": [
+          "hero_sections",
+          "assistant_branding",
+          "night_mode",
+          "photography_pages"
+        ]
+      },
+      {
+        "palette_id": "desert_gold",
+        "source_asset": "6567172662815848629.JPG",
+        "hex": [
+          "#eed399",
+          "#d3a163",
+          "#9c612c",
+          "#6e4a28",
+          "#573013",
+          "#24170a"
+        ],
+        "intended_use": [
+          "landing_page",
+          "artisan_shop",
+          "retreat_pages",
+          "button_accents"
+        ]
+      },
+      {
+        "palette_id": "sage_stone",
+        "source_asset": "563351913455552699.JPG",
+        "hex": [
+          "#f0f1f2",
+          "#586860",
+          "#182721",
+          "#4f6992",
+          "#2d578e",
+          "#30515d"
+        ],
+        "intended_use": [
+          "content_pages",
+          "booking_ui",
+          "accessibility_safe_neutrals"
+        ]
+      },
+      {
+        "palette_id": "canyon_ember",
+        "source_asset": "7285160637428274289.JPG",
+        "hex": [
+          "#542d14",
+          "#2f1f13",
+          "#674a2a",
+          "#585d60",
+          "#315169",
+          "#4e7391"
+        ],
+        "intended_use": [
+          "activism_pages",
+          "storytelling_sections",
+          "footer_theme"
+        ]
+      },
+      {
+        "palette_id": "ocotillo_olive",
+        "source_asset": "7343761061173119617.JPG",
+        "hex": [
+          "#1b2210",
+          "#384520",
+          "#52572a",
+          "#615e53",
+          "#606ea1",
+          "#e8d5db"
+        ],
+        "intended_use": [
+          "sustainability_pages",
+          "trail_guides",
+          "field_notes"
+        ]
+      },
+      {
+        "palette_id": "storm_sage",
+        "source_asset": "619714753442070768.JPG",
+        "hex": [
+          "#a29b9d",
+          "#5f5d61",
+          "#9d9568",
+          "#e6ece9",
+          "#646e8f",
+          "#1d201f"
+        ],
+        "intended_use": [
+          "legal_policy_pages",
+          "assistant_dashboard",
+          "blog_templates"
+        ]
+      }
+    ],
+    "design_rules": [
+      "Use dark-sky-safe visual language: no harsh neon color schemes, avoid large bright white nighttime hero sections in public-facing dark mode.",
+      "Use Susan's photos as the core visual identity for hero sections, workshop promotions, artisan pages, and blog covers.",
+      "Separate public tourism imagery from private home/cabin imagery unless explicitly approved for sharing.",
+      "Preserve image copyright metadata and maintain media manifests for each photo."
+    ]
+  },
+  "systems": {
+    "website": {
+      "stack": {
+        "frontend": [
+          "Next.js",
+          "TypeScript",
+          "Tailwind CSS"
+        ],
+        "backend": [
+          "Node.js API",
+          "FastAPI for AI services"
+        ],
+        "content": [
+          "MDX or headless CMS",
+          "Sanity or Strapi optional"
+        ],
+        "storage": [
+          "S3-compatible object storage or Cloudflare R2"
+        ],
+        "search": [
+          "site search",
+          "filtered experiences catalog"
+        ],
+        "analytics": [
+          "Plausible or GA4",
+          "server-side events"
+        ]
+      },
+      "routes": [
+        {
+          "route": "/",
+          "purpose": "hero and project overview"
+        },
+        {
+          "route": "/stay",
+          "purpose": "lodging catalog and booking funnel"
+        },
+        {
+          "route": "/experiences",
+          "purpose": "all excursions and curated itineraries"
+        },
+        {
+          "route": "/workshops",
+          "purpose": "craft, photography, retreat, and special event booking"
+        },
+        {
+          "route": "/rentals",
+          "purpose": "equipment rental catalog and booking rules"
+        },
+        {
+          "route": "/shop",
+          "purpose": "artisan tiles, pottery, prints, small merch"
+        },
+        {
+          "route": "/dark-sky",
+          "purpose": "stargazing information, livestreams, astronomy calendar"
+        },
+        {
+          "route": "/activism",
+          "purpose": "border wall updates, scripts, donations, local coalition links"
+        },
+        {
+          "route": "/about",
+          "purpose": "Chuck and Susan story, mission, stewardship"
+        },
+        {
+          "route": "/blog",
+          "purpose": "updates, field notes, construction journal, workshop recaps"
+        },
+        {
+          "route": "/plan",
+          "purpose": "weekend-cruise-style itinerary builder"
+        },
+        {
+          "route": "/assistant",
+          "purpose": "Burro concierge ui"
+        },
+        {
+          "route": "/steel-buildings",
+          "purpose": "steel building consultation service for ranches and businesses"
+        }
+      ],
+      "feature_flags": [
+        {
+          "feature_id": "public_booking",
+          "build_phase": "P0",
+          "activate_phase": "P1",
+          "readiness": "R1_ASSISTED"
+        },
+        {
+          "feature_id": "experience_itinerary_builder",
+          "build_phase": "P1",
+          "activate_phase": "P2",
+          "readiness": "R1_ASSISTED"
+        },
+        {
+          "feature_id": "artisan_shop_public",
+          "build_phase": "P1",
+          "activate_phase": "P1",
+          "readiness": "R1_ASSISTED"
+        },
+        {
+          "feature_id": "equipment_rental_public",
+          "build_phase": "P1",
+          "activate_phase": "P2",
+          "readiness": "R2_SELF_SERVICE"
+        },
+        {
+          "feature_id": "livestream_portal",
+          "build_phase": "P1",
+          "activate_phase": "P2",
+          "readiness": "R0_OBSERVE"
+        },
+        {
+          "feature_id": "activism_hub",
+          "build_phase": "P1",
+          "activate_phase": "P1",
+          "readiness": "R1_ASSISTED"
+        },
+        {
+          "feature_id": "checkout_coming_soon",
+          "build_phase": "P1",
+          "activate_phase": "P2",
+          "readiness": "R0_OBSERVE",
+          "description": "All checkout flows display Coming Soon badges until payment integration activated"
+        },
+        {
+          "feature_id": "payment_method_stubs",
+          "build_phase": "P1",
+          "activate_phase": "P2",
+          "readiness": "R0_OBSERVE",
+          "description": "PayPal, Venmo, Zelle, Credit Card UI stubs (visual only, non-functional)"
+        }
+      ],
+      "content_modules": [
+        "hero_photo_carousel",
+        "availability_cards",
+        "package_builder",
+        "experience_grid",
+        "workshop_calendar",
+        "shop_catalog",
+        "livestream_embed",
+        "activism_status_banner",
+        "faq_accordion",
+        "operator_story_blocks",
+        "newsletter_capture"
+      ],
+      "booking_engine": {
+        "preferred": "Lodgify_or_Hospitable",
+        "fallback": "custom_stripe_checkout_only",
+        "requirements": [
+          "calendar sync",
+          "dynamic seasonal pricing",
+          "promo codes",
+          "deposit collection",
+          "waiver acknowledgements",
+          "email confirmations"
+        ]
+      }
+    },
+    "assistant": {
+      "name": "Burro",
+      "architecture": {
+        "mode": "retrieval_augmented",
+        "core_runtime": "API-based LLM plus deterministic orchestration layer",
+        "memory_sources": [
+          "memory/l3/*"
+        ],
+        "policy_gateway_required": true,
+        "tooling": [
+          "booking_lookup",
+          "availability_lookup",
+          "workshop_lookup",
+          "shop_lookup",
+          "rental_quote",
+          "activism_update_lookup",
+          "operator_task_lookup",
+          "email_draft"
+        ]
+      },
+      "internal_modules": [
+        {
+          "module_id": "ops.property_planner",
+          "purpose": "Help Chuck with cabin design, property tasks, material lists, and phased land-use planning.",
+          "build_phase": "P0",
+          "activate_phase": "P0",
+          "readiness": "R1_ASSISTED"
+        },
+        {
+          "module_id": "ops.artisan_assistant",
+          "purpose": "Help Susan with tile collection planning, workshop prep, pricing, photography product selection, and shipping rules.",
+          "build_phase": "P0",
+          "activate_phase": "P0",
+          "readiness": "R1_ASSISTED"
+        },
+        {
+          "module_id": "guest.concierge",
+          "purpose": "Answer guest questions about stays, routes, weather, stargazing, workshops, and etiquette.",
+          "build_phase": "P1",
+          "activate_phase": "P1",
+          "readiness": "R1_ASSISTED"
+        },
+        {
+          "module_id": "guest.itinerary_builder",
+          "purpose": "Assemble weekend-cruise-style packages from lodging plus excursions.",
+          "build_phase": "P1",
+          "activate_phase": "P2",
+          "readiness": "R1_ASSISTED"
+        },
+        {
+          "module_id": "activism.campaign_helper",
+          "purpose": "Surface current border-wall status, local resolutions, contact scripts, and donation actions.",
+          "build_phase": "P1",
+          "activate_phase": "P1",
+          "readiness": "R1_ASSISTED"
+        },
+        {
+          "module_id": "ops.crm_and_followup",
+          "purpose": "Draft follow-up emails, reminders, post-stay requests, and workshop upsells.",
+          "build_phase": "P1",
+          "activate_phase": "P1",
+          "readiness": "R2_SELF_SERVICE"
+        }
+      ],
+      "persona_contract": {
+        "tone": [
+          "warm",
+          "grounded",
+          "practical",
+          "environmentally respectful",
+          "non-hype"
+        ],
+        "hard_rules": [
+          "Always cite canonical packs internally before producing a factual answer.",
+          "Never invent availability, pricing, legal advice, or safety guidance.",
+          "When uncertainty exists, return unknown_or_needs_review rather than hallucinating.",
+          "Do not access or reveal private home-zone details unless explicitly tagged public.",
+          "Treat activism content as factual and evidence-grounded."
+        ]
+      }
+    },
+    "integrations": [
+      {
+        "integration_id": "lodging_platform",
+        "provider_candidates": [
+          "Lodgify",
+          "Hospitable"
+        ],
+        "phase": "P0",
+        "purpose": "Booking and availability management",
+        "required_scopes": [
+          "read_availability",
+          "create_booking",
+          "update_booking",
+          "webhooks"
+        ]
+      },
+      {
+        "integration_id": "payments",
+        "provider_candidates": [
+          "Stripe"
+        ],
+        "phase": "P0",
+        "purpose": "Checkout, deposits, refunds, subscriptions, donations",
+        "required_scopes": [
+          "payments",
+          "webhooks",
+          "customer_records"
+        ]
+      },
+      {
+        "integration_id": "equipment_rental",
+        "provider_candidates": [
+          "Booqable"
+        ],
+        "phase": "P1",
+        "purpose": "Rental catalog, quotes, calendar, damage deposit handling",
+        "required_scopes": [
+          "inventory",
+          "bookings",
+          "pricing"
+        ]
+      },
+      {
+        "integration_id": "automation",
+        "provider_candidates": [
+          "Zapier",
+          "n8n"
+        ],
+        "phase": "P0",
+        "purpose": "Low-code orchestration between booking, email, crm, analytics and assistant"
+      },
+      {
+        "integration_id": "email",
+        "provider_candidates": [
+          "Postmark",
+          "Resend",
+          "Mailgun"
+        ],
+        "phase": "P0",
+        "purpose": "Transactional email and operator notifications"
+      },
+      {
+        "integration_id": "newsletter",
+        "provider_candidates": [
+          "Buttondown",
+          "ConvertKit",
+          "Beehiiv"
+        ],
+        "phase": "P1",
+        "purpose": "Seasonal updates, workshop announcements, activism news"
+      },
+      {
+        "integration_id": "ai_runtime",
+        "provider_candidates": [
+          "OpenAI",
+          "Anthropic"
+        ],
+        "phase": "P1",
+        "purpose": "Burro assistant inference",
+        "note": "Prefer provider abstraction layer to avoid lock-in."
+      },
+      {
+        "integration_id": "vector_store",
+        "provider_candidates": [
+          "FAISS_local",
+          "pgvector",
+          "Pinecone"
+        ],
+        "phase": "P1",
+        "purpose": "Memory retrieval for Burro"
+      },
+      {
+        "integration_id": "video_streaming",
+        "provider_candidates": [
+          "YouTube",
+          "Vimeo",
+          "cloud NVR + HLS"
+        ],
+        "phase": "P2",
+        "purpose": "Dark-sky and scenic live feeds"
+      }
+    ],
+    "field_operations": {
+      "zones": [
+        {
+          "zone_id": "PRIVATE_HOME_ZONE",
+          "access": "private",
+          "description": "retirement home and personal use area"
+        },
+        {
+          "zone_id": "PUBLIC_STAY_ZONE",
+          "access": "guest",
+          "description": "lodging and shared amenities"
+        },
+        {
+          "zone_id": "WORKSHOP_ZONE",
+          "access": "guided",
+          "description": "artisan and teaching space"
+        },
+        {
+          "zone_id": "EQUIPMENT_ZONE",
+          "access": "operators_only",
+          "description": "rental asset storage and maintenance"
+        },
+        {
+          "zone_id": "VIEWING_ZONE",
+          "access": "guided_or_guest",
+          "description": "night sky decks, scenic observation areas"
+        },
+        {
+          "zone_id": "PARTNER_EXCURSION_ZONE",
+          "access": "partner_led",
+          "description": "offsite or right-of-way excursions, river access, ghost-town routes"
+        }
+      ],
+      "separation_rules": [
+        "No public booking should place guests in PRIVATE_HOME_ZONE.",
+        "Workshop activities can overlap with PUBLIC_STAY_ZONE only when scheduled and staffed.",
+        "Equipment operations must remain outside guest movement paths during stays and events.",
+        "Public-facing maps should reveal only approved access routes and meeting points."
+      ]
+    }
+  },
+  "feature_registry": [
+    {
+      "feature_id": "F001",
+      "name": "weekend_cruise_itinerary_builder",
+      "domain": "website_experiences",
+      "build_phase": "P1",
+      "activate_phase": "P2",
+      "operator_readiness": "R1_ASSISTED",
+      "description": "Build curated weekend packages where guests select lodging plus river, star, craft, or history excursions.",
+      "dependencies": [
+        "public_booking",
+        "experiences_catalog",
+        "assistant.guest.itinerary_builder"
+      ],
+      "status": "planned"
+    },
+    {
+      "feature_id": "F002",
+      "name": "artisan_tile_collections",
+      "domain": "shop",
+      "build_phase": "P1",
+      "activate_phase": "P1",
+      "operator_readiness": "R1_ASSISTED",
+      "description": "Sell limited handmade tile runs, decorative pieces, and workshop follow-up orders with local pickup and cautious shipping.",
+      "dependencies": [
+        "shop_catalog",
+        "media_manifests",
+        "pricing_rules",
+        "shipping_rules"
+      ],
+      "status": "planned"
+    },
+    {
+      "feature_id": "F003",
+      "name": "photography_workshops",
+      "domain": "workshops",
+      "build_phase": "P1",
+      "activate_phase": "P1",
+      "operator_readiness": "R1_ASSISTED",
+      "description": "Offer dark-sky and landscape workshops with small cohorts and premium pricing.",
+      "dependencies": [
+        "workshop_calendar",
+        "waivers",
+        "lodging_packages"
+      ],
+      "status": "planned"
+    },
+    {
+      "feature_id": "F004",
+      "name": "craft_workshops",
+      "domain": "workshops",
+      "build_phase": "P1",
+      "activate_phase": "P1",
+      "operator_readiness": "R1_ASSISTED",
+      "description": "Offer table-format tile-making and hand-building workshops tied to the region and Susan's style.",
+      "dependencies": [
+        "workshop_space",
+        "kiln_plan",
+        "materials_catalog"
+      ],
+      "status": "planned"
+    },
+    {
+      "feature_id": "F005",
+      "name": "equipment_rental_service",
+      "domain": "rentals",
+      "build_phase": "P1",
+      "activate_phase": "P2",
+      "operator_readiness": "R2_SELF_SERVICE",
+      "description": "Local delivery-based mini-excavator or skid-steer rental program with deposits and inspection logs.",
+      "dependencies": [
+        "rental_platform",
+        "trailer",
+        "damage_inspection_sop",
+        "insurance_binders"
+      ],
+      "status": "planned"
+    },
+    {
+      "feature_id": "F006",
+      "name": "cabin_and_land_planning_assistant",
+      "domain": "assistant_internal",
+      "build_phase": "P0",
+      "activate_phase": "P0",
+      "operator_readiness": "R1_ASSISTED",
+      "description": "Internal-only assistant module for Chuck's cabin build, deck/railing/bathroom priorities, and long-term land use.",
+      "dependencies": [
+        "ops.property_planner",
+        "task_model",
+        "vendor_registry"
+      ],
+      "status": "planned"
+    },
+    {
+      "feature_id": "F007",
+      "name": "activism_hub",
+      "domain": "activism",
+      "build_phase": "P1",
+      "activate_phase": "P1",
+      "operator_readiness": "R1_ASSISTED",
+      "description": "Public education and action center around the Big Bend border-wall controversy.",
+      "dependencies": [
+        "current_status_feed",
+        "contact_directory",
+        "donation_flow"
+      ],
+      "status": "planned"
+    },
+    {
+      "feature_id": "F008",
+      "name": "livestream_and_webcam_network",
+      "domain": "media",
+      "build_phase": "P1",
+      "activate_phase": "P2",
+      "operator_readiness": "R0_OBSERVE",
+      "description": "Scenic and night-sky cameras for marketing, environmental witness, and guest engagement.",
+      "dependencies": [
+        "starlink",
+        "camera_hardware",
+        "media_streaming_backend"
+      ],
+      "status": "planned"
+    },
+    {
+      "feature_id": "F009",
+      "name": "mining_history_experience",
+      "domain": "experiences",
+      "build_phase": "P1",
+      "activate_phase": "P2",
+      "operator_readiness": "R1_ASSISTED",
+      "description": "Surface-only interpretive mining experience with simulated panning and strict safety limits; no dangerous abandoned-mine entry.",
+      "dependencies": [
+        "safety_content",
+        "partner_guides",
+        "waiver_templates"
+      ],
+      "status": "planned"
+    },
+    {
+      "feature_id": "F010",
+      "name": "river_and_boquillas_partner_packages",
+      "domain": "experiences",
+      "build_phase": "P1",
+      "activate_phase": "P2",
+      "operator_readiness": "R1_ASSISTED",
+      "description": "Package lodging with partner-led river trips and Boquillas day experiences rather than owning regulated transport early.",
+      "dependencies": [
+        "partner_registry",
+        "experience_catalog",
+        "liability_rules"
+      ],
+      "status": "planned"
+    },
+    {
+      "feature_id": "F011",
+      "name": "retreat_hosting",
+      "domain": "lodging_plus_programming",
+      "build_phase": "P1",
+      "activate_phase": "P2",
+      "operator_readiness": "R1_ASSISTED",
+      "description": "Support photography retreats, writing retreats, wellness weekends, and private group bookings.",
+      "dependencies": [
+        "lodging_packages",
+        "group_booking_flow",
+        "facilitator_contracts"
+      ],
+      "status": "planned"
+    },
+    {
+      "feature_id": "F012",
+      "name": "local_marketplace",
+      "domain": "partners",
+      "build_phase": "P2",
+      "activate_phase": "P2",
+      "operator_readiness": "R1_ASSISTED",
+      "description": "Catalog and eventually sell local maker goods or partner experiences without overcommitting to fulfillment complexity.",
+      "dependencies": [
+        "partner_registry",
+        "commission_rules",
+        "moderation_tools"
+      ],
+      "status": "planned"
+    },
+    {
+      "feature_id": "F013",
+      "name": "property_and_probate_tracker",
+      "domain": "ops_internal",
+      "build_phase": "P0",
+      "activate_phase": "P0",
+      "operator_readiness": "R1_ASSISTED",
+      "description": "Internal issue tracker for land title, probate, wrong-tax parcel, adjoining-lot acquisition, and permit dependencies.",
+      "dependencies": [
+        "ops.property_planner",
+        "document_registry",
+        "timeline_model"
+      ],
+      "status": "planned"
+    },
+    {
+      "feature_id": "F014",
+      "name": "bilingual_support",
+      "domain": "assistant_and_website",
+      "build_phase": "P2",
+      "activate_phase": "P3",
+      "operator_readiness": "R1_ASSISTED",
+      "description": "Spanish-language support for selected website routes, assistant flows, and workshop materials.",
+      "dependencies": [
+        "translation_memory",
+        "review_workflow"
+      ],
+      "status": "planned"
+    },
+    {
+      "feature_id": "F015",
+      "name": "steel_buildings_service",
+      "domain": "services",
+      "build_phase": "P1",
+      "activate_phase": "P1",
+      "operator_readiness": "R1_ASSISTED",
+      "description": "Consultation and brokering service for commercial steel buildings. Chuck helps local ranchers and businesses source pre-engineered metal buildings.",
+      "dependencies": [
+        "contact_form",
+        "operator_dashboard"
+      ],
+      "status": "active"
+    }
+  ],
+  "data_models": {
+    "lodging_unit": {
+      "primary_key": "unit_id",
+      "fields": [
+        {
+          "name": "unit_id",
+          "type": "string"
+        },
+        {
+          "name": "name",
+          "type": "string"
+        },
+        {
+          "name": "unit_type",
+          "type": "enum",
+          "values": [
+            "tent",
+            "safari_tent",
+            "yurt",
+            "dome",
+            "cabin",
+            "a_frame",
+            "pod"
+          ]
+        },
+        {
+          "name": "zone_id",
+          "type": "string"
+        },
+        {
+          "name": "capacity",
+          "type": "integer"
+        },
+        {
+          "name": "private_bath",
+          "type": "boolean"
+        },
+        {
+          "name": "hvac",
+          "type": "boolean"
+        },
+        {
+          "name": "solar_backed",
+          "type": "boolean"
+        },
+        {
+          "name": "public_status",
+          "type": "enum",
+          "values": [
+            "planned",
+            "active",
+            "hidden",
+            "maintenance"
+          ]
+        },
+        {
+          "name": "base_rate_ruleset_id",
+          "type": "string"
+        }
+      ]
+    },
+    "experience_product": {
+      "primary_key": "experience_id",
+      "fields": [
+        {
+          "name": "experience_id",
+          "type": "string"
+        },
+        {
+          "name": "name",
+          "type": "string"
+        },
+        {
+          "name": "category",
+          "type": "enum",
+          "values": [
+            "river",
+            "stargazing",
+            "craft",
+            "mining_history",
+            "boquillas_partner",
+            "offroad",
+            "wellness",
+            "retreat",
+            "touring"
+          ]
+        },
+        {
+          "name": "delivery_model",
+          "type": "enum",
+          "values": [
+            "owned",
+            "partner_led",
+            "guide_led",
+            "self_guided"
+          ]
+        },
+        {
+          "name": "meeting_point",
+          "type": "string"
+        },
+        {
+          "name": "seasonality",
+          "type": "object"
+        },
+        {
+          "name": "safety_level",
+          "type": "enum",
+          "values": [
+            "low",
+            "medium",
+            "high"
+          ]
+        },
+        {
+          "name": "waiver_required",
+          "type": "boolean"
+        }
+      ]
+    },
+    "workshop_program": {
+      "primary_key": "workshop_id",
+      "fields": [
+        {
+          "name": "workshop_id",
+          "type": "string"
+        },
+        {
+          "name": "name",
+          "type": "string"
+        },
+        {
+          "name": "workshop_type",
+          "type": "enum",
+          "values": [
+            "tile_making",
+            "handbuilding",
+            "dark_sky_photography",
+            "landscape_photography",
+            "retreat"
+          ]
+        },
+        {
+          "name": "duration_hours",
+          "type": "number"
+        },
+        {
+          "name": "max_attendees",
+          "type": "integer"
+        },
+        {
+          "name": "price_usd",
+          "type": "number"
+        },
+        {
+          "name": "operator_mode",
+          "type": "enum",
+          "values": [
+            "internal",
+            "guest_public",
+            "partner_public"
+          ]
+        },
+        {
+          "name": "materials_included",
+          "type": "boolean"
+        },
+        {
+          "name": "follow_up_shipping_supported",
+          "type": "boolean"
+        }
+      ]
+    },
+    "rental_asset": {
+      "primary_key": "asset_id",
+      "fields": [
+        {
+          "name": "asset_id",
+          "type": "string"
+        },
+        {
+          "name": "asset_type",
+          "type": "enum",
+          "values": [
+            "mini_excavator",
+            "skid_steer",
+            "backhoe",
+            "trailer",
+            "attachment"
+          ]
+        },
+        {
+          "name": "purchase_price_usd",
+          "type": "number"
+        },
+        {
+          "name": "delivery_required",
+          "type": "boolean"
+        },
+        {
+          "name": "inspection_template_id",
+          "type": "string"
+        },
+        {
+          "name": "utilization_target_pct",
+          "type": "number"
+        }
+      ]
+    },
+    "shop_product": {
+      "primary_key": "product_id",
+      "fields": [
+        {
+          "name": "product_id",
+          "type": "string"
+        },
+        {
+          "name": "name",
+          "type": "string"
+        },
+        {
+          "name": "product_type",
+          "type": "enum",
+          "values": [
+            "handmade_tile",
+            "decor_tile",
+            "pottery",
+            "print",
+            "book",
+            "calendar",
+            "gift_item"
+          ]
+        },
+        {
+          "name": "shipping_profile",
+          "type": "enum",
+          "values": [
+            "pickup_only",
+            "parcel_fragile",
+            "freight_only",
+            "print_on_demand"
+          ]
+        },
+        {
+          "name": "price_usd",
+          "type": "number"
+        },
+        {
+          "name": "inventory_mode",
+          "type": "enum",
+          "values": [
+            "one_of_one",
+            "small_batch",
+            "made_to_order",
+            "print_on_demand"
+          ]
+        },
+        {
+          "name": "public_status",
+          "type": "enum",
+          "values": [
+            "draft",
+            "active",
+            "archived"
+          ]
+        }
+      ]
+    },
+    "activism_update": {
+      "primary_key": "update_id",
+      "fields": [
+        {
+          "name": "update_id",
+          "type": "string"
+        },
+        {
+          "name": "title",
+          "type": "string"
+        },
+        {
+          "name": "status_date",
+          "type": "date"
+        },
+        {
+          "name": "status_type",
+          "type": "enum",
+          "values": [
+            "policy_change",
+            "litigation",
+            "local_resolution",
+            "event",
+            "media",
+            "call_to_action"
+          ]
+        },
+        {
+          "name": "summary",
+          "type": "string"
+        },
+        {
+          "name": "source_pack_ref",
+          "type": "string"
+        },
+        {
+          "name": "public_visibility",
+          "type": "boolean"
+        }
+      ]
+    },
+    "property_task": {
+      "primary_key": "task_id",
+      "fields": [
+        {
+          "name": "task_id",
+          "type": "string"
+        },
+        {
+          "name": "task_group",
+          "type": "enum",
+          "values": [
+            "cabin_build",
+            "land",
+            "utilities",
+            "tourism_infra",
+            "assistant",
+            "website",
+            "activism",
+            "artisan_ops"
+          ]
+        },
+        {
+          "name": "title",
+          "type": "string"
+        },
+        {
+          "name": "priority",
+          "type": "enum",
+          "values": [
+            "P0",
+            "P1",
+            "P2",
+            "P3"
+          ]
+        },
+        {
+          "name": "status",
+          "type": "enum",
+          "values": [
+            "backlog",
+            "active",
+            "blocked",
+            "done"
+          ]
+        },
+        {
+          "name": "dependency_ids",
+          "type": "array<string>"
+        },
+        {
+          "name": "owner",
+          "type": "string"
+        }
+      ]
+    },
+    "steel_building_inquiry": {
+      "primary_key": "inquiry_id",
+      "fields": [
+        {"name": "inquiry_id", "type": "string"},
+        {"name": "customer_name", "type": "string"},
+        {"name": "customer_email", "type": "string"},
+        {"name": "customer_phone", "type": "string"},
+        {"name": "building_type", "type": "enum", "values": ["ranch_workshop", "equipment_storage", "agricultural", "commercial", "residential_garage", "event_space", "other"]},
+        {"name": "estimated_size", "type": "string"},
+        {"name": "location", "type": "string"},
+        {"name": "timeline", "type": "string"},
+        {"name": "notes", "type": "string"},
+        {"name": "status", "type": "enum", "values": ["new", "contacted", "quoted", "closed_won", "closed_lost"]},
+        {"name": "created_at", "type": "datetime"}
+      ]
+    }
+  },
+  "phases": [
+    {
+      "phase_id": "P0",
+      "name": "foundation",
+      "duration_estimate_months": [
+        0,
+        6
+      ],
+      "objective": "Create the machine, memory, and site foundations without overwhelming Chuck and Susan.",
+      "build_scope": [
+        "workspace and memory pack setup",
+        "property/probate tracker",
+        "vendor and permit registry",
+        "starter site design system",
+        "booking/payment sandbox integrations",
+        "internal Burro modules for property and artisan planning"
+      ],
+      "activation_scope": [
+        "internal task management",
+        "operator-only Burro",
+        "private prototype website or staging site",
+        "first unit feasibility and budget tracking"
+      ],
+      "gates": [
+        {
+          "gate_id": "G0",
+          "requirement": "all source files ingested and registered"
+        },
+        {
+          "gate_id": "G1",
+          "requirement": "l2 ds/dr packs and conversation capsule created"
+        },
+        {
+          "gate_id": "G3.5",
+          "requirement": "high-risk factual claims verified in l3 packs"
+        },
+        {
+          "gate_id": "LAND",
+          "requirement": "property title/probate blockers logged with next actions"
+        },
+        {
+          "gate_id": "UTIL",
+          "requirement": "water/waste/power options priced for one-unit pilot"
+        }
+      ],
+      "acceptance_tests": [
+        "Operator can view a single dashboard of property tasks, research packs, and next actions.",
+        "Design tokens and media manifests exist for all approved photos.",
+        "A single-unit pilot budget and payback model are stored in machine-readable form."
+      ]
+    },
+    {
+      "phase_id": "P1",
+      "name": "mvp_launch",
+      "duration_estimate_months": [
+        6,
+        18
+      ],
+      "objective": "Open a small but polished public presence and test real demand with manageable operational scope.",
+      "build_scope": [
+        "public website",
+        "lodging booking flow",
+        "public workshop pages and calendar",
+        "small artisan shop",
+        "activism hub",
+        "public Burro faq concierge",
+        "initial equipment rental workflow"
+      ],
+      "activation_scope": [
+        "1-4 lodging units depending capital and readiness",
+        "craft workshops",
+        "photography workshops",
+        "newsletter and blog",
+        "public activism education pages",
+        "limited shop catalog"
+      ],
+      "gates": [
+        {
+          "gate_id": "SITE",
+          "requirement": "public site passes accessibility and payment smoke tests"
+        },
+        {
+          "gate_id": "OPS",
+          "requirement": "guest communications and waiver flows tested"
+        },
+        {
+          "gate_id": "SHOP",
+          "requirement": "shipping rules enforced for fragile products"
+        },
+        {
+          "gate_id": "ASSISTANT",
+          "requirement": "Burro guest answers cite only approved memory views"
+        }
+      ],
+      "acceptance_tests": [
+        "A guest can book a stay, book a workshop, and receive a confirmation email.",
+        "An operator can publish or unpublish a workshop without developer help.",
+        "Burro can answer 20 golden FAQs with source-backed responses and no unsafe claims.",
+        "At least one seasonal pricing ruleset can be changed without code deployment."
+      ]
+    },
+    {
+      "phase_id": "P2",
+      "name": "expansion",
+      "duration_estimate_months": [
+        18,
+        36
+      ],
+      "objective": "Diversify revenue, activate experience bundles, and strengthen Burro as an orchestrator while keeping human approval in the loop.",
+      "build_scope": [
+        "itinerary builder",
+        "retreat hosting logic",
+        "equipment rental public booking",
+        "livestream and webcam network",
+        "partner marketplace",
+        "Burro task orchestration",
+        "analytics and reporting"
+      ],
+      "activation_scope": [
+        "public equipment rental",
+        "weekend package builder",
+        "livestream pages",
+        "retreat hosting",
+        "expanded artisan releases",
+        "select partner excursions"
+      ],
+      "gates": [
+        {
+          "gate_id": "RENTAL",
+          "requirement": "inspection, deposit, and tax logic tested"
+        },
+        {
+          "gate_id": "STREAM",
+          "requirement": "camera feeds stable and low-light compliant"
+        },
+        {
+          "gate_id": "ANALYTICS",
+          "requirement": "core metrics pipeline validated"
+        },
+        {
+          "gate_id": "TRAINING",
+          "requirement": "operators comfortable at R2 on core workflows"
+        }
+      ],
+      "acceptance_tests": [
+        "Burro can assemble a multi-step itinerary draft and present it for review.",
+        "Rental bookings can be created, rescheduled, and closed with inspection evidence.",
+        "Livestream and webcam pages work under constrained bandwidth conditions."
+      ]
+    },
+    {
+      "phase_id": "P3",
+      "name": "mature_operation",
+      "duration_estimate_months": [
+        36,
+        60
+      ],
+      "objective": "Run a stable, locally integrated tourism and artisan business with strong conservation identity and measured automation.",
+      "build_scope": [
+        "bilingual support",
+        "advanced crm",
+        "cross-sell recommendation engine",
+        "expanded partner network",
+        "annual events and symposium operations"
+      ],
+      "activation_scope": [
+        "broader retreat program",
+        "more lodging units if justified",
+        "local maker marketplace",
+        "deeper Burro operator automations",
+        "annual conservation event"
+      ],
+      "gates": [
+        {
+          "gate_id": "M4",
+          "requirement": "Metalmind maturity level M4 for production knowledge"
+        },
+        {
+          "gate_id": "G7",
+          "requirement": "regular eval suite and regression controls live"
+        },
+        {
+          "gate_id": "COMMUNITY",
+          "requirement": "partnership governance and revenue share policies approved"
+        }
+      ],
+      "acceptance_tests": [
+        "Core revenue streams are tracked monthly and compared to plan.",
+        "Public-facing content can be updated by operators without breaking policy rules.",
+        "All customer-critical workflows have incident runbooks and rollback paths."
+      ]
+    }
+  ],
+  "delivery_plan": {
+    "workstreams": [
+      {
+        "workstream_id": "W1",
+        "name": "knowledge_and_blueprinting",
+        "owner_role": "keeper",
+        "deliverables": [
+          "conversation capsule",
+          "l2 ds/dr packs",
+          "l3 canonical packs",
+          "white papers",
+          "final technical blueprint"
+        ]
+      },
+      {
+        "workstream_id": "W2",
+        "name": "property_and_utilities",
+        "owner_role": "operator_plus_contractor",
+        "deliverables": [
+          "land/probate issue tracker",
+          "water plan",
+          "wastewater plan",
+          "solar/power plan",
+          "zone separation map"
+        ]
+      },
+      {
+        "workstream_id": "W3",
+        "name": "website_and_content",
+        "owner_role": "creator",
+        "deliverables": [
+          "public site",
+          "cms content",
+          "photo manifests",
+          "blog system",
+          "newsletter"
+        ]
+      },
+      {
+        "workstream_id": "W4",
+        "name": "burro_assistant",
+        "owner_role": "creator_plus_indexer",
+        "deliverables": [
+          "prompt pack",
+          "retrieval service",
+          "internal burro",
+          "guest burro",
+          "action gating layer"
+        ]
+      },
+      {
+        "workstream_id": "W5",
+        "name": "commerce_and_ops",
+        "owner_role": "operator",
+        "deliverables": [
+          "booking engine",
+          "shop catalog",
+          "rental workflow",
+          "crm and email automation",
+          "analytics"
+        ]
+      },
+      {
+        "workstream_id": "W6",
+        "name": "experiences_and_partnerships",
+        "owner_role": "operator_plus_partner_manager",
+        "deliverables": [
+          "workshop program",
+          "partner excursions",
+          "retreat model",
+          "activism hub",
+          "livestream network"
+        ]
+      }
+    ],
+    "first_90_day_backlog": [
+      {
+        "id": "B001",
+        "priority": "P0",
+        "title": "Create conversation capsule and DARQ register from transcript and summary",
+        "workstream": "W1"
+      },
+      {
+        "id": "B002",
+        "priority": "P0",
+        "title": "Publish L3 packs for glamping economics, equipment rental, tourism, border wall, handicrafts, photography",
+        "workstream": "W1"
+      },
+      {
+        "id": "B003",
+        "priority": "P0",
+        "title": "Create property/probate tracker and adjacent-lot acquisition tracker",
+        "workstream": "W2"
+      },
+      {
+        "id": "B004",
+        "priority": "P0",
+        "title": "Create one-unit pilot cost model for 3 candidate lodging types",
+        "workstream": "W2"
+      },
+      {
+        "id": "B005",
+        "priority": "P0",
+        "title": "Create design token file and media manifest from approved photos",
+        "workstream": "W3"
+      },
+      {
+        "id": "B006",
+        "priority": "P0",
+        "title": "Stand up staging website shell with route stubs and CMS model",
+        "workstream": "W3"
+      },
+      {
+        "id": "B007",
+        "priority": "P0",
+        "title": "Set up Lodgify/Hospitable, Stripe, and email provider sandboxes",
+        "workstream": "W5"
+      },
+      {
+        "id": "B008",
+        "priority": "P0",
+        "title": "Build Burro internal assistant with property/artisan planning modules only",
+        "workstream": "W4"
+      },
+      {
+        "id": "B009",
+        "priority": "P1",
+        "title": "Define workshop SKUs, pricing ladders, and intake forms",
+        "workstream": "W6"
+      },
+      {
+        "id": "B010",
+        "priority": "P1",
+        "title": "Create activism content model and update feed",
+        "workstream": "W6"
+      }
+    ]
+  },
+  "risk_register": [
+    {
+      "risk_id": "RISK-001",
+      "title": "Water access and sustainability failure",
+      "severity": "critical",
+      "likelihood": "medium",
+      "mitigation": [
+        "Do not scale beyond the one-unit pilot until water plan is validated.",
+        "Model hauled water vs. well vs. rain capture explicitly.",
+        "Track usage by zone and publish water stewardship rules."
+      ]
+    },
+    {
+      "risk_id": "RISK-002",
+      "title": "Extreme seasonality causes weak summer economics",
+      "severity": "high",
+      "likelihood": "high",
+      "mitigation": [
+        "Price and forecast by season, not by annual averages.",
+        "Bias summer programming toward night-first, workshop, and retreat products.",
+        "Avoid counting on daytime summer excursions as core revenue."
+      ]
+    },
+    {
+      "risk_id": "RISK-003",
+      "title": "Property title/probate delays block infrastructure or resale decisions",
+      "severity": "high",
+      "likelihood": "medium",
+      "mitigation": [
+        "Track liens, probate contacts, and appraisal anomalies in property tracker.",
+        "Separate build decisions requiring clear title from non-title-dependent planning tasks."
+      ]
+    },
+    {
+      "risk_id": "RISK-004",
+      "title": "Operator overload and feature fatigue",
+      "severity": "high",
+      "likelihood": "high",
+      "mitigation": [
+        "Use build-now / activate-later model.",
+        "Default new features to R0 or R1 readiness.",
+        "Use templates and assistant-generated drafts instead of blank-slate workflows."
+      ]
+    },
+    {
+      "risk_id": "RISK-005",
+      "title": "Equipment damage or misuse destroys rental margins",
+      "severity": "medium",
+      "likelihood": "medium",
+      "mitigation": [
+        "Start with one machine and a strong inspection/deposit process.",
+        "Bias toward local delivery and operator orientation.",
+        "Treat second-machine purchase as post-proof decision only."
+      ]
+    },
+    {
+      "risk_id": "RISK-006",
+      "title": "Border-wall policy changes degrade destination value",
+      "severity": "critical",
+      "likelihood": "medium",
+      "mitigation": [
+        "Maintain activism hub and local coalition ties.",
+        "Use livestream/media content to document scenic and dark-sky value.",
+        "Frame conservation as core brand pillar."
+      ]
+    },
+    {
+      "risk_id": "RISK-007",
+      "title": "Heavy fragile artisan shipping produces losses and support burden",
+      "severity": "medium",
+      "likelihood": "high",
+      "mitigation": [
+        "Keep public ecommerce narrow.",
+        "Use local pickup and workshop follow-up for heavy products.",
+        "Offer freight or pickup-only for larger tile runs."
+      ]
+    },
+    {
+      "risk_id": "RISK-008",
+      "title": "Remote connectivity causes outages in guest-facing tools",
+      "severity": "medium",
+      "likelihood": "medium",
+      "mitigation": [
+        "Use degraded offline-safe modes for Burro and site content.",
+        "Cache critical FAQs, maps, and check-in data locally.",
+        "Treat livestreaming as non-critical."
+      ]
+    }
+  ],
+  "success_metrics": {
+    "business": [
+      {
+        "metric_id": "M001",
+        "name": "pilot_unit_occupancy_pct",
+        "target_by_phase": {
+          "P1": 35,
+          "P2": 45,
+          "P3": 50
+        }
+      },
+      {
+        "metric_id": "M002",
+        "name": "average_daily_rate_usd",
+        "target_by_phase": {
+          "P1": 200,
+          "P2": 240,
+          "P3": 275
+        }
+      },
+      {
+        "metric_id": "M003",
+        "name": "workshop_gross_revenue_usd",
+        "target_by_phase": {
+          "P1": 30000,
+          "P2": 60000,
+          "P3": 100000
+        }
+      },
+      {
+        "metric_id": "M004",
+        "name": "equipment_utilization_pct",
+        "target_by_phase": {
+          "P1": 15,
+          "P2": 25,
+          "P3": 30
+        }
+      },
+      {
+        "metric_id": "M005",
+        "name": "shop_gross_revenue_usd",
+        "target_by_phase": {
+          "P1": 5000,
+          "P2": 15000,
+          "P3": 30000
+        }
+      },
+      {
+        "metric_id": "M006",
+        "name": "steel_buildings_consultations",
+        "target_by_phase": {
+          "P1": 5,
+          "P2": 15,
+          "P3": 25
+        }
+      }
+    ],
+    "product": [
+      {
+        "metric_id": "M101",
+        "name": "booking_conversion_rate_pct",
+        "target_by_phase": {
+          "P1": 1.5,
+          "P2": 2.5,
+          "P3": 3.0
+        }
+      },
+      {
+        "metric_id": "M102",
+        "name": "newsletter_signup_rate_pct",
+        "target_by_phase": {
+          "P1": 3.0,
+          "P2": 5.0,
+          "P3": 6.0
+        }
+      },
+      {
+        "metric_id": "M103",
+        "name": "burro_faq_groundedness_pct",
+        "target_by_phase": {
+          "P1": 95,
+          "P2": 97,
+          "P3": 98
+        }
+      },
+      {
+        "metric_id": "M104",
+        "name": "operator_time_saved_hours_per_week",
+        "target_by_phase": {
+          "P1": 3,
+          "P2": 6,
+          "P3": 10
+        }
+      }
+    ],
+    "conservation_and_community": [
+      {
+        "metric_id": "M201",
+        "name": "activism_actions_completed",
+        "target_by_phase": {
+          "P1": 100,
+          "P2": 300,
+          "P3": 500
+        }
+      },
+      {
+        "metric_id": "M202",
+        "name": "local_partner_count",
+        "target_by_phase": {
+          "P1": 3,
+          "P2": 8,
+          "P3": 12
+        }
+      },
+      {
+        "metric_id": "M203",
+        "name": "dark_sky_compliance_incidents",
+        "target_by_phase": {
+          "P1": 0,
+          "P2": 0,
+          "P3": 0
+        }
+      }
+    ]
+  },
+  "deferred_scope": [
+    {
+      "item": "Owned cross-border ferry or boat operation",
+      "reason": "regulatory complexity, citizenship, liability, cross-border permitting"
+    },
+    {
+      "item": "Large fleet rental yard",
+      "reason": "capital intensity and uncertain utilization"
+    },
+    {
+      "item": "In-mine tours",
+      "reason": "safety and liability"
+    },
+    {
+      "item": "High-volume commodity ecommerce for tiles",
+      "reason": "shipping economics and operator burden"
+    },
+    {
+      "item": "Generic broad-market glamping clone",
+      "reason": "weak moat in Terlingua market"
+    }
+  ],
+  "enhancements": [
+    {
+      "id": "ENH-001",
+      "title": "Cloudflared Configuration Update",
+      "status": "COMPLETE",
+      "completed_date": "2026-03-27"
+    },
+    {
+      "id": "ENH-002",
+      "title": "Payment Activation Preparation",
+      "status": "PREPARED",
+      "description": "Stripe integration ready. Manual handoff active. Coming Soon badges displayed."
+    },
+    {
+      "id": "ENH-003",
+      "title": "Site Visual Overhaul",
+      "status": "COMPLETE",
+      "completed_date": "2026-03-28",
+      "description": "Coming Soon badges, payment stubs, Steel Buildings page, Dark Sky/Rentals page conversions"
+    }
+  ],
+  "publish_contract": {
+    "file_type": "json",
+    "machine_readable_only": true,
+    "intended_next_step": "use as source pack for implementation planning, sprint design, and code generation",
+    "supersedes": [
+      "outline_blueprint_json_v0"
+    ],
+    "gates_executed": [
+      "G0",
+      "G1"
+    ],
+    "gates_required_before_implementation": [
+      "G2",
+      "G3",
+      "G3.5",
+      "G4",
+      "G5",
+      "G6",
+      "G7"
+    ]
+  }
+}

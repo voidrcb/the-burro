@@ -1,0 +1,26 @@
+{
+  "schemaRef": "photography",
+  "schemaVersion": "1.0.0",
+  "title": "Photography workshop intake",
+  "description": "Field-readiness questions for dark-sky instruction.",
+  "questions": [
+    {
+      "questionId": "photo_camera_body",
+      "label": "What camera body or phone setup are you planning to use?",
+      "type": "short_text",
+      "required": true
+    },
+    {
+      "questionId": "photo_tripod_access",
+      "label": "Will you bring a tripod?",
+      "type": "boolean",
+      "required": true
+    },
+    {
+      "questionId": "photo_mobility_notes",
+      "label": "Any mobility or terrain notes we should account for before night travel?",
+      "type": "long_text",
+      "required": false
+    }
+  ]
+}

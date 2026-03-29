@@ -1,0 +1,26 @@
+{
+  "id": "shop_001",
+  "slug": "desert-threshold-print",
+  "title": "Desert Threshold Print",
+  "description": "Archival landscape print from the first Burro field-study run.",
+  "category": "prints",
+  "price": {
+    "amount": 95,
+    "currency": "USD"
+  },
+  "images": [
+    {
+      "url": "/shop/desert-threshold-print-1.jpg",
+      "alt": "Desert Threshold archival print"
+    }
+  ],
+  "story": "A small-batch print built from dawn and blue-hour field notes near Terlingua. It keeps the first shop lane lightweight while still carrying the place-based storytelling Burro needs.",
+  "shippingProfile": "parcel",
+  "status": "available",
+  "inventory": {
+    "available": 12
+  },
+  "featured": true,
+  "badge": "First drop",
+  "leadTimeNote": "Packed locally and mailed in flat archival sleeves."
+}

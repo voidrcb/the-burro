@@ -1,0 +1,6 @@
+{
+  "id": "workshop-reminder",
+  "title": "Workshop reminder",
+  "subject": "Reminder for your upcoming Big Bend Burro workshop",
+  "body": "Hi {{guestName}},\n\nThis is your reminder for {{contextLabel}} on {{dateLabel}}.\n\nPlease bring any items listed in the workshop notes and plan to arrive a little early so we can get everyone settled before we begin.\n\nIf your plans change, reply before the session so we can adjust the local roster.\n\nChuck, Susan, and Burro"
+}

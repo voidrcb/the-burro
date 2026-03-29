@@ -1,0 +1,45 @@
+{
+  "schema_version": "0.3.0",
+  "tools": [
+    {
+      "tool_id": "load_property_tracker",
+      "category": "read",
+      "description": "Read Sprint 0.1 property issue register"
+    },
+    {
+      "tool_id": "load_property_tasks",
+      "category": "read",
+      "description": "Read Sprint 0.1 property task tracker"
+    },
+    {
+      "tool_id": "load_darq_register",
+      "category": "read",
+      "description": "Read Sprint 0.1 DARQ register"
+    },
+    {
+      "tool_id": "load_research_source",
+      "category": "read",
+      "description": "Read approved research encyclopedia metadata"
+    },
+    {
+      "tool_id": "lookup_feasibility_snapshot",
+      "category": "lookup",
+      "description": "Return baseline pilot, workshop, and equipment planning metrics"
+    },
+    {
+      "tool_id": "draft_operator_email",
+      "category": "draft",
+      "description": "Draft a review-only operator email or follow-up note"
+    },
+    {
+      "tool_id": "send_email",
+      "category": "execute",
+      "description": "Deferred. Requires explicit human approval and provider activation."
+    },
+    {
+      "tool_id": "mutate_booking_provider",
+      "category": "execute",
+      "description": "Deferred. Requires provider credentials and explicit approval."
+    }
+  ]
+}

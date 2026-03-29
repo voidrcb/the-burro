@@ -1,0 +1,31 @@
+{
+  "id": "print_canyon_passage",
+  "slug": "canyon-passage-print",
+  "title": "Canyon Passage",
+  "description": "A kayaker glides through golden canyon walls where the Rio Grande carves through ancient limestone.",
+  "category": "prints",
+  "price": {
+    "amount": 110,
+    "currency": "USD"
+  },
+  "images": [
+    {
+      "url": "/images/palette/kayak-canyon.jpg",
+      "alt": "Kayaker paddling through golden canyon walls on the Rio Grande"
+    }
+  ],
+  "story": "The river canyons of Big Bend are best seen from the water. Susan joined a float trip through one of the smaller canyons and captured this moment of solitude: burnt orange walls rising on both sides, the paddler moving through light that only exists for an hour each day. This photograph defines the canyon ember tones in the Burro palette.",
+  "shippingProfile": "parcel",
+  "status": "available",
+  "inventory": {
+    "available": 12
+  },
+  "featured": true,
+  "badge": "Susan's Collection",
+  "leadTimeNote": "Archival pigment print on cotton rag. Ships flat within 5 business days.",
+  "highlights": [
+    "16x20 archival cotton rag",
+    "Signed by Susan",
+    "Ships flat in rigid mailer"
+  ]
+}

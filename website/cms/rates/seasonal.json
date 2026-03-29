@@ -1,0 +1,77 @@
+{
+  "defaultRate": {
+    "nightly": 245,
+    "cleaningFee": 42
+  },
+  "seasons": [
+    {
+      "seasonId": "spring-peak",
+      "name": "Spring Peak",
+      "startDate": "02-15",
+      "endDate": "05-15",
+      "rates": [
+        {
+          "unitId": "unit_mesa_glow_cabin",
+          "nightly": 285,
+          "weeklyDiscount": 0.1,
+          "cleaningFee": 48
+        },
+        {
+          "unitId": "unit_cottonwood_lookout",
+          "nightly": 210,
+          "weeklyDiscount": 0.08,
+          "cleaningFee": 30
+        }
+      ],
+      "blackoutDates": [
+        "2026-03-28"
+      ]
+    },
+    {
+      "seasonId": "summer-reset",
+      "name": "Summer Reset",
+      "startDate": "05-16",
+      "endDate": "09-15",
+      "rates": [
+        {
+          "unitId": "unit_mesa_glow_cabin",
+          "nightly": 225,
+          "weeklyDiscount": 0.12,
+          "cleaningFee": 42
+        },
+        {
+          "unitId": "unit_cottonwood_lookout",
+          "nightly": 175,
+          "weeklyDiscount": 0.1,
+          "cleaningFee": 28
+        }
+      ],
+      "blackoutDates": [
+        "2026-07-04"
+      ]
+    },
+    {
+      "seasonId": "dark-sky-season",
+      "name": "Dark Sky Season",
+      "startDate": "09-16",
+      "endDate": "02-14",
+      "rates": [
+        {
+          "unitId": "unit_mesa_glow_cabin",
+          "nightly": 265,
+          "weeklyDiscount": 0.1,
+          "cleaningFee": 45
+        },
+        {
+          "unitId": "unit_cottonwood_lookout",
+          "nightly": 195,
+          "weeklyDiscount": 0.08,
+          "cleaningFee": 30
+        }
+      ],
+      "blackoutDates": [
+        "2026-11-26"
+      ]
+    }
+  ]
+}

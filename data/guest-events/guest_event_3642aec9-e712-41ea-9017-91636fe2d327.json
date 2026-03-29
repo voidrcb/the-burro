@@ -1,0 +1,15 @@
+{
+  "id": "guest_event_3642aec9-e712-41ea-9017-91636fe2d327",
+  "guestEmail": "guest@example.com",
+  "eventType": "purchase",
+  "eventRef": "shop_order_987ec183-779d-4d0d-9eb2-f27f497e022c",
+  "metadata": {
+    "shippingProfile": "print-on-demand",
+    "subtotalAmount": 48,
+    "itemCount": 1
+  },
+  "occurredAt": "2026-03-28T19:19:53.541Z",
+  "tags": [
+    "shop"
+  ]
+}

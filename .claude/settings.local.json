@@ -1,0 +1,43 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(powershell -Command:*)",
+      "Bash(pnpm build:*)",
+      "Bash(pnpm install:*)",
+      "Bash(set:*)",
+      "Bash(pnpm lint:*)",
+      "Bash(pnpm typecheck:*)",
+      "Bash(pnpm dev)",
+      "Bash(timeout:*)",
+      "Bash(curl:*)",
+      "Bash(del cookies.txt)",
+      "Bash(findstr:*)",
+      "Bash(taskkill:*)",
+      "Bash(netstat:*)",
+      "Bash(tasklist:*)",
+      "Bash(dir:*)",
+      "Bash(wmic service:*)",
+      "Bash(for i in 1 2 3 4 5)",
+      "Bash(do echo -n \"Test $i: \")",
+      "Bash(done)",
+      "Bash(wmic process:*)",
+      "Bash(sc stop:*)",
+      "Bash(sc start:*)",
+      "Bash(do echo -n \"CSS $i: \")",
+      "Bash(for i in 1 2 3 4 5 6 7 8 9 10)",
+      "Bash(do echo -n \"Home $i: \")",
+      "Bash(pnpm start)",
+      "Bash(copy:*)",
+      "Bash(do curl -s -o /dev/null -w \"%{http_code} \" https://bigbendburro.vcetexas.com/)",
+      "WebSearch",
+      "WebFetch(domain:summitbigbend.com)",
+      "WebFetch(domain:basecampterlingua.com)",
+      "Bash(if exist .next rmdir /s /q .next)",
+      "Bash(ls -la \"C:\\\\handmaidens\\\\The Burro\\\\website\\\\frontend\"\" | grep -E \"^d \")",
+      "Bash(gh auth status:*)",
+      "Bash(git init:*)",
+      "Bash(gh repo create:*)",
+      "Bash(git add:*)"
+    ]
+  }
+}

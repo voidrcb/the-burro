@@ -1,0 +1,41 @@
+{
+  "id": "rental_kubota_kx040",
+  "slug": "kubota-kx040-excavator",
+  "name": "Kubota KX040-4 Mini Excavator",
+  "category": "excavator",
+  "description": "The Kubota KX040-4 is a versatile mini excavator perfect for Big Bend ranch work, water projects, and land clearing. With a 40 horsepower engine and 9,000 lb operating weight, it handles serious digging while remaining maneuverable on remote properties. Ideal for pond excavation, trenching, brush clearing, and foundation work.",
+  "specifications": [
+    "Engine: 40.4 HP Kubota diesel",
+    "Operating weight: 9,039 lbs",
+    "Max digging depth: 11 ft 2 in",
+    "Max reach at ground level: 18 ft 7 in",
+    "Bucket capacity: 0.11 cu yd",
+    "Track width: 12.6 in",
+    "Fuel capacity: 15.9 gal"
+  ],
+  "dailyRate": 450,
+  "weeklyRate": 2250,
+  "depositRequired": 2500,
+  "deliveryFee": 250,
+  "status": "available",
+  "maintenanceFlag": false,
+  "images": [
+    {
+      "url": "/images/rentals/kubota-kx040-hero.jpg",
+      "alt": "Kubota KX040-4 Mini Excavator at work in Big Bend terrain"
+    },
+    {
+      "url": "/images/rentals/kubota-kx040-side.jpg",
+      "alt": "Side view of Kubota KX040-4 showing reach and track system"
+    }
+  ],
+  "deliveryNotes": "Delivery available within 50 miles of Terlingua. Requires trailer-accessible road or staging area. Delivery scheduled 24-48 hours in advance.",
+  "operatingRequirements": [
+    "Valid driver's license",
+    "Prior heavy equipment experience recommended",
+    "Completion of safety orientation (provided at delivery)",
+    "Proof of liability insurance or rental insurance purchase"
+  ],
+  "insuranceRequired": true,
+  "featured": true
+}

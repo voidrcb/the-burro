@@ -1,0 +1,59 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Build outputs
+.next/
+out/
+dist/
+build/
+
+# Environment and secrets
+.env
+.env.local
+.env.production
+.env*.local
+*.env
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+
+# Local data (orders, bookings, etc.)
+website/frontend/data/orders/
+website/frontend/data/bookings/
+website/frontend/data/registrations/
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+
+# Claude/AI session files (keep plans, exclude temp)
+.claude/projects/*/tasks/
+
+# Test coverage
+coverage/
+
+# Turbo
+.turbo/
+
+# Temp/test files
+nul
+cookies.txt
+*.html
+!website/**/*.html
+
+# RUNS log (large)
+RUNS.jsonl

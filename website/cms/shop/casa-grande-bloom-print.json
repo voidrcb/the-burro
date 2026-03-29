@@ -1,0 +1,31 @@
+{
+  "id": "print_casa_grande_bloom",
+  "slug": "casa-grande-bloom-print",
+  "title": "Casa Grande Bloom",
+  "description": "Cholla cactus blooms yellow against the iconic Casa Grande peak, spring in the Chisos Basin.",
+  "category": "prints",
+  "price": {
+    "amount": 95,
+    "currency": "USD"
+  },
+  "images": [
+    {
+      "url": "/images/palette/casa-grande-cactus.jpg",
+      "alt": "Yellow cholla blooms with Casa Grande peak in the background"
+    }
+  ],
+  "story": "Spring arrives quietly in Big Bend, and suddenly the spiny chollas explode with color. This shot from the basin trail became the source for the sage greens and yellow accents in the Burro design system. The peak in the background is Casa Grande, one of the most recognizable silhouettes in Texas.",
+  "shippingProfile": "parcel",
+  "status": "available",
+  "inventory": {
+    "available": 12
+  },
+  "featured": true,
+  "badge": "Susan's Collection",
+  "leadTimeNote": "Archival pigment print on cotton rag. Ships flat within 5 business days.",
+  "highlights": [
+    "11x14 archival cotton rag",
+    "Signed by Susan",
+    "Ships flat in rigid mailer"
+  ]
+}

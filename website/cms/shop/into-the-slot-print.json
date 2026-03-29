@@ -1,0 +1,31 @@
+{
+  "id": "print_into_the_slot",
+  "slug": "into-the-slot-print",
+  "title": "Into the Slot",
+  "description": "A hiker walks deeper into a narrow slot canyon, rust-colored walls catching midday light.",
+  "category": "prints",
+  "price": {
+    "amount": 95,
+    "currency": "USD"
+  },
+  "images": [
+    {
+      "url": "/images/palette/slot-canyon-hiker.jpg",
+      "alt": "Hiker walking into a narrow slot canyon with orange walls"
+    }
+  ],
+  "story": "Big Bend hides slot canyons in unexpected places, narrow passages carved by flash floods over millennia. Susan found this one on a backcountry hike and waited for a fellow hiker to walk into frame. The rust and orange tones here became the warm accent colors throughout the Burro design.",
+  "shippingProfile": "parcel",
+  "status": "available",
+  "inventory": {
+    "available": 15
+  },
+  "featured": false,
+  "badge": "Susan's Collection",
+  "leadTimeNote": "Archival pigment print on cotton rag. Ships flat within 5 business days.",
+  "highlights": [
+    "11x14 archival cotton rag",
+    "Signed by Susan",
+    "Ships flat in rigid mailer"
+  ]
+}

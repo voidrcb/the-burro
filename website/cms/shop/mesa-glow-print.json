@@ -1,0 +1,31 @@
+{
+  "id": "shop_print_mesa_glow",
+  "slug": "mesa-glow-print",
+  "title": "Mesa Glow Archival Print",
+  "description": "A small-batch archival print built from the first dark-sky field studies around the property.",
+  "category": "prints",
+  "price": {
+    "amount": 85,
+    "currency": "USD"
+  },
+  "images": [
+    {
+      "url": "/shop/mesa-glow-print.jpg",
+      "alt": "Mesa Glow archival print placeholder"
+    }
+  ],
+  "story": "This print keeps the shop focused on low-risk, story-first goods. It lets Chuck and Susan test catalog, checkout, and fulfillment without stepping into fragile freight or heavy tile packing.",
+  "shippingProfile": "parcel",
+  "status": "available",
+  "inventory": {
+    "available": 14
+  },
+  "featured": true,
+  "badge": "First drop",
+  "leadTimeNote": "Ships within five business days.",
+  "highlights": [
+    "11x14 archival paper",
+    "Signed in the studio",
+    "Ships flat in rigid mailer"
+  ]
+}

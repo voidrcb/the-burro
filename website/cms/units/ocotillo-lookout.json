@@ -1,0 +1,35 @@
+{
+  "id": "unit_ocotillo_lookout",
+  "slug": "ocotillo-lookout",
+  "name": "Ocotillo Lookout",
+  "description": "A soft-launch canvas stay meant for guests who want to be close to the landscape while accepting a lighter-touch hospitality footprint.",
+  "shortDescription": "Coming-soon safari tent concept with sunrise views and shared field orientation.",
+  "capacity": {
+    "adults": 2,
+    "children": 0
+  },
+  "amenities": [
+    "Queen bed platform",
+    "Shade canopy",
+    "Shared outdoor rinse station",
+    "Sunrise-facing deck"
+  ],
+  "photos": [
+    {
+      "url": "/images/stay/ocotillo-lookout-01.jpg",
+      "alt": "Concept card for Ocotillo Lookout overlooking open desert"
+    }
+  ],
+  "policies": {
+    "checkIn": "Planned for 4:00 PM arrival window",
+    "checkOut": "Planned for 10:00 AM departure window",
+    "cancellation": "Policy will mirror flagship stay once released.",
+    "pets": "Not yet decided for soft launch.",
+    "smoking": "No smoking in guest or field structures.",
+    "access": "Final parking and path layout still under review.",
+    "weather": "Soft-launch inventory will open only in suitable weather windows."
+  },
+  "lodgifyPropertyId": "lodgify_ocotillo_lookout",
+  "status": "coming_soon",
+  "featured": false
+}

@@ -1,0 +1,31 @@
+{
+  "id": "unit_private_homestead",
+  "slug": "private-homestead",
+  "name": "Private Homestead Zone",
+  "description": "Internal-only record for the owners' home zone.",
+  "shortDescription": "Internal-only private zone.",
+  "capacity": {
+    "adults": 0,
+    "children": 0
+  },
+  "amenities": [
+    "Private zone"
+  ],
+  "photos": [
+    {
+      "url": "https://images.unsplash.com/photo-1472396961693-142e6e269027?auto=format&fit=crop&w=1200&q=80",
+      "alt": "Desert ridgeline near a private homestead zone."
+    }
+  ],
+  "policies": {
+    "checkIn": "Not applicable.",
+    "checkOut": "Not applicable.",
+    "cancellation": "Not applicable.",
+    "pets": "Not applicable.",
+    "smoking": "Not applicable.",
+    "access": "Private operator-only area.",
+    "weather": "Not applicable."
+  },
+  "status": "private",
+  "featured": false
+}

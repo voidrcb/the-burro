@@ -1,0 +1,78 @@
+{
+  "model_version": "0.1.0",
+  "generated_at": "2026-03-15T19:15:31-05:00",
+  "status": "provisional_shell",
+  "notes": [
+    "This model is a Sprint 0.1 shell only.",
+    "Utility pricing is not yet validated, so utility_hookup_estimate and annual economics remain provisional.",
+    "ADR and occupancy assumptions are directional and derived from the blueprint market signals."
+  ],
+  "units": [
+    {
+      "unit_type": "basic_canvas_tent_shared",
+      "shell_cost_range": {
+        "low_usd": 14000,
+        "high_usd": 35000,
+        "status": "provisional"
+      },
+      "site_prep_estimate": {
+        "low_usd": 8000,
+        "high_usd": 18000,
+        "status": "provisional"
+      },
+      "utility_hookup_estimate": {
+        "low_usd": 12000,
+        "high_usd": 35000,
+        "status": "provisional"
+      },
+      "target_adr": 145,
+      "occupancy_assumption": 0.32,
+      "annual_revenue_estimate": 16936,
+      "notes": "Lowest-capital pilot path if shared facilities are acceptable."
+    },
+    {
+      "unit_type": "safari_tent_private_bath",
+      "shell_cost_range": {
+        "low_usd": 190000,
+        "high_usd": 250000,
+        "status": "provisional"
+      },
+      "site_prep_estimate": {
+        "low_usd": 20000,
+        "high_usd": 45000,
+        "status": "provisional"
+      },
+      "utility_hookup_estimate": {
+        "low_usd": 25000,
+        "high_usd": 60000,
+        "status": "provisional"
+      },
+      "target_adr": 265,
+      "occupancy_assumption": 0.35,
+      "annual_revenue_estimate": 33854,
+      "notes": "Higher-comfort option but probably too capital-heavy for the first pilot unless utilities are easier than expected."
+    },
+    {
+      "unit_type": "small_dome_private",
+      "shell_cost_range": {
+        "low_usd": 60000,
+        "high_usd": 150000,
+        "status": "provisional"
+      },
+      "site_prep_estimate": {
+        "low_usd": 15000,
+        "high_usd": 30000,
+        "status": "provisional"
+      },
+      "utility_hookup_estimate": {
+        "low_usd": 20000,
+        "high_usd": 50000,
+        "status": "provisional"
+      },
+      "target_adr": 225,
+      "occupancy_assumption": 0.34,
+      "annual_revenue_estimate": 27922,
+      "notes": "Middle-ground option with stronger premium positioning than a basic tent."
+    }
+  ]
+}

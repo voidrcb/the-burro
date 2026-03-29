@@ -1,0 +1,90 @@
+{
+  "version": "0.2.0",
+  "generated_at": "2026-03-15T19:33:00-05:00",
+  "items": [
+    {
+      "media_id": "S011",
+      "source_path": "assets/design-palettes/2865254852305039943.JPG",
+      "role": "design_palette_photo",
+      "intended_use": [
+        "hero_sections",
+        "assistant_branding",
+        "night_mode",
+        "photography_pages"
+      ],
+      "sharing_status": "private",
+      "palette_id": "night_sky_blue"
+    },
+    {
+      "media_id": "S013",
+      "source_path": "assets/design-palettes/563351913455552699.JPG",
+      "role": "design_palette_photo",
+      "intended_use": [
+        "content_pages",
+        "booking_ui",
+        "accessibility_safe_neutrals"
+      ],
+      "sharing_status": "private",
+      "palette_id": "sage_stone"
+    },
+    {
+      "media_id": "S016",
+      "source_path": "assets/design-palettes/619714753442070768.JPG",
+      "role": "design_palette_photo",
+      "intended_use": [
+        "legal_pages",
+        "assistant_dashboard",
+        "blog"
+      ],
+      "sharing_status": "private",
+      "palette_id": "storm_sage"
+    },
+    {
+      "media_id": "B-IMG-001",
+      "source_path": "assets/design-palettes/6402042159658353253.JPG",
+      "role": "design_palette_photo",
+      "intended_use": [
+        "future_review"
+      ],
+      "sharing_status": "private",
+      "palette_id": "B-PAL-001"
+    },
+    {
+      "media_id": "S012",
+      "source_path": "assets/design-palettes/6567172662815848629.JPG",
+      "role": "design_palette_photo",
+      "intended_use": [
+        "landing_page",
+        "artisan_shop",
+        "retreat_pages",
+        "button_accents"
+      ],
+      "sharing_status": "private",
+      "palette_id": "desert_gold"
+    },
+    {
+      "media_id": "S014",
+      "source_path": "assets/design-palettes/7285160637428274289.JPG",
+      "role": "design_palette_photo",
+      "intended_use": [
+        "activism_pages",
+        "storytelling_sections",
+        "footer_theme"
+      ],
+      "sharing_status": "private",
+      "palette_id": "canyon_ember"
+    },
+    {
+      "media_id": "S015",
+      "source_path": "assets/design-palettes/7343761061173119617.JPG",
+      "role": "design_palette_photo",
+      "intended_use": [
+        "sustainability_pages",
+        "trails",
+        "ecology_storytelling"
+      ],
+      "sharing_status": "private",
+      "palette_id": "ocotillo_olive"
+    }
+  ]
+}

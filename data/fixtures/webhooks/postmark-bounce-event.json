@@ -1,0 +1,11 @@
+{
+  "RecordType": "Bounce",
+  "MessageID": "postmark-msg-002",
+  "Recipient": "guest@example.com",
+  "Type": "HardBounce",
+  "Description": "Mailbox does not exist",
+  "BouncedAt": "2026-03-15T21:20:00Z",
+  "Metadata": {
+    "environment": "fixture"
+  }
+}

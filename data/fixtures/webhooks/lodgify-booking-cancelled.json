@@ -1,0 +1,9 @@
+{
+  "event": "booking.cancelled",
+  "booking_id": "lodgify_booking_1001",
+  "status": "cancelled",
+  "property_id": "lodgify_property_01",
+  "cancelled_at": "2026-03-15T21:00:00Z",
+  "reason": "guest_request",
+  "source": "fixture"
+}

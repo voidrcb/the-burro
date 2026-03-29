@@ -1,0 +1,30 @@
+{
+  "id": "shop_giftables_postcard_set",
+  "slug": "borderlands-postcard-set",
+  "title": "Borderlands Story Postcard Set",
+  "description": "A giftable six-card set pairing landscape photography with short stewardship notes.",
+  "category": "giftables",
+  "price": {
+    "amount": 24,
+    "currency": "USD"
+  },
+  "images": [
+    {
+      "url": "/shop/borderlands-postcard-set.jpg",
+      "alt": "Borderlands postcard set placeholder"
+    }
+  ],
+  "story": "Giftables carry the story of the place without asking the operation to ship fragile goods. This set also gives the activism and blog work a tactile follow-on item.",
+  "shippingProfile": "parcel",
+  "status": "coming-soon",
+  "inventory": {
+    "available": 0
+  },
+  "badge": "Coming soon",
+  "leadTimeNote": "First release opens after print proofing.",
+  "highlights": [
+    "Six cards with envelopes",
+    "Field-note backs",
+    "Soft launch batch"
+  ]
+}

@@ -1,0 +1,1012 @@
+00:00:00 RCB
+I don't even know how it works.
+00:00:01 Kain bell
+We're gonna have to schedule AI free days.
+00:00:03 RCB
+That's for work. Wait, wait, wait, you're on mental health for that? Oh wait, that can't happen. Oh do I have to participate in these non- AI events? No, you can stay in your cave.
+00:00:27 RCB
+Well, I thought about this also, in case you had any ideas because I've been doing a lot of different stuff for different people as test cases to build my knowledge set. So like for our buddy that does he works in a school, we developed these data. We developed a school tracking system that records time between student teachers securely for five hundred four letter tracking. I've got another one for my nephew who does uh uh wholesale auto trader. He bids on auctions because he got a wholesaler's license. So, it helps him narrow down, which vehicles he should bid on and why and what kind of turnaround he can make. And then one for my sister that helps her do meta advertising online for her silk pillowcase business. Another thing, uh, And then another one I just built for a friend at work that scans all of Dell and other competitors' websites and inventories the stuff that it has for customers.
+00:01:25 RCB
+And compares and contrasts to tell us where Dell is doing well versus bad. But it all does it externally. But, this was literally me having a thirty minute conversation with somebody and then turning into what's called a white paper. That's the business draft, blueprinting it into code, and then coding it with coders that actually execute it. So, if you have any problems at work or things that you think that might have a potential technical solution, I'd love to hear about it. Not while you're eating though. I uh, Yeah, so work is going well. Lots of things.
+00:01:55 Kain bell
+If y'all come up with something, You might have to switch spots so y'all can talk about it. And then me and my mom can talk about stuff that's not.
+00:02:03 RCB
+Yeah, once I get started on the AI kick, I can't really stop.
+00:02:19 Susan bell
+This place has crazy hours. It's like open from eleven thirty to three a. m.
+00:02:24 RCB
+Oh my god. Oh, they've got a bar crowd, okay. That makes sense.
+00:02:28 Chuck Bell
+They sell about a slice too, So everybody comes out of these all the bars and everything bar crowds.
+00:02:32 Kain bell
+That they're open for an hour after that. And you can find a piece of slice. Did the bars close at two in San Francisco? I don't know.
+00:02:41 Chuck Bell
+It's been so long since we've been to a bar,
+00:02:43 Susan bell
+We went and saw our cousin JT perform at one of these bars and then they wanted to come here afterwards. So that's what she found a little bit. Yeah. It was really good. Oh, thank you. Yeah, actually Thursday I did.
+00:02:57 Kain bell
+I got tired of mine, uh, Of all the bleaching and stuff, and I tried to give myself a fade that ended up with a new buzz cut. Well,
+00:03:07 Susan bell
+That's the benefit of short hair is you don't always have to get it cut. Your dad just got his cut too? He was starting to kind of look like Einstein again,
+00:03:15 Kain bell
+There's, a lady at my Great Clips. I went in one time and I told her exactly what I wanted, which was not what was on my notes. And, then she just looked at my notes and did what was on the notes. And like afterwards, I was like, hey, I asked you to do something different. And you just did what was on my notes. And she just looked at the notes and she goes, oh yeah, I did. And then she just went and strung me up and She didn't apologize or anything. And then I left a review and I was like, I was just really annoyed that she didn't listen to me. And no one ever called me back or anything.
+00:03:45 Kain bell
+And I went back and I got her again. And I was like, I'm just not gonna say anything. And I just told her what I wanted. She did a fantastic job. And then she was like the perfect person to go to forever since then. Yeah, like, I think we both did it right? So. Yeah.
+00:04:15 Susan bell
+We actually got there at nine. They took my blood pressure, put me in a room, And at eleven thirty, no one had still like the doctor had not come in. That's crazy.
+00:04:24 Kain bell
+That that happened similar to me. They made me go to the dermatologist. It was one of those where they tell you to come fifteen to thirty minutes early, so I did, And then they saw me forty five, like they didn't call my name until like forty five minutes after. Like I got in there and I was being kind of short, and I was like," I'm sorry if I'm being short." I was like," I have been waiting for like an hour and 45 minutes." Like.
+00:04:56 Chuck Bell
+And Then the doctor came out. We were both myth. And she goes," Well, looking at everything, all the tests you've had done all came back normal," said no didn't not one of them. She was what? This is normal. I said, not one of them. Out of all four major tests she's had done, not one of them has been normal. And maybe they haven't physically told us they're abnormal. Doctor didn't look at the chart. Yeah,
+00:05:32 Susan bell
+That's frustrating.
+00:05:36 Kain bell
+It's like they've tried to, The doctor doesn't look at it. They just look for red flags on a chart, and if the chart doesn't tell them to address something or talk about it, it's like they're not even allowed to.
+00:05:50 RCB
+AI will change that soon.
+00:05:52 Kain bell
+Ultimately though, she came up with something though.
+00:05:56 Chuck Bell
+We'll see.
+00:05:57 Kain bell
+Very well motivated, But she had to correct her and tell her to look at it again.
+00:06:02 Susan bell
+After waiting that long. Yeah I had this, Really awful test. It's sort of like torture, man. They stick needles in all your muscles, and then they shock you over and over and over. And the needles, the needles like read like your nerve response. But it's torturous,
+00:06:25 Kain bell
+But that's cool that it can measure that.
+00:06:27 Susan bell
+Yeah, it was worse than I thought I'm pretty tough. It was worse than I thought it was going to be, and it lasted an hour. But uh. I don't know. There was some abnormality, so they're still like trying to figure it out.
+00:06:41 Kain bell
+Well, at least you came back with something and it wasn't for nothing. Yeah. A bunch of options. Yeah. Yeah, I can see that For mine, It was my doctor, um I did a physical, and she saw some spots on my chest and shoulders. And she's like I really want you to go. See the dermatologist It's important And like I went and then waiting all that time. He just looks at me for like five minutes and he's like, okay, wear sunscreen. That was it. There was nothing. Like, he was like, why are you wasting my freaking time? Yeah. Like I'm sure she like maybe stop and sit down and say, hey, maybe start. It's time to start thinking about routine checkups on these things. Not hey, go do this, it's serious. And then then waste my life. Set the right expectations here.
+00:07:31 Susan bell
+It's very frustrating very frustrating.
+00:07:35 Susan bell
+When I first told them like, I have another appointment and I've been here for two and a half hours, nobody's seen me. They're like, well would you like to reschedule? So I can come here and y'all don't see me again. I don't have like confidence at the moment.
+00:07:52 Chuck Bell
+I think it is. Number one in like the area.
+00:08:07 Kain bell
+It sounds like that guy. That's what I thought too. I was like," That sounds like Mr. Something in the barn."
+00:08:18 RCB
+How's your job going? Better, hopefully, than last time we spoke.
+00:08:24 Chuck Bell
+Think about it. Hopefully, we can get some stuff solved.
+00:08:29 RCB
+Well, I just met with the team. Like, are you more comfortable? It sounded like you got into something that was a little bit different than you expected. Has it settled down?
+00:08:36 Chuck Bell
+But I am pretty much embracing it. I do like it. I do like it. It was.
+00:08:41 Susan bell
+A big change for him. Don't mean to speak for you, But he was like physically working eight hours, and now some days he makes a lot of phone calls, some days there is nothing to do and he watches TV.
+00:08:54 RCB
+Anything to get you off a roof in one hundred degree weather?
+00:08:57 Susan bell
+I think it was just a huge change. Yeah.
+00:09:02 Kain bell
+Sometimes I'll have these, you know, hard days. My brain is hard coded to think I need to have a hard day to relax. So, it can take a lot of kind of like training yourself to relax and feel like you earned it when you're not killing yourself to get there, right? On a full day.
+00:09:21 Chuck Bell
+Well, I'm working today. Like I'm gonna be in class today. Coming up. A piece of property bought and we're going to go look at uh. some trucks. And uh.
+00:09:34 Kain bell
+They make all the dough here, she's making it right there.
+00:09:37 Chuck Bell
+Showing him to show him Uncle Mike's house and he wants a barn.
+00:09:44 RCB
+That little puppy that they brought in Anthony is so cute. That is a cute little dog and it's gonna stay small too, right? Oh I think she's done.
+00:09:52 Susan bell
+Anthony's trained it. When he's practicing golf and he hits the golf ball, the dog goes and gets the golf ball and brings it back to him. Oh yeah.
+00:10:00 Kain bell
+She's like, make me warm, I'm freezing out here. That's really good, I'm really garlicky. Okay. And I'm bringing you. Pokemon game that came out with one of my friends. And I upgraded my computer. And I finally had my one year in the new position. And I've been reminding my boss for a while, but he finally put in for a raise request for me. We'll see, I don't really know how that's gonna go on the corporate level. I don't know if they're gonna throw like an hourly, so I don't know if they're just gonna throw like a dollar at me. Be like, alright be happy, you know? So we'll see. Only happy with what you got?
+00:10:53 Kain bell
+I believe so. I'm getting lots of positive feedback, But they've they've restructured in a way where the decision is out of my immediate boss's hands. Like, they hired a CEO to make those decisions now. Like, so I'm kind of going to be stuck with what I get, but I know I'm doing a good job and my. I know, I could probably find something else somewhere eventually, if I wanted to, if they don't give me what else. Right now, I'm still just happy with. Going in early and.
+00:11:22 Chuck Bell
+Getting off early and not working weekends. Well, since you're an inventory specialist, that translates to so many different things.
+00:11:29 Kain bell
+It's a very vague title.
+00:11:32 Chuck Bell
+But it translates into every kind of industry. A widget's a widget.
+00:11:44 Kain bell
+My day- to- day. I handle all the receiving paperwork that we get from deliveries on trucks. Um, if someone can't find something, I help them locate it. Um, if stuff goes negative, I have to look at why something either didn't get received properly or why it got sold wrong and make corrections and stuff. But I've also kind of just inserted myself into the process. If I see a big order to a big account going out and something seems wrong with it or like they tried to buy something. And it says we don't have any of it.
+00:12:18 Kain bell
+Typically, it's an account that we would order stuff for. I'll look and make sure the right things got ordered and fix those problems. So, I've made myself very busy because some of that's not technically what was in the title ;. It's just me being like. But you make yourself invaluable. Exactly. And my boss likes when he finds a problem and I'm like, "I'm almost done fixing it." Like, give me a minute. He's like, "Oh okay."
+00:12:48 RCB
+We didn't.
+00:12:59 Kain bell
+Need the pizza. We just could have got some garlic bread and salad. It was our friend Lindsay's birthday last night. We went to pinball.
+00:13:18 Kain bell
+And Jason, what tea as well? We should send him a message.
+00:13:22 RCB
+Maybe we can.
+00:13:24 Kain bell
+And my stomach just totally gave out after like an hour and a half, and we had to leave. Still just randomly have times when it's like I'll go to eat something. And it's like I'm still full from breakfast. And like just everything will reverse.
+00:13:39 RCB
+Lindsey's lost 100 pounds. Yeah, she has.
+00:13:43 Susan bell
+Your dad's working on still trying to get on that.
+00:13:46 Chuck Bell
+Yeah, my church is one hundred percent will not cover. They said we don't need to talk. I called and talked to them and killed on third. They said we don't need to talk about it. Sleep apnea is going to kill me, I can honestly say Zepbound cures my sleep apnea in three weeks, not that long anyway. In three weeks, I did not have.
+00:14:05 Susan bell
+Specifically wants to be on Zepbound because, The doctor was saying that it's got something in it that really treats sleep apnea better than the other stuff.
+00:14:14 RCB
+The goal is better health. How much is it without insurance? Now we've got it down to about four hundred. I mean, it's still ridiculous, but it's. It's car payment versus uh a house payment.
+00:14:27 Susan bell
+That price also and that's like.
+00:14:29 RCB
+That stacks quickly, yeah. Can't do everything.
+00:14:35 RCB
+Well, if that one can work at all for you on the weight loss, eventually it'll take care of a lot of other problems.
+00:14:40 Chuck Bell
+Take care of. The doctor said I could take care of. He said you will be off every single medication except the blood thinner.
+00:14:48 RCB
+In fact, The blood thinner was the first one I had to get off when I lost the weight because I was having dizzy spells. I've been off it for a month now and best have ever felt. Uh, statin is next, but I have to stabilize weight first. But yeah, uh, I did it for blood pressure and cholesterol and it sounds like.
+00:15:03 Chuck Bell
+No, my cholesterol was actually great. Great three four. You want to pretend like it's an intermission?
+00:15:12 RCB
+Then use her number so that way you can be like, hey insurance, look what I have. Is that a one? No, that's a two. It's two. I fixed it for you.
+00:15:21 Kain bell
+Yeah, I'm on everything, but I'm still on the low dose of wigammy for another month.
+00:15:26 Chuck Bell
+I'll be on uh. I'll be on the blood thinners my whole life. I'll never go off of it.
+00:15:29 RCB
+I'm planning on staying on the wigammy, Permanently, but maybe not at this dose, but.
+00:15:36 Kain bell
+Yeah, my my weight's totally plateaued even though I'm still on it. So I'm gonna talk to my doctor and ask if she can prescribe it for one more year just to see if like if my cholesterol and triglycerides and everything are still trending down. Then I'd like to Like if my labs are still trending really positively, I'd like to stay on it since my weight's not changing anymore. What dose you mean? Um, Point five, point two five. The lowest or the second to lowest dose.
+00:16:07 RCB
+And he still eats Reese's like they're, wait, I can't even think. Every day, every day. No problems though. Loves the Reese's.
+00:16:17 Kain bell
+I like the white chocolate, uh, Easter ones specifically.
+00:16:24 Susan bell
+I just had to buy a bag of robin eggs. That's like, I get happy when it's there's seasonal ones.
+00:16:29 Kain bell
+Like you got to get them while you can. And it also, you don't have shame because you can't do it all year. They don't exist all year.
+00:16:36 RCB
+The problem is since we've done the Ogavi, We find something like there's a holiday every season that brings some nice chocolate and a nice white chocolate.
+00:16:46 Kain bell
+Can you set this over there? I'm going to keep eating it if it's right in front of me. And I want the calzone. That's better. It's so far. To be honest, I think any place you go to that makes their own dough will be so much better than anywhere else these days.
+00:17:09 Chuck Bell
+Do you know if you knew that we're actually going to. Oh, perfect timing. Y'all are welcome to any of them if y'all want'em. Y'all can't have any of them.
+00:17:20 RCB
+You're allowed. To be honest, this looks absolutely disgusting now. There's too many things on there we don't like. You've ruined this. It was a pizza, I don't know what it is now. For some reason, The only time I like mushrooms is.
+00:17:34 Kain bell
+In like this citrus broth at the Melting Pot, and I can eat them like giant mushrooms whole, but I don't like them any other way. Hello? Hello?
+00:17:49 Kain bell
+A supreme that's like the traditional pizza from like Pizza, Hut and stuff back in the day.
+00:17:54 Susan bell
+Oh, I just keep getting a strange saying when we're coming to Cancun on Tuesday. Are you flying? Are you cruising? We're flying. Robinson for Ross's wife Stacy's fiftieth birthday. So, we're going to stay at an all- inclusive resort for four days and.
+00:18:12 Kain bell
+Get far away from all the issues that are going on. Yeah.
+00:18:15 Susan bell
+It's literally, I looked it up. It's something crazy like sixteen hundred miles away or something.
+00:18:22 Kain bell
+Oh, that's awesome. That's very nice. Yeah. Need to get away and get in a hot tub.
+00:18:27 Chuck Bell
+You say the truth.
+00:18:29 Susan bell
+We need to get away. We've been, uh, you probably have seen our posts. We were like stressed about it.
+00:18:34 Chuck Bell
+All day long. Something you're passionate about? Engines or your mother is doing a real emphasis on shoes. Well. And supposedly, There are going to be some changes, but we'll believe it when it.
+00:18:48 Susan bell
+It would be devastating. It would that whole area would become a ghost town. It's all tourism, so everything that we've done,
+00:18:56 Kain bell
+I mean like destroy Terlingua, right? Yeah,
+00:18:58 Susan bell
+Terlingua would be gone. Lajas would probably be gone. The park, they're they're talking about Benson off two thirds of the best part resort out there.
+00:19:07 Chuck Bell
+That campsite there all gone They basically give the entire river to Mexico because of the wall.
+00:19:14 Susan bell
+Real gorgeous canyon, San Lina Canyon. Gone. The hot springs are gone. The other big. They're going on the other side?
+00:19:19 Chuck Bell
+And that's all pictographs and everything. It's just if they can just do, even if they can delay it until Trump's out of office,
+00:19:26 Kain bell
+So were we in Mexico when we were on that or just the way that they're building this?
+00:19:30 Susan bell
+Well, they're building it on our side. Yeah. And because it's a high flood area, They want to take it away far from the river, so it doesn't damage it. So, they're just giving all the most beautiful parts of the park to Mexico It's. There's no access. And plus all those animals that in the park.
+00:19:47 Kain bell
+There's horses.
+00:19:48 Susan bell
+It's a freaking desert and they're gonna shut them off from the river.
+00:19:52 Chuck Bell
+So we all got food there. A little bit of cream, you guys want another steak? There you go, dude. Need you guys anything else right now? I think we're all set here. Parmesan and pepper, please?
+00:20:14 Susan bell
+It's like that Christie gnome, like kind of went rogue on us. It's like they waved every environmental law, waved it. She waived the clean water act. She waved.
+00:20:25 RCB
+Then how can she do that? Exactly, she's an.
+00:20:28 Susan bell
+We're like, how do they have extreme powers where they can just wave? Like she waived twenty six environmental laws so they could push that through. I.
+00:20:40 Kain bell
+Didn't know that was possible.
+00:20:43 Kain bell
+Important thing to do is to call attention to that as much as possible.
+00:20:46 Susan bell
+To I mean, your dad and I both individually called every representative. We've called the Democrats, the Republicans. We've called the head of the National Park Service and put messages on every national park page. Yeah,
+00:21:01 Kain bell
+Maybe squeaky wheel gets the grease. Yeah, Well,
+00:21:04 RCB
+Well with this administration, nothing gets like you say you just got to last till he's out.
+00:21:10 Susan bell
+What was interesting there is the day that they fired, Christina, The whole map changed where they were going to do detection only in Big Bend instead of the wall. So I don't know. People are speculating that she kind of went rogue and was like pushing.
+00:21:27 Kain bell
+Did things without approval or permission. Yeah, We're hoping I think there's I think there's a lot of uh do it and ask forgiveness Well,
+00:21:36 Chuck Bell
+I think I think she did it trying to quote favors trying to move up with administration.
+00:21:41 Kain bell
+And then it's coming to blow back. And do the opposite.
+00:21:47 RCB
+See. Giving land to Mexico, that sounds counterintuitive to what they would want to do.
+00:21:56 Susan bell
+In my opinion, the most beautiful land in Texas, Just giving it to Mexico like I hate I'm going to get fired up like you do about AI. But I I just I don't get the mentality. They have all kinds of. Devices that all the border agents are posting are way better than the wall. Why do the wall and kill everything and ruin everything and give land away when you could put one tower up that covers miles? Like a kilometer map.
+00:22:30 Chuck Bell
+Not to mention the amount of money they're going to spend on it is ridiculous.
+00:22:36 Susan bell
+I don't know if you saw my post, but sheriff or something, For Granger County. The sheriff said," So what you know, what's the problem? How many people have you caught crossing the border?" He goes," In the last three months, one person." And, they want to spend two billion dollars to put up a physical wall. That.
+00:22:56 Kain bell
+Doesn't like the math just doesn't check out. Like it's idiotic.
+00:22:59 Susan bell
+Even the sheriffs and the border agents down there are fighting it. My.
+00:23:04 Chuck Bell
+Mother and I have discovered that we are libertarians now.
+00:23:09 Kain bell
+It's political showmanship. It's just bullshit. I'm sorry y'all are dealing with that.
+00:23:17 Susan bell
+It's just our investment and our time and we'll still have our place, But the whole point was, we wanted a place to stay where we could go, enjoy the rest of it. And.
+00:23:29 Kain bell
+You see parts of it taken away.
+00:23:31 Susan bell
+Yeah, there'll still be a little bit, but I don't think it'll be enough to draw tourists and. Yourlingua depends on the rivers. What what happened to the beavers? Yeah, what? Well, I guess they're going to be on the Mexico side.
+00:23:50 Chuck Bell
+They will, but they won't get the protection that they would get in the U. S. I don't see how somebody can click their fingers and make twenty six laws go away. So now why not click your fingers and make bank robbery okay?
+00:24:09 Chuck Bell
+Definitely opened our eyes.
+00:24:17 Kain bell
+Oh, You can do anything fighting for what you what you fought for and what y'all have. Everything's.
+00:24:27 Susan bell
+Safe and all right down here, you guys. Awesome, I love to hear it. You know we're literally gonna. There's a protest we're going to in Austin. We're gonna go to a protest in Austin in April. You might see me on the news getting escorted away by ICE. Making me proud.
+00:24:51 Kain bell
+Making signs to hold my doors. Every time there's like a bunch of weird cars in our parking lot, a lot of our employees are freaked out. Like when they see like an unmarked cop car and stuff out there, they're like," Tame, will you go check it out?"
+00:25:10 Kain bell
+They won't go after you.
+00:25:14 RCB
+I didn't realize you guys had people that had to work.
+00:25:18 Kain bell
+We have a, I mean, we have a lot of folks who only speak Spanish, or maybe they're over here on a visa to see their family, like even if they're here, legally people are scared.
+00:25:31 Susan bell
+Can you see them? People from the keys, they do come across. Yeah, Yeah. But they don't. They're harmless. They don't wanna be here. They don't wanna be here. It's 165 miles to the next town in Mexico. And sometimes they just need something from the store or something. Yeah, I know what.
+00:25:52 Kain bell
+You mean. They're not coming over here to buy a house in your neighborhood or to. There's someone trying to survive, you know? Even.
+00:26:03 Chuck Bell
+They make their walking sticks and stuff like that? They sell their little.
+00:26:43 RCB
+How Far away are the pretty spots that you mentioned from where you actually have land?
+00:26:51 Susan bell
+To here? Sixteen miles.
+00:26:55 RCB
+So it's not something easily visible for you.
+00:26:59 Susan bell
+We can see the mountains from our land, we can't see the river.
+00:27:02 Chuck Bell
+Yeah, we're sixteen miles off a paved road. Like literally, we go to where the if you look at a map of it, we go to the Terlingua ghost town. We go north sixteen point two miles to our land.
+00:27:13 Susan bell
+What's weird about our land is it kind of goes like this. And we circle all the way back where we can see the mountains of the park. We're right next to the park. If you looked at an aerial map, we're literally right next to the park. I guess,
+00:27:26 RCB
+I was just looking for opportunities to get your message out to other people thinking, like if it was close enough to some type of land. You might be able to get webcams strapped to trees to look at the pretty views and then put that up on websites so that you can actually talk to people about this is what you're giving up, this is what we'd be losing, this is where they're going to put a wall. Like bunny rabbits get hundreds of thousands of views. Yeah.
+00:27:52 Kain bell
+Beautiful canyons and sunsets do too.
+00:27:54 Chuck Bell
+Yeah. Well, there's wild horses, there's wild donkeys. Believe it or not, there's wildllamas out there. Most of those are more toward Borrego. Well.
+00:28:04 Susan bell
+That scenario would require a uh a mobile sat link because you're not anywhere near anything. I don't think anybody else would be bold enough to attempt that. I really don't.
+00:28:38 Kain bell
+Oh, it's just done for no reason.
+00:28:41 RCB
+Well, You might be able to file some court injunctions that prevent things from continuing for a certain period of time.
+00:28:47 Susan bell
+Oh, we've been reaching out to some of the people that will do that. What is it? The Sierra Club? You know, oh yeah, they've already seen him through.
+00:28:59 Chuck Bell
+You can actually get a hold of Sierra Club even through their website. Um, but I I yeah they they the.
+00:29:05 Susan bell
+National Park you know conservative conservatory. They're they're suing him right now for stuff he's done to the national parks.
+00:29:12 Chuck Bell
+And and today they do. You know, I wanted I want a wall in certain places, but I have learned that it's not you don't do draconian measures. They, they would need to to go to areas talk to law enforcement, border patrol in the areas and say, is this advantageous for you? Or do we need to do something else?
+00:29:34 Kain bell
+Get involved with the local.
+00:29:35 Chuck Bell
+Correct. You know, they would talk to you, the sheriffs and border patrol out there. They would say no. And I would have never got involved in it or had much of an opinion about it. I'd just say go to hell, we're going to build a wall, but not anymore. Don't do it anymore. I learned my lesson, you know, be careful what you wish for, you might fucking get it.
+00:29:50 RCB
+The cartels are really good at tunnels. They don't care much for walls. So doesn't really help now the concrete below those walls.
+00:29:56 Susan bell
+From this sheriff's. What did sheriffs? The wall in Arizona that went through some natural area. And, they literally found where they had the cartel, had jacked it up and had gone under it.
+00:30:11 Kain bell
+It's like with a car jack? Yeah. Wow.
+00:30:14 Chuck Bell
+Most of the concrete underneath the fence is like twelve, fourteen feet deep though. They do a lot of. Cut the post off.
+00:30:23 Kain bell
+They might have separated it.
+00:30:24 RCB
+Cut the post off. If you're transferring a billion dollars of drugs each year, you'll pay for the tunnel that's 14 feet deep. No problem, right? Where there's a will, there's a way. You don't stop a flood, you redirect it.
+00:30:36 Chuck Bell
+You just get a different tool or building many subs.
+00:30:39 Susan bell
+They'll take boats, and then we'll have to block off the ocean, not block up. Build a water wall.
+00:30:45 Chuck Bell
+Water wall. I guess that was my next thing. Well, if they got to build, they got to do walls in those places, we better put one in Port Aransas. We got to do one from from uh Maine all the way around the rest of the entire country. And just put it thirty feet from the water,'cause we're giving away our beaches too.
+00:30:58 RCB
+Well be careful because he wants to expand the country, and you don't want to, you know, cut off Greenland when when we're apparently going to annex it. And Canada, You know, so And hey, Mexico could be around the corner. So why do we need a wall?
+00:31:14 Susan bell
+I think he just wants to, he wants his Great Wall of China. He wants to have Trump's wall that he built. But,
+00:31:20 Chuck Bell
+It was part of what he ran on, and he's trying to keep his word or what he ran on. Like I said, be careful what we wish for, we might get it.
+00:31:35 Susan bell
+I did not vote for him.
+00:31:48 Kain bell
+It's very good. I don't get options for many calzones with ricotta, so I'm a happy camper. But I still think the garlic bread was my favorite part. That was outstanding.
+00:32:02 Chuck Bell
+Garlic olive oil cheese is probably our second favorite pizza now. Only a box or no, it is.
+00:32:19 RCB
+I Took my medicine late last night, so food is not friendly with me right now.
+00:32:27 Kain bell
+My stomach's been weird all week. I have an inventory coming up that I'm thinking about, so I might just be stressed.
+00:32:35 RCB
+It's not the full bag of Reese's you eat every day.
+00:32:50 RCB
+This can go next to the other uh, leftovers that will die in the fridge slowly over time.
+00:32:59 Susan bell
+Made a plate of nachos last night or I guess I made a plate of nachos while you were gone. The dogs got them. But, they they left all the jalapenos like it looks like they pushed the jalapenos with their nose. Oh those dog noses yeah They had like a little row right here, like they got them all off.
+00:33:24 Kain bell
+Cute. So that was louder than I thought it was gonna be. Can you put this in the chair? No.
+00:33:31 RCB
+You can put it behind you or in the chair there. No, she's making dough behind us. Oh.
+00:33:37 Kain bell
+There's dough behind us. She's letting the dough rise. They probably have to put it in a fridge overnight or something for a dough riser.
+00:33:48 Kain bell
+We use that machine in Hobart. That's what I made dough with at Papa Murphy's. Put it in here.
+00:33:57 RCB
+Does it like knead the bread? Is that what it does? It makes the kneading motion. I'm serious,
+00:34:05 Kain bell
+Leftovers don't get eaten in our house. I don't think I'm gonna eat dinner tonight with how my stomach's been. You can get a calzone too, babe.
+00:34:18 Kain bell
+You care. You don't want the calzone.
+00:34:21 RCB
+Yes, sir. He won't eat it. You know, he just said his stomach is bad tomorrow he won't eat this.
+00:34:28 Kain bell
+Well, we're doing movie nights tomorrow too.
+00:34:30 RCB
+Yeah, So I put this on top of your box, so you can throw it away if you want. It's good That was very good.
+00:34:38 Chuck Bell
+We probably come here,
+00:34:41 Kain bell
+Three or four times a year. They are doing insane things for thirty five. Right by our house. Oh. It is a death trap. Oh my gosh,
+00:34:52 RCB
+Like. Can we not take thirty five back? Can we take forty? Can we take twelve?
+00:34:56 Kain bell
+If there's an easy way for me to get on, yeah. Yeah, totally.
+00:35:00 Susan bell
+You should see it right after shirts. It is unbelievable.
+00:35:04 Kain bell
+Have they like gotten rid of all the merge lanes and stuff? Yes.
+00:35:09 Susan bell
+They're doing a whole upper level. So it's just all construction and they just periodically cut off lanes. So you don't know what's coming. And. Everybody just like.
+00:35:19 Kain bell
+And everything just digs to the right, like ten feet out of nowhere. That happened to us.
+00:35:23 Chuck Bell
+I literally had to stop in a turn in an angle corner where cars was about both sides. And we were there for ten minutes till, there was nobody get through there.
+00:35:32 Kain bell
+It's doing that stuff and while you're already going five over, you have someone tailgating you mad at you for not going ten. Yeah, I don't even know what they're doing either. I had so many people that I was like, aren't cruise controlling? All of y'all can pass me like, I'm not I'm not doing what y'all want me to do right here because I will die. There's so many cars around me. With all the on- ramps being how they are, I end up getting in the middle. So I'm not fighting a merge every other car like. The.
+00:36:06 Chuck Bell
+Far right- hand lane is really a cruise exit lane. Far left is the fast lane, pass lane. Middle lanes drop lane. Still leave me alone, Lane.
+00:36:26 Susan bell
+Yeah. Not this week, but when we get back. We've been I have stained we we were trying to do everything cheap, but I wanted like satillo tile. I just like that Spanish tile. And I found some gray unsealed tile and, And I stained, but two hundred and sixty three tiles. Oh wow. By hand. Yeah, it's the tea of it's nice. You had to like do it with a paintbrush because it's all kind of design on it. So I like painted, stained so we're trying to put the bathroom all together. It's been we've been working on this a lot.
+00:36:59 Chuck Bell
+Right now for a potty. Uh, when I broke my pelvis, there was a potty chair. Yeah, that's what's out there. Yeah. And so, you know, it's one thing. Do, you want to start taking some of this trash out of the house with? Yeah. Thank you. So we're going to be all together today.
+00:37:17 RCB
+What do I have today? Oh yeah, kind of cool. You guys are fishing fishing on.
+00:37:24 Chuck Bell
+The right back there checking it out.
+00:37:27 RCB
+Um. But for a guy it's one thing. Put your car away? No, just let it split.
+00:37:34 Kain bell
+I just got a new job, And a new wallet. Brian has bought so many pairs of shoes. I need a new wallet. Show show my mom your wallet. It's.
+00:37:47 RCB
+Got a matching key set, this Pac- Man key set. Oh, that's that's all of them, that's cool. Well, We made I got a couple old shoes. So I made a toy for our our cat that has a footbed in it. So this is his new toy. It's a flat scratching pad with. All the'cause I, we removed all the insoles. So we could put nice insoles in. So those are all fresh, they're not like thirty insoles. And apparently Thomas said that he's already Oh my gosh,
+00:38:22 RCB
+Is he using it? I haven't seen this video yet. I thought he was gonna go crazy but he's selecting it? He's very in.
+00:38:34 Kain bell
+He knows it's his. Oh yeah.
+00:38:41 RCB
+New filming. That's awesome.
+00:38:44 Kain bell
+So it's now it's been hard, yeah. He's becoming much more cat- like over the years. He was a weird addition from our friend.
+00:38:55 Chuck Bell
+I got I got this hair is just crazy cats out there. You guys want to do it right down the middle? Yeah, Aaron's the the crazy cat lady. They uh no, how many cats they have? Six.
+00:39:10 Susan bell
+Seven. They did have like eleven, but I think they got rid of five of them.
+00:39:15 Kain bell
+How was everything today you guys? I'm not surprised they got so many. I'm sure they had favorites eventually that they were like no.
+00:39:23 Chuck Bell
+Oh, the one mama had babies and Aaron, I mean, they all went to the vet, and she was ready to hand them all out. Thank you guys so much for coming in today.
+00:39:31 RCB
+You'll have one of our SCL stable families. Oh, wait, what happened with the kiddies?
+00:39:37 Susan bell
+They might have gotum got them adopted. She gave them away to some of them to her.
+00:39:42 Chuck Bell
+There was a lady that referred to her, and this lady has some website for that area and gets gets the kittens adopted. Okay, so Aaron took them all to the vet, had them all checked out, had all their shots and everything done and then when they were old enough, He gives the information and pictures to that lady, and that lady puts them online. And then Aaron just goes and meets people and gives them away.
+00:40:04 Kain bell
+They were basically a foster rescue. Yeah.
+00:40:07 RCB
+Which ones did she keep? Did she get the mama? And I know there was one that she wanted, like a baby, one of the babies she wanted to keep. There's an orange one.
+00:40:16 Chuck Bell
+Ginger biscuit? And there's one that Matt got from a pet store. And, then the mama of all the kittens is at One, or two of his babies are at Petco, but they've already had. So I think she has five. What? Oh okay.
+00:40:28 RCB
+Yeah, I thought she might keep it a couple of the kittens,'cause she was attached to it.
+00:40:31 Susan bell
+Yeah. The kids like. They had a favorite that they were like uh.
+00:40:37 Chuck Bell
+So they. Aaron's just an animal lover but has a specific cat he loves him. Absolutely loves him.
+00:40:46 Kain bell
+Well, And I'm sure it's hard for them to have to be the one that's like, no, we can't have them all. But I'll have a hundred of'em here in my house. It's like we want'em but we can't say yes.
+00:40:58 Chuck Bell
+She was like, giving them antibiotics. One of them she had to hand feed for like a month.
+00:41:04 Kain bell
+No one didn't make it, I don't think.
+00:41:05 Chuck Bell
+No, only two.
+00:41:08 Susan bell
+She was kind of doing that and one didn't make it, one did. But she was oh my god, she was bawling her eyes out when that one. Oh yeah,
+00:41:19 RCB
+It gets expensive real fast. Medical.
+00:41:23 Kain bell
+Care for six living things all of a sudden.
+00:41:26 Susan bell
+One of them, she gave to Reagan and then I have one of her cats. Oh,
+00:41:31 Kain bell
+That's good. That makes me happy. Yeah,
+00:41:33 Susan bell
+So Hunter, when we had that freeze, Hunter's like I forgot what their cat's name is, but he's like I'm worried about its family. Does Aaron have him in a warm place? Like it's so sweet. Like he's the sweetest kid.
+00:41:47 RCB
+We have a really good. Uh, it's only a forty fifty dollar shelter for feral cats that you put out when it freezes, and it will. It's more than enough to keep them alive. It doesn't need anything special, just to be set out. But it's insulated, it sits off the ground so it doesn't lose its heat. And the cats generate their body temperature is one hundred and fourteen degrees, so they generate heat a lot. So, it's basically like a lunch, an insulated lunch box is with a hole in it, and they sit in there. And yeah,
+00:42:13 Susan bell
+It's I think Erin caught them all putting into the bathroom during the freeze.
+00:42:17 Chuck Bell
+Oh she said that was better because I already raised a cat.
+00:42:20 RCB
+Well, we've got one now, just in case there is ever a feral cat we put. Cause cats will prowl a certain area, and they always go for the corners of things. So if you put it in the corner, a feral cat will find it in a freeze, cause they're looking for a place. So yeah, we just we've kept it. So that now each season I got one for my sister, too. And hers got mine didn't get used this season. Hers, did she cried? She cried my sister's, not really good with truth these days. Where does she live? Uh outside of the woods? Okay, yeah, area outside.
+00:42:51 RCB
+They don't consider themselves in Houston. That's pretty, pretty much. It's a forty five minute trip out there from from the city, so is it? Yeah. Into the swamp. It's a swamp.
+00:43:05 Chuck Bell
+Everything is getting so big and so cluttered and You know that upper deck that they're building in San Antonio right now? Just like Matt said, he goes, not gonna help anything. Says it's gonna get congested right before you get on or right when you get off is gonna be congested.
+00:43:19 Susan bell
+It is insane. There are so many wrecks. I think due to the construction, we just hear sirens at our house nonstop all the time. It's just. Well,
+00:43:31 Kain bell
+It's even worse on a spot that has been the same for so long. You come back through and you don't know what you're in for. Like, there's not a whole lot of signage that tells you to expect slows or changes. It's just construction signage.
+00:43:49 Chuck Bell
+Austin's Better about it than probably any place else. San Antonio, They just have a two by two red sign thirty feet before you hit it. Like Matt said, though, and Matt was right, you know, building more roads and upper decks are not all congestion is the answer.
+00:44:02 Kain bell
+You got to You spread them out and then you constrict them again.
+00:44:05 Chuck Bell
+Yeah. So really you got to get fewer cars. You need better public transportation and incentive for people to use that public transportation unless you get fewer cars on the road. I don't fix anything. Hey Rob.
+00:44:22 Kain bell
+They're doing that uh South by this next weekend in Austin, so our roads are just full of people. It's weird, You go to work at five in the morning, and you can tell there's four times the cars that there normally is. And half of them are eighteen wheelers. I'm.
+00:44:41 Chuck Bell
+Just happy when school's out and I don't have to get stuck behind a school bus.
+00:44:46 Kain bell
+They built a, A little school like in our neighborhood. It's right after an H E B center, But there's a back way that we can go around to get to that H E B center. If we want to. And at that back way, at the end of it, they're building like a domain. And then on the other side of that H E B, they built a school. So now our back way, you hit school traffic and in a few years, you're gonna hit a major shopping center. So like it's just it's so busy now.
+00:45:14 Chuck Bell
+I think they actually I don't I think they actually started uh, Creekside, where uh Buc- ee's and all that is in the Bronfels. They're going to build a sister to it in Seguin. I think they started moving dirt. And that's I ten and forty six That.
+00:45:30 Kain bell
+Seems awfully close.
+00:45:35 Chuck Bell
+It'll Be it'll be so covered up, dude. Thank you, sir. Thank you, sir So it's not about the ranch, huh? We used to go. You know how there's in the wrong place. What is it four H E B's now or each three?
+00:45:57 Kain bell
+Three. It's just weird to me when you see places that businesses can't seem to stay open yet. They're building just more strip centers down the road like I don't understand. The big box stores though they fill them up man. Thank you.
+00:46:12 RCB
+Maybe I'll take that basket out of your way. Oh yeah, thank you again, You'll have a wonderful day.
+00:46:22 Kain bell
+I Just keep thinking that they better put a good restaurant in there because there's no shopping that I want in there. That's not already around us that I can think of. Oh,
+00:46:32 RCB
+Yeah. It'll be busy stuff. A ramen place, uh, Some big, the Park One and the Park Resort.
+00:46:40 Kain bell
+Maybe if they put in a Uniqlo There's, not one of those in Austin.
+00:46:45 Chuck Bell
+They opened up a, real hard to change hot chicken. It's real popular. It's kind of a popular chicken chain.
+00:46:53 Susan bell
+It's not really special for the amount of attention it was getting in search. I mean, it was like cars, traffic jam of cars on the access road trying to get there. Yeah, we ate there and we're like, wow, there was a line. A line of people like thirty deep outside the door, waiting to get in and.
+00:47:12 Chuck Bell
+I won't give them this they opened up. It's not Cisco food,
+00:47:16 Kain bell
+So everyone's losing their minds.
+00:47:19 Chuck Bell
+They did they opened up a they're opening up an Olive Garden right down the street, which is nice. You know, it's not amazing, but it's at least it's close and it's decent. But like Aaron said though, they're opening up a new chicken place on the other corner where we live. I mean, there is Golden Chick, there is Kane's Chicken. There is every every chicken place in the world is within about three miles from our house. So it was nice to have something that uh, Not a Mexican food restaurant, not a chicken joint.
+00:47:46 Kain bell
+I went to Chain's Chicken on my birthday, and they didn't they didn't hook me up for anything. Wrong spelling.
+00:47:53 Susan bell
+You got that weird spelling that nobody else.
+00:47:58 RCB
+Actually, no. I saw something that had pain as one way, like one of those. It was in one of the hat stores. I think we were at the And it had a k on it, so with a k. It was your spelling.
+00:48:11 Susan bell
+Thank you.
+00:48:14 Susan bell
+He filled out the birth certificate. I would have done.
+00:48:18 Susan bell
+K E or C A I. It's usually the way it goes. He changed it up for you.
+00:48:25 RCB
+Oh, you were expecting to be C A I? Oh, you're like this was not a plan.
+00:48:34 Chuck Bell
+No, I can't believe we're actually leaving on Tuesday. We might take the dogs tomorrow evening.
+00:48:43 Susan bell
+Board and the dogs with that, the same place. Yeah. He takes really good care of them. So awesome.
+00:48:47 Chuck Bell
+She literally won't say no. She can be completely full, She won't say no, when I tell her, she can't do that shit.
+00:48:54 Susan bell
+They love her like we drop them off, and they run into our office. Real quick to say, hi, She's like.
+00:49:00 Chuck Bell
+She gives'em treats,
+00:49:01 Kain bell
+That helps She knows how to Play Yes It's probably just they're happy, good dogs and she's like. They're happy, like well of course we'll take them. Like they're not as much trouble if they want to be here.
+00:49:12 Susan bell
+Except, she has to put Bebo in a special cage with a roof on it because he climbed out one time and destroyed a bunch of stuff.
+00:49:21 Chuck Bell
+Destroyed a bunch of shit. He can climb a chain link fence.
+00:49:26 Susan bell
+He went and like chewed up some of the grooming stuff. Oh no!
+00:49:31 RCB
+Did they charge you guys for it?
+00:49:32 Susan bell
+We offered to pay, she's like nah.
+00:49:36 Chuck Bell
+But I mean Chew is heaven.
+00:49:42 Chuck Bell
+She Was having some trouble a while back. I gave her a few hundred dollars. She has a benefactor. She didn't even say who it was that gave her evidently thousands. So, with employees and everything, She struggles, and she tries to give us discounts all the time. And we just say," Why? No." It's okay. If you pay cash, you save eight point two five percent. But.
+00:50:13 Susan bell
+We started going there when we had a Corky because he had to have insulin. Yeah. And she was the only one we could find that would give him his insulin, and she's she's really good.
+00:50:23 Chuck Bell
+I mean now Mark uses them, Linda uses them,
+00:50:27 Susan bell
+Or the diamonds use them.
+00:50:31 RCB
+What time is your thing?
+00:50:32 Chuck Bell
+I'm gonna meet a guy not far from my parents'place at two, He's uh, the guy who went to the hospital. Those.
+00:50:47 Kain bell
+Are small teams. Spaces so people like them.
+00:50:51 Chuck Bell
+You know, I don't know why people like them. Before, they were so cheap, Kane. They were just made more sense. I could get somebody twenty years ago, I could buy in a house for fifty dollars square foot.
+00:51:08 Chuck Bell
+And now, a barn goes with a cheaper regular house. The only thing I'll say about it, there are no load- bearing walls. Everything's real wide open. Um, you typically insulate them a little better. And there's almost zero maintenance. People can do whatever they want in it. I mean, really if you think about it, the cabin that we're building is just a barn goop.
+00:51:34 Kain bell
+That makes me think of that other show we watched. We have that on. I always liked how he was like in a warehouse. There's a onevaulted space for a bedroom with a kitchen underneath it.
+00:51:47 Chuck Bell
+There's a uh uh school in downtown Cibolo that somebody turned into a house. Really? It's what school? Which school? I mean, is downtown downtown right off of seventy eight, like where the Sonic and Church's Chicken and all that. Oh, I don't remember what school I was. I don't I don't think there's ever been a functioning school since we've lived there. But let's see where is it?
+00:52:15 Susan bell
+I like the smell of this place, like the dough. It smells good.
+00:52:19 Kain bell
+Yeah, The fact that they make that fresh and grate all their things here is probably a huge difference.
+00:52:24 Susan bell
+That was like that place at the lake that we used to like, which is that dough smelled so good when you. Yeah.
+00:52:32 Kain bell
+That's what we made at Albuquerque's and Delosinos, one of those big machines. Oh really? Okay,
+00:52:40 Chuck Bell
+That was pretty good. That's what the poor inside of the cabin looks like right now. We don't even have.
+00:52:45 RCB
+Wow, that's actually a lot though. I didn't realize you guys had that much done already.
+00:52:49 Chuck Bell
+Oh it's. we stayed in it, it's enclosed. Yeah, it has been. It's awesome in the darkness. The deck is really where it's at. Right off the end of that, it drops down about 120 feet.
+00:52:58 RCB
+The deck gets the same size as the cabin, when is when is the railing going up?
+00:53:02 Chuck Bell
+I just haven't had time to put it up.
+00:53:04 RCB
+Well, we'll come visit when there's railing and air conditioning.
+00:53:09 Chuck Bell
+You heard him. Well, actually the the thing to wait for is is the bathroom. To tell you the truth, our phones work out there. That's awesome.
+00:53:18 Susan bell
+Well, We changed our carriers,
+00:53:22 Chuck Bell
+Which is Verizon,
+00:53:23 Susan bell
+Which was a nightmare because I lost everything and The only thing that I got back was Facebook, but I lost everything else.
+00:53:32 Susan bell
+And I was really mad. Then I found out our phones now pick up here, so I guess it's worth it.
+00:53:38 RCB
+There's things you can get that are uh wireless signal extenders that can pick up that and amplify it, and you can turn your phones into a hotspot. Like you can, that means you can get wireless out there without getting like a sat link.
+00:53:49 Chuck Bell
+The only thing I'll say about it is one of the things I like about it is it is remote and it's quiet. And we stream music out there. And then you look down, you're getting a call from a telemarketer, and it just absolutely.
+00:54:04 RCB
+Well, you can why don't you put it on silent mode.
+00:54:09 Kain bell
+Do not disturb. Still stream music? Yeah, you can put it on do not disturb.
+00:54:13 RCB
+So that means no calls will bug you only when you look and You can actually specify these people can get through and no one else can.
+00:54:21 Chuck Bell
+That's what I need to do. I'll have to meet with your unit to show me how to do one day is just how to actually download music and have it stored on my phone.
+00:54:28 RCB
+Kane's actually the better expert. He spent some time studying the uh, the user's manual.
+00:54:35 Chuck Bell
+I don't know how Android works now though. Oh,
+00:54:37 RCB
+That's an Android? Yeah. Oh, first mistake. Um. I broke it. I've been addicted to iPhones for so long now that Android is another version of a PC. It's just like. Absolutely. It's just a smaller version and I know all the problems that those things have. And back in the day, apples didn't have viruses. It didn't have hell, even still today, my phone can does not get like I don't have to worry about malware. You do.
+00:55:09 Chuck Bell
+We had iPhones briefly and I couldn't tell you why we switched over.
+00:55:12 Susan bell
+Well, All my work stuff was on Android and.
+00:55:15 Chuck Bell
+I was put out of.
+00:55:18 Susan bell
+I just like yeah.
+00:55:19 RCB
+If you ever get the chance again, I recommend especially since your tech support uses iPhone. You might want to uh navigate. What does Aaron and everyone else use? Do they use are they androids too?
+00:55:30 Chuck Bell
+I don't know. Aaron's Apple. Apple. Yeah,
+00:55:32 RCB
+But now it's Android again. Matt's Android again.
+00:55:35 Chuck Bell
+And Ryan and Andrew both have Androids, right?
+00:55:36 RCB
+So we can forgive Matt, but yeah, I would suggest migrating, because that means your entire tech support community knows this device. So when that doesn't work. My work is bad for it though. Yeah,
+00:55:46 Kain bell
+My my problem needs it for work here.
+00:55:48 RCB
+There's a ways to do that with the Apple. Now too But all the same. You're probably not calling Matt for your technical needs.
+00:55:53 Kain bell
+He fixes the truck.
+00:55:55 RCB
+Yeah, exactly. So,
+00:55:56 Kain bell
+No Matt called me for a second.
+00:55:58 RCB
+I guarantee at some point in the next two years, they will offer you some ridiculous package to get a new phone and just do it. Yeah, you know because then I can help you. Yeah,
+00:56:09 Susan bell
+I'll still be basically got that thing six months ago. I've never had trouble. I've always been able to get all my apps going again. It was like.
+00:56:20 RCB
+Androids are actually hard that That's. One reason I like the iPhones is because it's. One standardized operating system across all models, and it's it makes it easier for the transition. Every Android has its own version of that software for that phone. There's thousands of them, so when they upgrade, sometimes there's a lot more variation. Yeah, there's so there's always stuff that doesn't make it. But with the phone with this, when we get our new phones, I literally turn it on, it connects. When I type in my name, oh I can see what your old iPhone was. Let me pull everything up for you. And it's literally like an hour later I have a phone.
+00:56:50 Susan bell
+When we switched over we traded our kids and, It would say, I'm sending a code to your device for you to be able to the old one. The old device. It refused to acknowledge that I didn't have the old device anymore.
+00:57:04 Chuck Bell
+I still have a couple that are doing that too. Still trying to send it to the old phone. Yeah,
+00:57:09 RCB
+But when did you guys get these? How new are they? Oh, two months. Oh okay so super new never mind you're not coming Apple anytime soon. I say that you're out in the desert breaking phones happens all the time.
+00:57:19 Kain bell
+If it breaks That might be something in your.
+00:57:24 Kain bell
+Google account.
+00:57:29 Susan bell
+My Instagram account was hacked. I think somebody went in and changed my passwords and changed everything because I could do nothing to recover it, nothing.
+00:57:39 Kain bell
+What I ended up doing for, I think it's mostly just my bank, but I don't have the recovery set up to a secondary email. I have it to where you have to text me personally for me to log in, and that's the only way I really feel secure with a lot of those. Because you can, if you get into one of my email, you can probably use it to get into my other one. Like the only way to do it is, but they just don't have my number.
+00:58:06 Chuck Bell
+Well, It's funny because I had to buy some fuses and stuff for that RV yesterday. And when I go to AutoZone, they give them the phone number still comes up your name, because this is your old phone number. Yeah. Two.
+00:58:20 Kain bell
+Three seven thirty eight eighty five?
+00:58:21 Chuck Bell
+Uh five seven three sixty eight twenty eight. No, it was a different one then too. This is your old number.
+00:58:28 Susan bell
+Mine might have been Reagan's at one time because I did a lot of stuff for Reagan like.
+00:58:33 Kain bell
+I think we traded a few times throughout the years.
+00:58:36 Chuck Bell
+This was around that time you had to have that Blackberry. And for some reason. Got Spanish because of that? For some reason you and I switched phones around that time. That's how long I've had that number, I think you were still in high school.
+00:58:51 RCB
+Did you get Spanish with your Blackberry? Mhm.
+00:58:55 Chuck Bell
+We're talking, we're gonna learn Spanish. Oh,
+00:59:00 RCB
+I hear the Rosetta Stones are really good.
+00:59:03 Chuck Bell
+Actually, on iHeartRadio, one of the podcasts is Learn How to Speak Spanish. So, this links to my work, truck links to the phone with those systems. And you just listen to it while you drive.
+00:59:17 RCB
+That's actually one way I'm teaching myself right now is I've built custom AI assistants. On different topics, and they have built podcasts. I've been text to speech and converted them podcasts, So I can listen to them and learn about the topics versus just reading it. So that way, I am doing chores or driving or something.
+00:59:31 Kain bell
+He's doing really cool stuff, and I am so sick of it. We.
+00:59:39 Susan bell
+Were talking like about the Big Ben thing, and we were just like," I wonder if someone had dual citizenship, if they could open, if they close that all down," and they still leave the, The border crossing open right there. If somebody could have a river thing on the opposite side, yeah,
+00:59:56 Chuck Bell
+River trips on the Mexico side.
+00:59:59 Susan bell
+We would just like because we're talking about retiring there, that would be like a retirement job. Yeah, Well,
+01:00:04 Chuck Bell
+You would run it yourself for about three or four years, maybe maybe four. And then you'd you'd be you'd be hiring people to do two- thirds of it. And then at the end of it, all, you're really doing is going in and doing PR work and doing the books.
+01:00:17 Kain bell
+You got backup equipment at your house in case they need it. We just.
+01:00:20 Susan bell
+Started thinking about the options if they do this.
+01:00:22 Chuck Bell
+And we would do dual citizenship that way. We just walk, make you walk across the border.
+01:00:27 RCB
+Well, also with where technology is going, Think about a robot being your ferryman. So no person has to cross the border. Machines don't necessarily need dual citizenship.
+01:00:41 Chuck Bell
+Well, Part of it, though, is strictly to give the people their work if this goes through. I think the town's gone.
+01:00:51 Susan bell
+Part of the charm, if you want to call it that, is they literally get a little boat and ferry you across.
+01:00:58 Chuck Bell
+And he makes a dollar a person per trip. And I'm telling you, the guy that does it is five foot three, 120 pounds, and I would be terrified to fight him. He got nothing to lose, And he is a scrapping muscled,- up little bastard because he's taking all those fat gringos across the river.
+01:01:21 Susan bell
+It's kind of cute. They rode you across.
+01:01:23 Chuck Bell
+And then you can do a donkey or a horse ride into town, or walk in the matter, But we usually do it just to give them a couple bucks so they can make a little money. Hell, when we did the Santa Claus thing over there, there was sixty- year- old men coming up to us saying," Can I have something?" Fuck yeah! Put you in the bag, man. You find yourself something.
+01:01:43 RCB
+By chance are there any old mines out there?
+01:01:45 Chuck Bell
+Yeah. Absolutely, hundreds of thousands.
+01:01:47 RCB
+Why don't you do a mining tour? I used to do those in Colorado all the time, and you could make a fortune off people.
+01:01:54 Chuck Bell
+The Marisco mine is the coolest one, but it's uh the big mines out, the biggest mine out, the two biggest mines out there are our partners.
+01:02:02 RCB
+Well, we don't want to mine for mercury, but if you could make a fake gold mine and actually put some fake little uh fool's gold on it. So kids could actually sift for stuff, like you could make an experience out of it.
+01:02:15 Kain bell
+Yeah, they're still real. I think they'd be too uncomfortable and dangerous because they're all old and abandoned mines.
+01:02:21 RCB
+They don't actually go into the mines; they see the front of it. They're normally on the outside, or you pick the one where they can go in like the entrance. Like there's one place that's been secured where you actually can go in, but no, you don't actually go into the dangerous ones.
+01:02:33 Chuck Bell
+Yeah, there's some I got news if if I wouldn't know how to establish it.
+01:02:37 RCB
+I'm recording this conversation so that I can build you an AI that could help you with this,
+01:02:41 Chuck Bell
+How to establish it. But if if to. To get a uh a tourist tourism business set up to go out there with the knowledge that, especially she has, it would be absolutely unbelievable because you would have to have and there already are. But you have to have uh several different campsites. You have to integrate the river.
+01:03:07 Susan bell
+Even the night skies will be gone. They have. Lights. The light pollution will destroy everything. It's.
+01:03:14 Chuck Bell
+A certified dark.
+01:03:15 RCB
+Dark sky. Well, you know, sometimes hunters accidentally shoot out lights and it takes forever to replace them. The.
+01:03:24 Susan bell
+Sheriff's actually said he goes, You know, I'm not telling people I don't want anybody to get in trouble about cutting the log down with a blowtorch. But.
+01:03:32 Chuck Bell
+They do exist. The thing is that that is they're they're, So, there's one of one of them was a democrat that has it right down there. And the next county over is a republican. And both of their stances are absolutely identical.
+01:03:45 Kain bell
+So like you know, It takes like three hours to get out there and check on something when someone calls. We left this whole box of blowtorches out there. Morning glory.
+01:03:58 RCB
+Nothing does damage over time like a vining plant on any type of structure. It'll eat through it in a half decade.
+01:04:06 Kain bell
+Provide a natural ladder surface. Yeah,
+01:04:09 RCB
+I was thinking for something for food initially, but I was like, no, it'll actuallyerode and destroy it because people put it on their houses thinking, oh look how great this looks. And if you're asking exactly. And, it's a climbable surface, and some of those options can have food on them so they can be fruit bearing. You can do all sorts of fun things.
+01:04:26 Susan bell
+There's epic floods up there, They just got some of the roads open. They've been closed for a year. I'm just like, we need an act of God.
+01:04:37 Kain bell
+They said a flood pushed over this part, but it looks like it's just been attacked by blowtorches.
+01:04:44 Susan bell
+Lightning with lightning. That only torches. That's funny. We'll.
+01:04:55 Chuck Bell
+See, kicking ass to two- thirds of that wall was built in Texas can burn it.
+01:05:02 Chuck Bell
+The marble balls.
+01:05:04 Susan bell
+One other thing, like you're telling me on the bad things, They're already trying to buy up all the land to put man camps uh to work on the wall. Ew. So I mean, we're actually looking at one more piece of land by us.'cause we don't want a bunch of.
+01:05:19 Kain bell
+People are gonna come in and destroy up all the land for two years and then abandon it. Yeah They will They're gonna leave a trash can Trash oil all the chemicals, Whatever, like shitty bars or businesses they built up to service them over there.
+01:05:37 Susan bell
+So far, Some engineers came into the Starlight Theater and told them that they were there for the wall. And the owner of the Starlight Theater came and said," I am asking you to leave my premises." Kick him out.
+01:05:51 Kain bell
+You are trespassing on my property if you stay; get out. Kick their ass. Can they do that legally?
+01:05:56 Chuck Bell
+They have a right to refuse service to anybody for any reason.
+01:06:01 Kain bell
+You don't have to give a reason. You can say," I've asked you to leave. You're no longer welcome."
+01:06:06 Chuck Bell
+Yeah, they're. I'll bet they would refuse to sell them fuel for their vehicles down there. You might get.
+01:06:15 Kain bell
+In trouble for that out there.
+01:06:17 Chuck Bell
+Probably, but I don't think anybody gives a shit. Call someone. Yeah, call the sheriff if he don't want you out here either.
+01:06:27 RCB
+I just thought there were certain like after segregation, there were certain laws against that kind of thing.
+01:06:32 Chuck Bell
+About serving people? Yeah. Nope.
+01:06:34 RCB
+I mean,
+01:06:35 Kain bell
+If you're going to do something, I think if you say you're doing something because it's racist or a hate crime, that's an entire another thing. But if you just say Well, if it's for any reason other than racism. You'll see no reasonable reason.
+01:06:45 Susan bell
+I don't know. It's kind of the wild west out there.
+01:06:47 Chuck Bell
+You'll see, though There are signs in around New, Braunfels and Canyon Lake, and it literally says, we reserve to refuse the right of service to anyone for any reason. And they'll they'll post it on their front door.
+01:06:58 RCB
+Oh, and they'd have to post it if they're actually going to do it. That's a legally binding article. The thing is,
+01:07:02 Kain bell
+Is if you disagree and think it's unlawful for why you were removed, you can take them to civil court after the fact, But you still have to get off their property that they've asked you to be removed from.
+01:07:13 RCB
+That's fair. That makes sense.
+01:07:15 Kain bell
+Even if their reasoning is wrong, You still have to listen to them and get off their property, and you can deal with the reasoning afterwards. Like.
+01:07:30 RCB
+I Want to make a bakery that only sells penis cakes to gay people. If you're not gay, I refuse you service. Get out.
+01:07:38 Chuck Bell
+I mean, that's your right to do it. You're really cornering the market there.
+01:07:46 RCB
+It's more of a back room than a corner. It's a dark alley.
+01:07:55 RCB
+Well, everyone needs a niche.
+01:08:00 Susan bell
+You know what was funny though? We were talking about that whole dual citizenship thing, and we were like," We need to learn Spanish." And like talk about devices listening.
+01:08:10 Chuck Bell
+All of.
+01:08:11 Susan bell
+A sudden all these things started coming up telling us Spanish.
+01:08:13 Chuck Bell
+Just when we're talking to each other about it.
+01:08:15 Susan bell
+It is it is tragic. It just came up like ten minutes Spanish like is a. Yeah,
+01:08:20 Chuck Bell
+They're listening. It's crazy.
+01:08:22 RCB
+That's what I do is I take unstructured data and I turn it into usable content. And transcripts, recordings, that's that's my bag. That's the best data whatsoever. But, what's funny is is in a couple of you like we handed out, it seems creepy right now. And five years from now when it's making really good recommendations of the things you want and saving you time, you'll wonder how you lived without it. Just like when in the fifties, if if you told our great grandparents that we were going to put listen, then we were going to pay. To have listening devices put all over our house. Blown them like, what the fuck do you think? And now it's kind of like, I don't know what I would do without my Alexa. Like, I don't want to check the weather. I don't want to turn on the TV.
+01:09:02 Susan bell
+It was funny when this English study game was like," The fish swim silently." Like it was just weird sentences. I'm like, why would I need.
+01:09:11 Kain bell
+Could you maybe teach me usable Spanish?
+01:09:14 Chuck Bell
+I remember that one thing, grandma spilled thebleach.
+01:09:17 Kain bell
+When she stepped on the tooth. Grandma spilled, stepped on the tooth and spilled thebleach. Why is this happening? What is she doing withbleach?
+01:09:28 RCB
+Why was there a tooth on the ground? That's the least of our problems. I could build you a custom GPT that could. No, wait, never mind. Could you? But you have to have the talking version in Neverland.
+01:09:39 Chuck Bell
+But that goes back to that we would have to have a. We'd have to have a home base here because you'd have to either have everybody park and stay here. And take them out on some type of a bus, or everybody would have to go out, meet out there. You'd have to have a point of parking and everything to stage something out there to show people around all the the sites and everything.
+01:09:59 RCB
+Well, Where's the the closest large place uh for people to meet up? That's not like multiple hours away from the campsites or the areas you want to take them? Oh, Alpine Texas. Alpine, Texas is seventy- five miles north of the park. That's a long trip. Okay, so this is a full day trip. Like you're not going for a couple hours.
+01:10:19 Chuck Bell
+Two days. It takes to get to truly get to our land, we we usually stop and grab something to eat. We gas twice in all honesty.
+01:10:32 Susan bell
+Nine hours.
+01:10:32 RCB
+Nine hours, So, I was originally thinking this was more like a family sightseeing kind of thing. This is not family sightseeing at all.
+01:10:39 Susan bell
+Absolutely not. One hundred percent, it's packed with families out there. Okay, you're gonna drive a lot,
+01:10:44 Chuck Bell
+A really. You're gonna camp.
+01:10:46 RCB
+Okay, so this could be an affordable weekend family excursion, not meant for Lee hunters or.
+01:10:52 Chuck Bell
+So, what you get out there is families that want to get out there and enjoy each other. And the other are adrenaline junkies on four wheelers and motorcycles. There's really nothing in between, honestly.
+01:11:06 Susan bell
+Is it, the largest or at least one of the largest national parks in America?
+01:11:09 RCB
+They just acquired another 120, 000 acres. Could, you turn part of the land or any acre of it into a four- wheeler park? Just need dunes, right? Hills.
+01:11:19 Chuck Bell
+The entire road to get to our property is full of drop trails. Is what? It's a full drop trail.
+01:11:25 Susan bell
+There's tons of four- wheel drive trails on there somewhere.
+01:11:28 Chuck Bell
+Oh okay. So there's no oh okay that I mean it's all it's private land. But every single road that goes through there is is for the public. It is a right of way to get to your property. We have two roads that go form. They bisect our property, and it is you drive through it, it's public domain. It is a right away of other people to get to their property.
+01:11:49 RCB
+Is hunting allowed? Absolutely So mom and kids could do something while dads, go do a hunting excursion for a day? So, treat it almost like instead of a cruise, it's a camping trip with excursions.
+01:12:08 Chuck Bell
+If if yeah. I don't think it's gonna happen at this point. I don't think your mother is a pessimist. I'm the optimist; she's the pessimist when it comes to this stuff.
+01:12:19 RCB
+Well, the setup for this stuff is not expensive, so even if you could get it working for a year or two, It would still be potentially profitable, and then you would just have to change again. You're doing it for the small things. The views sound nice, but they're also sixteen miles away over rough terrains. So that's probably not what you'd be using it for in this scenario.
+01:12:40 Susan bell
+I think our road ends up getting paved.
+01:12:43 Chuck Bell
+Oh yeah. I don't know if it'll get paved all the way, but it'll get, I think it'll get paved at least half the way.
+01:12:49 Susan bell
+And then the prices of land will shift.
+01:12:51 Chuck Bell
+Yeah, the lady that sold us the land pound was a sweetheart.
+01:12:57 Chuck Bell
+Our HOA dues, you have an HOA dues. It's what, two hundred a month or two hundred a year? Yeah,
+01:13:02 Susan bell
+It's really not much.
+01:13:03 Chuck Bell
+And I said, what do we get for our HOA dues out here? And, they have a piece of equipment, that'll come and blade and clean up the roads because bad weather destroys the roads. It can get impassable to where we're at. And and I said. So when we don't like the roads, we just got to call them, they come fix it? They said yep. They said but be careful. I said what do you mean? He goes, better the roads more traffic.
+01:13:25 Chuck Bell
+The more people are going to come out and start looking. If people see a drivable road, they're going to use it.
+01:13:29 RCB
+Yeah, Like you should buy land now and then pay for the road, paving yourself and sell back the land to pay for the road with a profit.
+01:13:35 Chuck Bell
+We're going to we're we're in here in a couple of months, We're going to find the people that bought the land above our land and make an offer on it. We're gonna It's just because we don't want anybody to build there.
+01:13:47 Susan bell
+A company had just bought up tons of lots up there and they. They're trying to resell them, and one of them adjoins our property.
+01:13:56 Chuck Bell
+What about that?
+01:13:57 Susan bell
+Well, they're just trying to sell the other ones.
+01:13:59 Chuck Bell
+They're just trying to flip it real quick for profit.
+01:14:04 Susan bell
+I just want to get it before they sell it to a man family.
+01:14:06 Chuck Bell
+When they when they built that dollar, they built a Dollar General out there, and just if you think the opposition of the wall, They literally people out there had a bunch of hats made yellow hats like the yellow Dollar General color. And in black, it said" Fuck Dollar Generals." They were protesting. They protested the dollar general. Good, you know, yes and no. And I even asked the manager there because I didn't find it, I didn't find a big deal about it. Uh, tell you truth.
+01:14:32 Kain bell
+They're very bad for communities. Well,
+01:14:36 Chuck Bell
+Now instead of people having to pay six dollars for a gallon of milk, they can get one for two.
+01:14:40 Kain bell
+Fifty They're.
+01:14:42 Chuck Bell
+Actually selling fresh vegetables.
+01:14:44 Susan bell
+Did I tell y'all that they gave me twenty acres out there? Did I tell y'all that story?
+01:14:51 Susan bell
+So I told you the guy that we owner financed the land from passed away, and were real scared. We were going to lose it and stuff. Well then, I found out I'd been paying taxes on the wrong property. The appraisal district screwed up. And they never put my land into my name. They put my name on another twenty acres somewhere further off. And so I hadn't even been paying taxes. I really thought were going to lose everything around Christmas time. So, went to the appraisal district and I showed them the contract, and they were like, oh. Oh, okay. Yeah, no problem. We'll, um we'll put the your proper land in your name, and you can pay the back taxes. So I got all that done. It was all good.
+01:15:30 Kain bell
+But since you've been paying this.
+01:15:32 Susan bell
+Well, no. I'm like, well this isn't mine. Do I get a refund or anything? They're like, oh yeah, Uh just get the owner, if it's when the owner comes down, and he can get it changed back in his name and I'm like The owner died. It's the same guy And so they're like well we can't really do anything.
+01:15:50 Kain bell
+So Your name's just on the land. Yeah,
+01:15:52 Susan bell
+They just came. Basically, his kids have to come down from Colorado and find it.
+01:15:58 Chuck Bell
+The county appraisal district though says the I guess the county clerk's office made a mistake. The appraisal district affirmed it and put it all in her name.
+01:16:08 Susan bell
+And I've been paying taxes on it for years now.
+01:16:09 Chuck Bell
+So wait,
+01:16:09 RCB
+Does that mean you actually get the land? She owns that piece,
+01:16:13 Susan bell
+Probably unless his kids come and like contest it, contest it. Which I I've already reached out to our realtor, she's reached out to the kids. And I told her what's happened basically. I need to talk to her again.
+01:16:25 RCB
+Yeah, because if they don't do something quick, sell it now while before they get to change their minds.
+01:16:31 Chuck Bell
+They're not bad people. The thing is though, we can't keep it. It's it's not okay,
+01:16:37 Susan bell
+Unless they just don't care.
+01:16:38 RCB
+Well that's what I'm saying, if they don't care right now, then be like get rid of it because they might change their mind five years from now. But if they're okay with it now, then like. Yeah. Be done with it.
+01:16:48 Susan bell
+We've been the most stressful, all this crazy stuff that's been going on.
+01:16:52 RCB
+If they don't want to do that, You sell it and then buy the land right next to you on either side.
+01:16:57 Kain bell
+Yeah. Or collateral is this land? No,
+01:17:06 Susan bell
+When it's higher, it's up on a hill. I feel like I've just been on this weird roller coaster lately.
+01:17:11 RCB
+What about the uh the water project you had talked about that you wanted to do? The stopping up of the water And.
+01:17:17 Chuck Bell
+It's it's still something viable. Um, but I've got to we first we got to fix the house, get moved in. And I will literally have to buy a piece of equipment to take on. To build it like a skid steer or a small backhoe.
+01:17:31 RCB
+You couldn't uh rent something for a period in time and do it. So you don't have to buy the equipment? It'd be cheaper to buy it. How expensive are we talking? Under twenty thousand dollars. How much are you thinking you're going to make on this venture? On a yearly.
+01:17:51 RCB
+So, You would need to make back at least twenty thousand over a five- year period to make it worth your weight in gold.
+01:17:59 Chuck Bell
+I mean, you might, but.
+01:18:01 Susan bell
+But he could probably sell that if he's got so many contracts.
+01:18:04 Chuck Bell
+Oh yeah, you definitely sell it.
+01:18:06 RCB
+Okay, So it wouldn't be a twenty thousand dollar investment;. It might be a five thousand dollar investment because you sell it for fifteen.
+01:18:12 Susan bell
+But we gotta go through the rugged terrain and. Definitely, we just don't want to mess up our rental. It'll be like.
+01:18:18 RCB
+Sure. Just understanding the logistics for the.
+01:18:25 RCB
+Yeah, We'd have that for years. What's the uh what's was the name of the machine?
+01:18:29 Chuck Bell
+The backhoe? It's a Bobcat skid our skid steer.
+01:18:31 RCB
+The skid steer. Is that the best or there's potentially are there? Are there potentially others that might be able to do a better job?
+01:18:36 Chuck Bell
+For money, it's probably for this piece of equipment. It's the most versatile piece of equipment. It was like a mini bulldozer.
+01:18:41 RCB
+Okay, I'm gonna check with the AI just in case, but I'll see. And, we'll also see what other things you could use it for that could make it pay for itself. Everything. Well.
+01:18:51 Susan bell
+He had one with his company, but he sold it to his old partner. Well,
+01:18:57 RCB
+And also like if you got it out there, is there a way that with that community out there? You could rent it out to other people? Absolutely.
+01:19:04 Chuck Bell
+The only problem is people were really hard on them. And if you rent a. Yeah, we are. That's a good story. It's.
+01:19:16 Kain bell
+Used for hard work, so it gets twenty parts. People destroy them.
+01:19:22 RCB
+Oh, that's only ten thousand dollars. That's half what you were saying.
+01:19:26 Kain bell
+Yeah, that was the other one. That one's for Owen.
+01:19:30 Susan bell
+And Owen could do some damage. He would love to. I'm gonna destroy the house!
+01:20:08 Susan bell
+I was talking to my friend. She was like," Well, Just sell it real quick before that wall goes up, and you can get your money back." We can't sell it. The guy that we got it from died, and there's still a lien on it, and his kids have to release the lien.
+01:20:19 Kain bell
+The heirs have to sign the release of lien. So we're just in limbo until they deal with it. Um, so what about the taxes? Like do you'cause you're paying on the taxes right now? We're still paying taxes on it. Yeah.
+01:20:32 Susan bell
+Seven years, you've been on the land and paid the taxes for seven years. There's not much anything. Nothing to anybody.
+01:20:38 Kain bell
+So now that you've done everything you're supposed to do, you just wait?
+01:20:41 Susan bell
+Yeah. Our our realtor talked to him though and she said he was nice. He said that he just has to have the will go through probate. There was no will. Well, yeah, There was no will. So he has everything has to go through probate.
+01:20:53 Chuck Bell
+The state's figuring everything out. And then it goes to this boy and his daughter, and we actually got a deal How old. Are they? Younger than us I don't know.
+01:21:01 Kain bell
+Late thirties, early forties. Okay. So it'll it'll come down to whether they'll come down to whether or not they want to deal with it.
+01:21:07 RCB
+Yeah. Oh, that's where you guys got to go.
+01:21:12 Kain bell
+It's just been crazy here today. Well, maybe that will be the the quiet little payoff for all the stress? Yeah. Like I have so much. Oh my god. Technically in the background accumulating for me.

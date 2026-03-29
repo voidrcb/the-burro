@@ -1,0 +1,22 @@
+{
+  "id": "experience_night_sky_drive",
+  "slug": "terlingua-night-sky-drive",
+  "name": "Terlingua Night Sky Drive",
+  "category": "stargazing",
+  "deliveryModel": "guide_led",
+  "locationSummary": "Desert pullouts and low-light ridgelines just outside the main Terlingua glow.",
+  "meetingPoint": "Burro field gate",
+  "durationHours": 3.5,
+  "priceUsd": 180,
+  "maxGroupSize": 6,
+  "seasonality": {
+    "available": ["jan", "feb", "mar", "apr", "oct", "nov", "dec"],
+    "peakMonths": ["mar", "oct", "nov"]
+  },
+  "safetyLevel": "low",
+  "waiverRequired": true,
+  "status": "available",
+  "summary": "A guided evening drive to remote ridgelines where city light never reaches and the Milky Way arches overhead.",
+  "description": "Leave the highway glow behind and settle into real darkness. Chuck guides small groups to hand-picked pullouts where the sky opens up completely—no light pollution, no noise, just you and more stars than you thought possible. Bring a thermos. Wear layers. Return changed.",
+  "images": ["/images/experiences/night-sky-drive-1.jpg"]
+}

@@ -1,0 +1,35 @@
+{
+  "persona_id": "susan",
+  "display_name": "Susan Bell",
+  "created": "2026-03-21",
+  "last_updated": "2026-03-21",
+
+  "profile": {
+    "age_range": "50s",
+    "focus": "creative_vision",
+    "tech_comfort": "basic",
+    "primary_interests": ["guest_experience", "artisan_crafts", "tile_making", "workshops", "design"]
+  },
+
+  "communication": {
+    "style": "warm",
+    "detail_level": "connect_to_experience",
+    "patience_required": true,
+    "avoid": ["tech_jargon", "dry_explanations"]
+  },
+
+  "projects": {
+    "active": [],
+    "completed": []
+  },
+
+  "workshops": {
+    "tile_making": true,
+    "dark_sky_photography": false
+  },
+
+  "learned_patterns": {
+    "successful_explanations": [],
+    "frustration_triggers": []
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "shop_pod_night_sky_poster",
+  "slug": "night-sky-poster",
+  "title": "Night Sky Poster",
+  "description": "A print-on-demand poster for visitors who want the landscape story without a limited-run object.",
+  "category": "print-on-demand",
+  "price": {
+    "amount": 48,
+    "currency": "USD"
+  },
+  "images": [
+    {
+      "url": "/shop/night-sky-poster.jpg",
+      "alt": "Night sky poster placeholder"
+    }
+  ],
+  "story": "Print-on-demand keeps the catalog narrow while proving a second fulfillment lane. It is intentionally separate from fragile ceramics and heavy tile work.",
+  "shippingProfile": "print-on-demand",
+  "status": "available",
+  "badge": "Open edition",
+  "leadTimeNote": "Ships directly from the print partner.",
+  "highlights": [
+    "Made to order",
+    "Rolled tube shipment",
+    "Wider-release lane"
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "project": "Big Bend Burro",
+  "active_sprint": "0.1",
+  "status": "scaffold_only",
+  "canonical_state_file": "memory/current_state.md",
+  "notes": "STATE.json is a Sprint 0.1 compatibility scaffold. Use memory/current_state.md as the authoritative state source."
+}

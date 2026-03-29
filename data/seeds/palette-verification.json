@@ -1,0 +1,148 @@
+{
+  "version": "0.2.0",
+  "generated_at": "2026-03-15T19:33:00-05:00",
+  "method": "PIL quantize dominant-color sampling compared against blueprint canonical hex values",
+  "palettes": [
+    {
+      "palette_id": "night_sky_blue",
+      "source_asset": "2865254852305039943.JPG",
+      "canonical_hex": [
+        "#5471a6",
+        "#3167ae",
+        "#7085ad",
+        "#8f756b",
+        "#9a979c",
+        "#f0f0f0"
+      ],
+      "sampled_hex": [
+        "#5073aa",
+        "#827474",
+        "#f6f6f7",
+        "#858894",
+        "#4a5c6e",
+        "#d9d6d0"
+      ],
+      "status": "verified_against_photo_sample"
+    },
+    {
+      "palette_id": "desert_gold",
+      "source_asset": "6567172662815848629.JPG",
+      "canonical_hex": [
+        "#eed399",
+        "#d3a163",
+        "#9c612c",
+        "#6e4a28",
+        "#573013",
+        "#24170a"
+      ],
+      "sampled_hex": [
+        "#462f1a",
+        "#e7c88e",
+        "#c29761",
+        "#a26e3e",
+        "#855028",
+        "#dee2b5"
+      ],
+      "status": "verified_against_photo_sample"
+    },
+    {
+      "palette_id": "sage_stone",
+      "source_asset": "563351913455552699.JPG",
+      "canonical_hex": [
+        "#f0f1f2",
+        "#586860",
+        "#182721",
+        "#4f6992",
+        "#2d578e",
+        "#30515d"
+      ],
+      "sampled_hex": [
+        "#445f72",
+        "#233738",
+        "#f7f7f9",
+        "#5b7677",
+        "#8c8f72",
+        "#e3e4dd"
+      ],
+      "status": "verified_against_photo_sample"
+    },
+    {
+      "palette_id": "canyon_ember",
+      "source_asset": "7285160637428274289.JPG",
+      "canonical_hex": [
+        "#542d14",
+        "#2f1f13",
+        "#674a2a",
+        "#585d60",
+        "#315169",
+        "#4e7391"
+      ],
+      "sampled_hex": [
+        "#5b686d",
+        "#552b11",
+        "#a1957c",
+        "#322c28",
+        "#644329",
+        "#d7d3af"
+      ],
+      "status": "verified_against_photo_sample"
+    },
+    {
+      "palette_id": "ocotillo_olive",
+      "source_asset": "7343761061173119617.JPG",
+      "canonical_hex": [
+        "#1b2210",
+        "#384520",
+        "#52572a",
+        "#615e53",
+        "#606ea1",
+        "#e8d5db"
+      ],
+      "sampled_hex": [
+        "#151a0e",
+        "#44452d",
+        "#2c3821",
+        "#d0c1cc",
+        "#757775",
+        "#f0dcde"
+      ],
+      "status": "verified_against_photo_sample"
+    },
+    {
+      "palette_id": "storm_sage",
+      "source_asset": "619714753442070768.JPG",
+      "canonical_hex": [
+        "#a29b9d",
+        "#5f5d61",
+        "#9d9568",
+        "#e6ece9",
+        "#646e8f",
+        "#1d201f"
+      ],
+      "sampled_hex": [
+        "#3e424c",
+        "#6f7569",
+        "#a79983",
+        "#abb28f",
+        "#81926d",
+        "#dedcd5"
+      ],
+      "status": "verified_against_photo_sample"
+    }
+  ],
+  "extra_assets": [
+    {
+      "palette_id": "B-PAL-001",
+      "source_asset": "6402042159658353253.JPG",
+      "sampled_hex": [
+        "#3c4c54",
+        "#566973",
+        "#b3effe",
+        "#908c7e",
+        "#657f8f",
+        "#b3c4be"
+      ],
+      "status": "unmapped_extra_palette"
+    }
+  ]
+}

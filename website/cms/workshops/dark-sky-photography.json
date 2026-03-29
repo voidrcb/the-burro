@@ -1,0 +1,48 @@
+{
+  "slug": "dark-sky-photography",
+  "title": "Dark Sky Photography Field Session",
+  "category": "photography",
+  "description": "A guided night session built around composition planning, low-light camera setup, and safe movement through remote terrain.",
+  "summary": "Night-sky field instruction with small-group pacing and remote-terrain prep.",
+  "instructorName": "Chuck",
+  "instructorBio": "Chuck focuses on field-ready dark-sky shooting plans that respect weather, mobility needs, and low-connectivity realities.",
+  "heroImage": "/images/workshops/dark-sky.jpg",
+  "duration": {
+    "hours": 5,
+    "format": "single-session"
+  },
+  "capacity": {
+    "min": 3,
+    "max": 6
+  },
+  "pricing": {
+    "basePrice": 240,
+    "depositRequired": 80,
+    "materialsIncluded": false
+  },
+  "schedule": [
+    {
+      "id": "photo-2026-04-18",
+      "date": "2026-04-18",
+      "startTime": "19:30",
+      "endTime": "00:30",
+      "spotsAvailable": 4,
+      "status": "open"
+    },
+    {
+      "id": "photo-2026-05-02",
+      "date": "2026-05-02",
+      "startTime": "19:30",
+      "endTime": "00:30",
+      "spotsAvailable": 0,
+      "status": "cancelled"
+    }
+  ],
+  "status": "published",
+  "intakeSchemaRef": "photography",
+  "waiverRequired": true,
+  "specialInstructions": "Bring layers, red-light mode on devices, and a tripod if you have one.",
+  "shippingFollowUp": {
+    "required": false
+  }
+}

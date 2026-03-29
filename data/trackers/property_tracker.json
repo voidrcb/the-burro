@@ -1,0 +1,97 @@
+{
+  "schema_version": "0.1.0",
+  "generated_at": "2026-03-15T19:15:31-05:00",
+  "schema": {
+    "primary_key": "issue_id",
+    "fields": [
+      "issue_id",
+      "parcel_ref",
+      "issue_type",
+      "title",
+      "description",
+      "status",
+      "owner",
+      "dependency_ids",
+      "documents",
+      "next_action",
+      "next_action_date",
+      "source_anchor",
+      "confidence"
+    ]
+  },
+  "issues": [
+    {
+      "issue_id": "ISSUE-001",
+      "parcel_ref": "primary_parcel_owner_financed",
+      "issue_type": "probate",
+      "title": "Seller estate still in probate",
+      "description": "The seller died without a will, so the estate must complete probate before ownership cleanup can fully proceed.",
+      "status": "blocked",
+      "owner": "Chuck and Susan",
+      "dependency_ids": [
+        "ISSUE-002"
+      ],
+      "documents": [
+        "owner-finance contract",
+        "realtor outreach notes"
+      ],
+      "next_action": "Follow up with realtor on probate status and expected heir action timeline.",
+      "next_action_date": "2026-03-29",
+      "source_anchor": "S003:L1004-L1006",
+      "confidence": "confirmed"
+    },
+    {
+      "issue_id": "ISSUE-002",
+      "parcel_ref": "primary_parcel_owner_financed",
+      "issue_type": "lien",
+      "title": "Lien release still required from heirs",
+      "description": "The land cannot be sold while the lien remains in place; heirs must sign the release after probate resolution.",
+      "status": "blocked",
+      "owner": "Chuck and Susan",
+      "dependency_ids": [],
+      "documents": [
+        "lien paperwork",
+        "heir contact notes"
+      ],
+      "next_action": "Confirm which heirs must sign and what paperwork is still missing.",
+      "next_action_date": "2026-03-29",
+      "source_anchor": "S003:L0996-L1000",
+      "confidence": "confirmed"
+    },
+    {
+      "issue_id": "ISSUE-003",
+      "parcel_ref": "wrong_tax_parcel_20_acres",
+      "issue_type": "tax",
+      "title": "Wrong parcel carried Susan's name and taxes",
+      "description": "The appraisal district placed Susan's name on a different twenty-acre parcel, creating years of taxes paid against land that was not intended to be theirs.",
+      "status": "open",
+      "owner": "Susan",
+      "dependency_ids": [],
+      "documents": [
+        "appraisal district contract review",
+        "tax payment history"
+      ],
+      "next_action": "Document the mistaken parcel history and confirm whether any refund, release, or quiet-title risk remains.",
+      "next_action_date": "2026-03-29",
+      "source_anchor": "S003:L0916-L0934",
+      "confidence": "confirmed"
+    },
+    {
+      "issue_id": "ISSUE-004",
+      "parcel_ref": "adjacent_lot_above_primary",
+      "issue_type": "acquisition",
+      "title": "Adjacent-lot acquisition opportunity",
+      "description": "A company bought nearby lots and is trying to flip them. One adjoining parcel is strategically important because Chuck and Susan do not want a neighbor building directly above them.",
+      "status": "open",
+      "owner": "Chuck and Susan",
+      "dependency_ids": [],
+      "documents": [
+        "realtor outreach notes"
+      ],
+      "next_action": "Identify parcel number, seller, and asking price for the adjoining lot.",
+      "next_action_date": "2026-04-05",
+      "source_anchor": "S003:L0892-L0894",
+      "confidence": "confirmed"
+    }
+  ]
+}

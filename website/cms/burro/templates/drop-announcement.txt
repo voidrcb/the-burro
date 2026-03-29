@@ -1,0 +1,5 @@
+Subject: New Burro shop drop
+
+Hi {{guestName}},
+
+This is a scaffold-only draft for a future product-drop note. Keep it story-first, narrow in scope, and tied to what is actually available.

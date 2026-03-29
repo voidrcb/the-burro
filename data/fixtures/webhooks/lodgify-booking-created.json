@@ -1,0 +1,13 @@
+{
+  "event": "booking.created",
+  "booking_id": "lodgify_booking_1001",
+  "status": "confirmed",
+  "property_id": "lodgify_property_01",
+  "guest": {
+    "name": "Test Guest",
+    "email": "guest@example.com"
+  },
+  "check_in": "2026-10-04",
+  "check_out": "2026-10-07",
+  "source": "fixture"
+}

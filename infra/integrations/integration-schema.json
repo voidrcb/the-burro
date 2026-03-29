@@ -1,0 +1,30 @@
+{
+  "schema_version": "0.3.0",
+  "status": "sandbox_scaffold_only",
+  "providers": [
+    {
+      "provider": "lodgify",
+      "category": "lodging",
+      "required_env": ["LODGIFY_API_KEY", "LODGIFY_WEBHOOK_SECRET", "LODGIFY_ACCOUNT_ID"],
+      "verification_status": "deferred_until_credentials"
+    },
+    {
+      "provider": "stripe",
+      "category": "payments",
+      "required_env": ["STRIPE_SECRET_KEY", "STRIPE_WEBHOOK_SECRET", "STRIPE_PUBLISHABLE_KEY"],
+      "verification_status": "deferred_until_credentials"
+    },
+    {
+      "provider": "postmark",
+      "category": "email",
+      "required_env": ["POSTMARK_SERVER_TOKEN", "POSTMARK_ACCOUNT_TOKEN", "POSTMARK_WEBHOOK_SECRET", "POSTMARK_MESSAGE_STREAM"],
+      "verification_status": "deferred_until_credentials"
+    },
+    {
+      "provider": "llm",
+      "category": "assistant_inference",
+      "required_env": ["OPENAI_API_KEY", "ANTHROPIC_API_KEY"],
+      "verification_status": "deferred_until_credentials"
+    }
+  ]
+}

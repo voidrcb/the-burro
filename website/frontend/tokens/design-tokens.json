@@ -1,0 +1,73 @@
+{
+  "meta": {
+    "version": "0.2.0",
+    "generated_for": "Sprint 0.2",
+    "canonical_source": "Docs/Big_Bend_Burro_Blueprint_Final.json -> design_system.palette_sets"
+  },
+  "paletteOrder": [
+    "night_sky_blue",
+    "desert_gold",
+    "sage_stone",
+    "canyon_ember",
+    "ocotillo_olive",
+    "storm_sage"
+  ],
+  "colors": {
+    "night_sky_blue": ["#5471a6", "#3167ae", "#7085ad", "#8f756b", "#9a979c", "#f0f0f0"],
+    "desert_gold": ["#eed399", "#d3a163", "#9c612c", "#6e4a28", "#573013", "#24170a"],
+    "sage_stone": ["#f0f1f2", "#586860", "#182721", "#4f6992", "#2d578e", "#30515d"],
+    "canyon_ember": ["#542d14", "#2f1f13", "#674a2a", "#585d60", "#315169", "#4e7391"],
+    "ocotillo_olive": ["#1b2210", "#384520", "#52572a", "#615e53", "#606ea1", "#e8d5db"],
+    "storm_sage": ["#a29b9d", "#5f5d61", "#9d9568", "#e6ece9", "#646e8f", "#1d201f"]
+  },
+  "semantic": {
+    "surface": {
+      "base": "#f0f1f2",
+      "elevated": "#e6ece9",
+      "night": "#1d201f",
+      "warm": "#e8d5db"
+    },
+    "text": {
+      "strong": "#1d201f",
+      "body": "#2f1f13",
+      "muted": "#5f5d61",
+      "inverse": "#f0f0f0"
+    },
+    "accent": {
+      "primary": "#3167ae",
+      "secondary": "#d3a163",
+      "earth": "#674a2a",
+      "sage": "#384520"
+    },
+    "status": {
+      "warning": "#9c612c",
+      "danger": "#542d14",
+      "success": "#52572a",
+      "info": "#4f6992"
+    },
+    "nightSafe": {
+      "sky": "#5471a6",
+      "glow": "#f0f0f0",
+      "haze": "#9a979c"
+    }
+  },
+  "typography": {
+    "display": "\"Georgia\", \"Times New Roman\", serif",
+    "body": "\"Trebuchet MS\", \"Segoe UI\", sans-serif",
+    "mono": "\"Cascadia Code\", \"Consolas\", monospace"
+  },
+  "spacing": {
+    "section": "5rem",
+    "gutter": "1.5rem",
+    "card": "1.25rem",
+    "stack": "0.75rem"
+  },
+  "radii": {
+    "panel": "1.5rem",
+    "pill": "9999px"
+  },
+  "shadows": {
+    "soft": "0 18px 60px rgba(29, 32, 31, 0.12)",
+    "night": "0 25px 80px rgba(27, 34, 16, 0.45)"
+  }
+}

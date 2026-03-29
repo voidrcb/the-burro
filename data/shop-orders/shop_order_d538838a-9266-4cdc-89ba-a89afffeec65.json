@@ -1,0 +1,23 @@
+{
+  "id": "shop_order_d538838a-9266-4cdc-89ba-a89afffeec65",
+  "guestEmail": "test@example.com",
+  "guestName": "Test User",
+  "items": [
+    {
+      "productId": "shop_001",
+      "quantity": 1,
+      "priceAtOrder": 95
+    }
+  ],
+  "shippingAddress": {
+    "line1": "123 Test St",
+    "city": "Terlingua",
+    "state": "TX",
+    "zip": "79852"
+  },
+  "shippingProfile": "parcel",
+  "status": "confirmed",
+  "createdAt": "2026-03-28T18:27:35.546Z",
+  "confirmedAt": "2026-03-28T18:27:35.547Z",
+  "subtotalAmount": 95
+}

@@ -1,0 +1,103 @@
+{
+  "schema_version": "0.3.0",
+  "views": {
+    "high_trust": ["S004", "S005", "S006", "S007", "S008", "S009", "S010", "B001"],
+    "summary": ["S004", "S005", "S006", "S007", "S009", "S010", "B001"],
+    "darq": ["S003"],
+    "research": ["S004", "S005", "S006", "S009", "S010"],
+    "property_ops": ["S003"],
+    "pilot": ["S006", "B001"]
+  },
+  "sources": [
+    {
+      "source_id": "S003",
+      "path": "memory/l2/capsules/DARQ_2026_03_08.json",
+      "format": "json",
+      "label": "March 8 DARQ register",
+      "trust_level": "user_primary",
+      "summary": "Decisions, assertions, risks, and questions anchored to the March 8 conversation.",
+      "domains": ["property", "operations", "activism"],
+      "views": ["darq", "property_ops"]
+    },
+    {
+      "source_id": "B101",
+      "path": "data/trackers/property_tracker.json",
+      "format": "json",
+      "label": "Property issue tracker",
+      "trust_level": "authoritative_internal",
+      "summary": "Current probate, lien, tax, and adjacent-lot issues with owners and next actions.",
+      "domains": ["property", "land"],
+      "views": ["summary", "property_ops"]
+    },
+    {
+      "source_id": "B102",
+      "path": "data/trackers/property_tasks.json",
+      "format": "json",
+      "label": "Property task tracker",
+      "trust_level": "authoritative_internal",
+      "summary": "Blueprint-aligned tasks covering land, utilities, and activism workstreams.",
+      "domains": ["property", "tasks"],
+      "views": ["summary", "property_ops"]
+    },
+    {
+      "source_id": "B103",
+      "path": "data/models/pilot_unit_model.json",
+      "format": "json",
+      "label": "Pilot unit model",
+      "trust_level": "authoritative_internal",
+      "summary": "Provisional shell-cost, site-prep, utility, ADR, occupancy, and revenue estimates for three pilot lodging concepts.",
+      "domains": ["property", "lodging", "feasibility"],
+      "views": ["summary", "pilot"]
+    },
+    {
+      "source_id": "S009",
+      "path": "Docs/Research/Handicrafts_Big_Bend_Encyclopedia.md",
+      "format": "markdown",
+      "label": "Handicrafts research encyclopedia",
+      "trust_level": "validated_research",
+      "summary": "Grounding for handicraft positioning, workshop framing, and artisan-market dynamics in the Big Bend context.",
+      "domains": ["artisan", "workshops"],
+      "views": ["high_trust", "research", "summary"]
+    },
+    {
+      "source_id": "S005",
+      "path": "Docs/Research/Art_Tiles_and_Pottery_L3_DS.md",
+      "format": "markdown",
+      "label": "Art tiles and pottery pack",
+      "trust_level": "validated_research",
+      "summary": "Source pack for tile, pottery, fragility, and pricing strategy considerations.",
+      "domains": ["artisan", "shipping", "pricing"],
+      "views": ["high_trust", "research", "summary"]
+    },
+    {
+      "source_id": "S010",
+      "path": "Docs/Research/Landscape_Dark_Sky_Photography_Business_Encyclopedia.md",
+      "format": "markdown",
+      "label": "Dark-sky photography business research",
+      "trust_level": "validated_research",
+      "summary": "Market framing for premium dark-sky workshops and experience-led revenue.",
+      "domains": ["artisan", "photography", "workshops"],
+      "views": ["high_trust", "research", "summary"]
+    },
+    {
+      "source_id": "S006",
+      "path": "Docs/Research/Big_Bend_Glamping_Economics_and_Seasonality_Canonical.md",
+      "format": "markdown",
+      "label": "Glamping economics research",
+      "trust_level": "validated_research",
+      "summary": "Seasonality, ADR, and pilot-lodging economics for Big Bend and Terlingua.",
+      "domains": ["lodging", "property", "feasibility"],
+      "views": ["high_trust", "research", "summary", "pilot"]
+    },
+    {
+      "source_id": "S004",
+      "path": "Docs/Research/Brewster_County_Equipment_Rental_Economics_Final.md",
+      "format": "markdown",
+      "label": "Equipment rental research",
+      "trust_level": "validated_research",
+      "summary": "Purchase bands, rental rate bands, and payback framing for local equipment decisions.",
+      "domains": ["equipment", "feasibility"],
+      "views": ["high_trust", "research", "summary"]
+    }
+  ]
+}

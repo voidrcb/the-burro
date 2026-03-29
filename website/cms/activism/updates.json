@@ -1,0 +1,97 @@
+{
+  "updates": [
+    {
+      "update_id": "ACT-001",
+      "slug": "park-detection-infrastructure-shift",
+      "title": "Park planning shifted toward detection infrastructure inside Big Bend National Park",
+      "status_date": "2026-03-06",
+      "status_type": "policy_change",
+      "summary": "The latest public status indicates a shift toward detection technology inside the park, while broader corridor questions outside the park remain unresolved.",
+      "content": "Burro is treating this as a planning shift, not a finished story. The useful public record is the one that keeps track of what changed, which questions remain open outside the park, and how neighbors and visitors can respond without exaggerating the facts.",
+      "source_pack_ref": "S008",
+      "source_refs": [
+        {
+          "label": "Preservation background post",
+          "url": "/blog/preservation-why-burro-exists"
+        },
+        {
+          "label": "National Park Service overview",
+          "url": "https://www.nps.gov/bibe/index.htm"
+        }
+      ],
+      "public_visibility": true,
+      "category": "legislative",
+      "actions": [
+        {
+          "type": "share",
+          "label": "Read the activism background",
+          "url": "/blog/preservation-why-burro-exists"
+        },
+        {
+          "type": "contact",
+          "label": "Contact Big Bend Burro",
+          "url": "/contact"
+        }
+      ]
+    },
+    {
+      "update_id": "ACT-002",
+      "slug": "conservation-narrative-public-launch",
+      "title": "Conservation narrative remains part of the public launch",
+      "status_date": "2026-03-12",
+      "status_type": "media",
+      "summary": "Big Bend Burro is launching the public site with stewardship and place-protection language intact rather than treating it as a later add-on.",
+      "content": "This update is less about a single external event and more about preserving the operating posture of the business. Stewardship language stays in the public launch because the work loses coherence if conservation is stripped out until later.",
+      "source_pack_ref": "B001",
+      "source_refs": [
+        {
+          "label": "Why Burro exists",
+          "url": "/blog/preservation-why-burro-exists"
+        }
+      ],
+      "public_visibility": true,
+      "category": "community",
+      "actions": [
+        {
+          "type": "share",
+          "label": "Share the background story",
+          "url": "/blog/preservation-why-burro-exists"
+        }
+      ]
+    },
+    {
+      "update_id": "ACT-003",
+      "slug": "specific-local-action-over-generic-outrage",
+      "title": "Local action remains useful only when it is specific",
+      "status_date": "2026-03-14",
+      "status_type": "call_to_action",
+      "summary": "Burro will prefer specific, source-backed updates and practical calls to action over generic outrage. That keeps the public record useful for neighbors and visitors alike.",
+      "content": "The activism hub is being built to point toward practical next steps: who to contact, where background material lives, and when donation or petition links should stay external until a cleaner model exists. If a call to action cannot be sourced or explained, it should not be published.",
+      "source_pack_ref": "S008",
+      "source_refs": [
+        {
+          "label": "Contact page",
+          "url": "/contact"
+        },
+        {
+          "label": "Big Bend support page",
+          "url": "https://www.nationalparks.org/explore-parks/big-bend-national-park"
+        }
+      ],
+      "public_visibility": true,
+      "category": "education",
+      "actions": [
+        {
+          "type": "contact",
+          "label": "Contact the project",
+          "url": "/contact"
+        },
+        {
+          "type": "donation",
+          "label": "Support Big Bend externally",
+          "url": "https://www.nationalparks.org/explore-parks/big-bend-national-park"
+        }
+      ]
+    }
+  ]
+}

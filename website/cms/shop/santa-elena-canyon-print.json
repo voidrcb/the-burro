@@ -1,0 +1,31 @@
+{
+  "id": "print_santa_elena_canyon",
+  "slug": "santa-elena-canyon-print",
+  "title": "Santa Elena Canyon",
+  "description": "Fifteen-hundred-foot limestone walls rise from the Rio Grande, the border running through the water below.",
+  "category": "prints",
+  "price": {
+    "amount": 125,
+    "currency": "USD"
+  },
+  "images": [
+    {
+      "url": "/images/palette/santa-elena-canyon.jpg",
+      "alt": "Santa Elena Canyon with towering cliff walls and the Rio Grande"
+    }
+  ],
+  "story": "Santa Elena is the signature canyon of Big Bend, where Mexico rises on the left and Texas on the right, separated only by the quiet Rio Grande. Susan walked the trail at midday when the light fills the canyon floor and the scale becomes almost incomprehensible. This photograph anchors the deep canyon grays and river greens in the Burro palette.",
+  "shippingProfile": "parcel",
+  "status": "available",
+  "inventory": {
+    "available": 10
+  },
+  "featured": true,
+  "badge": "Susan's Collection",
+  "leadTimeNote": "Archival pigment print on cotton rag. Ships flat within 5 business days.",
+  "highlights": [
+    "16x20 archival cotton rag",
+    "Signed by Susan",
+    "Ships flat in rigid mailer"
+  ]
+}

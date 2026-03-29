@@ -1,0 +1,68 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "WorkshopProgram",
+  "type": "object",
+  "required": ["slug", "title", "category", "description", "summary", "instructorName", "duration", "capacity", "pricing", "schedule", "status", "intakeSchemaRef", "waiverRequired"],
+  "properties": {
+    "slug": { "type": "string" },
+    "title": { "type": "string" },
+    "category": { "type": "string", "enum": ["craft", "photography"] },
+    "description": { "type": "string" },
+    "summary": { "type": "string" },
+    "instructorName": { "type": "string" },
+    "instructorBio": { "type": "string" },
+    "heroImage": { "type": "string" },
+    "duration": {
+      "type": "object",
+      "required": ["hours", "format"],
+      "properties": {
+        "hours": { "type": "number" },
+        "format": { "type": "string", "enum": ["single-session", "multi-day"] }
+      }
+    },
+    "capacity": {
+      "type": "object",
+      "required": ["min", "max"],
+      "properties": {
+        "min": { "type": "integer", "minimum": 1 },
+        "max": { "type": "integer", "minimum": 1 }
+      }
+    },
+    "pricing": {
+      "type": "object",
+      "required": ["basePrice", "materialsIncluded"],
+      "properties": {
+        "basePrice": { "type": "number", "minimum": 0 },
+        "depositRequired": { "type": "number", "minimum": 0 },
+        "materialsIncluded": { "type": "boolean" },
+        "materialsFee": { "type": "number", "minimum": 0 }
+      }
+    },
+    "schedule": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "date", "startTime", "endTime", "spotsAvailable", "status"],
+        "properties": {
+          "id": { "type": "string" },
+          "date": { "type": "string" },
+          "startTime": { "type": "string" },
+          "endTime": { "type": "string" },
+          "spotsAvailable": { "type": "integer", "minimum": 0 },
+          "status": { "type": "string", "enum": ["open", "full", "cancelled"] }
+        }
+      }
+    },
+    "status": { "type": "string", "enum": ["draft", "published", "archived"] },
+    "intakeSchemaRef": { "type": "string" },
+    "waiverRequired": { "type": "boolean" },
+    "specialInstructions": { "type": "string" },
+    "shippingFollowUp": {
+      "type": "object",
+      "properties": {
+        "required": { "type": "boolean" },
+        "description": { "type": "string" }
+      }
+    }
+  }
+}

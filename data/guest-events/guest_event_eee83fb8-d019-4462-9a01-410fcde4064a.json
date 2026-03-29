@@ -1,0 +1,15 @@
+{
+  "id": "guest_event_eee83fb8-d019-4462-9a01-410fcde4064a",
+  "guestEmail": "test@example.com",
+  "eventType": "purchase",
+  "eventRef": "shop_order_d538838a-9266-4cdc-89ba-a89afffeec65",
+  "metadata": {
+    "shippingProfile": "parcel",
+    "subtotalAmount": 95,
+    "itemCount": 1
+  },
+  "occurredAt": "2026-03-28T18:27:35.548Z",
+  "tags": [
+    "shop"
+  ]
+}

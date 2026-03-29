@@ -1,0 +1,34 @@
+{
+  "rules": [
+    {
+      "id": "pricing_group_4",
+      "name": "Small retreat group discount",
+      "triggerType": "group_size",
+      "triggerValue": 4,
+      "adjustmentType": "percentage_discount",
+      "adjustmentValue": 8,
+      "applicableTo": "all",
+      "description": "Applies when a package is being built for four or more guests."
+    },
+    {
+      "id": "pricing_three_night_bundle",
+      "name": "Three-night itinerary bundle",
+      "triggerType": "min_nights",
+      "triggerValue": 3,
+      "adjustmentType": "fixed_discount",
+      "adjustmentValue": 75,
+      "applicableTo": "lodging",
+      "description": "Encourages longer shoulder-season packages."
+    },
+    {
+      "id": "pricing_peak_march",
+      "name": "March premium window",
+      "triggerType": "seasonal",
+      "triggerValue": "mar",
+      "adjustmentType": "fixed_surcharge",
+      "adjustmentValue": 60,
+      "applicableTo": "all",
+      "description": "Reflects high-demand spring packaging."
+    }
+  ]
+}

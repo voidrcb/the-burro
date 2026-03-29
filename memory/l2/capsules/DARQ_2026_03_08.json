@@ -1,0 +1,119 @@
+{
+  "darq_version": "0.1.0",
+  "generated_at": "2026-03-15T19:15:31-05:00",
+  "source_id": "S003",
+  "items": [
+    {
+      "item_id": "DARQ-001",
+      "type": "decision",
+      "statement": "The project should keep AI useful and bounded rather than making every interaction AI-driven.",
+      "source_anchor": "S003:L0004-L0006",
+      "confidence": "attributed",
+      "theme": "pacing"
+    },
+    {
+      "item_id": "DARQ-002",
+      "type": "assertion",
+      "statement": "The proposed wall would damage Big Bend tourism and could hollow out nearby towns such as Terlingua.",
+      "source_anchor": "S003:L0186-L0194",
+      "confidence": "attributed",
+      "theme": "activism"
+    },
+    {
+      "item_id": "DARQ-003",
+      "type": "assertion",
+      "statement": "Chuck and Susan have already contacted multiple representatives and agencies about the wall issue.",
+      "source_anchor": "S003:L0218-L0218",
+      "confidence": "confirmed",
+      "theme": "activism"
+    },
+    {
+      "item_id": "DARQ-004",
+      "type": "risk",
+      "statement": "If wall plans proceed, scenic access, wildlife movement, and tourism economics could all degrade at once.",
+      "source_anchor": "S003:L0232-L0238",
+      "confidence": "attributed",
+      "theme": "activism"
+    },
+    {
+      "item_id": "DARQ-005",
+      "type": "decision",
+      "statement": "The family plans to attend an Austin protest related to the Big Bend wall issue.",
+      "source_anchor": "S003:L0260-L0262",
+      "confidence": "confirmed",
+      "theme": "activism"
+    },
+    {
+      "item_id": "DARQ-006",
+      "type": "assertion",
+      "statement": "The Burro land is remote enough that visits are effectively full-day or multi-day logistics, not casual stop-ins.",
+      "source_anchor": "S003:L0840-L0846",
+      "confidence": "confirmed",
+      "theme": "tourism_ops"
+    },
+    {
+      "item_id": "DARQ-007",
+      "type": "risk",
+      "statement": "Road improvements may increase traffic and outside interest in nearby parcels, reducing privacy and control.",
+      "source_anchor": "S003:L0878-L0894",
+      "confidence": "attributed",
+      "theme": "land"
+    },
+    {
+      "item_id": "DARQ-008",
+      "type": "decision",
+      "statement": "Chuck and Susan want to explore buying the adjoining parcel to prevent unwanted development next to their land.",
+      "source_anchor": "S003:L0892-L0894",
+      "confidence": "confirmed",
+      "theme": "land"
+    },
+    {
+      "item_id": "DARQ-009",
+      "type": "assertion",
+      "statement": "An appraisal-district mistake caused taxes to be paid on the wrong parcel for years.",
+      "source_anchor": "S003:L0916-L0928",
+      "confidence": "confirmed",
+      "theme": "land"
+    },
+    {
+      "item_id": "DARQ-010",
+      "type": "risk",
+      "statement": "The current parcel remains unsellable until heirs release the lien and probate is resolved.",
+      "source_anchor": "S003:L0996-L1006",
+      "confidence": "confirmed",
+      "theme": "probate"
+    },
+    {
+      "item_id": "DARQ-011",
+      "type": "question",
+      "statement": "Will the heirs actively resolve the lien release and probate path, or will the parcel remain in limbo longer than planned?",
+      "source_anchor": "S003:L0998-L1006",
+      "confidence": "attributed",
+      "theme": "probate"
+    },
+    {
+      "item_id": "DARQ-012",
+      "type": "assertion",
+      "statement": "A skid steer or small backhoe is viewed as the practical equipment required for the water project.",
+      "source_anchor": "S003:L0954-L0978",
+      "confidence": "confirmed",
+      "theme": "utilities"
+    },
+    {
+      "item_id": "DARQ-013",
+      "type": "question",
+      "statement": "Should the water-project equipment plan assume purchase, resale, community rental, or a hybrid model?",
+      "source_anchor": "S003:L0954-L0978",
+      "confidence": "attributed",
+      "theme": "utilities"
+    },
+    {
+      "item_id": "DARQ-014",
+      "type": "decision",
+      "statement": "Future language help should prioritize usable Spanish support tied to practical operator needs.",
+      "source_anchor": "S003:L0816-L0838",
+      "confidence": "attributed",
+      "theme": "operator_enablement"
+    }
+  ]
+}

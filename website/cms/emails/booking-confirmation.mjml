@@ -1,0 +1,27 @@
+<mjml>
+  <mj-body background-color="#f0f1f2">
+    <mj-section background-color="#ffffff" padding="32px">
+      <mj-column>
+        <mj-text font-size="12px" color="#9c612c" text-transform="uppercase" letter-spacing="2px">
+          Big Bend Burro Booking Confirmation
+        </mj-text>
+        <mj-text font-size="24px" color="#182721" font-weight="700">
+          {{guestName}}, your stay request is confirmed.
+        </mj-text>
+        <mj-text font-size="16px" color="#315169" line-height="1.6">
+          Unit: {{unitName}}<br />
+          Check-in: {{checkIn}}<br />
+          Check-out: {{checkOut}}<br />
+          Guests: {{partySummary}}<br />
+          Booking reference: {{bookingId}}
+        </mj-text>
+        <mj-text font-size="15px" color="#182721" line-height="1.6">
+          Waiver acknowledged at {{acknowledgedAt}}. This first-release flow uses a Lodgify booking handoff and local Burro records until provider credentials are fully activated.
+        </mj-text>
+        <mj-text font-size="14px" color="#586860" line-height="1.7">
+          Expect a follow-up with access notes, weather reminders, and any final arrival details once the operator review is complete.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>

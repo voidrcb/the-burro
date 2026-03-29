@@ -1,0 +1,25 @@
+{
+  "id": "shop_002",
+  "slug": "burro-field-notes-kit",
+  "title": "Burro Field Notes Kit",
+  "description": "Small giftable bundle with notebook, postcard set, and trail pencil.",
+  "category": "giftables",
+  "price": {
+    "amount": 34,
+    "currency": "USD"
+  },
+  "images": [
+    {
+      "url": "/shop/burro-field-notes-kit-1.jpg",
+      "alt": "Burro Field Notes Kit"
+    }
+  ],
+  "story": "A lightweight way to test a giftable lane without fragile packing. The kit is built around observation, stewardship, and taking notes before making noise.",
+  "shippingProfile": "pickup-only",
+  "status": "coming-soon",
+  "inventory": {
+    "available": 0
+  },
+  "badge": "Pickup at workshops",
+  "leadTimeNote": "Reserved for local pickup once the first workshop schedule is locked."
+}

@@ -1,0 +1,48 @@
+{
+  "slug": "tile-making-intro",
+  "title": "Desert Tile Making Intro",
+  "category": "craft",
+  "description": "A small-group handbuilt tile workshop focused on desert color, glazing basics, and packing pieces for safe travel home.",
+  "summary": "Handbuilt tile fundamentals with glazing guidance and materials included.",
+  "instructorName": "Susan",
+  "instructorBio": "Susan leads intimate craft sessions that keep the pace patient and practical for first-time makers.",
+  "heroImage": "/images/workshops/tile-making.jpg",
+  "duration": {
+    "hours": 4,
+    "format": "single-session"
+  },
+  "capacity": {
+    "min": 4,
+    "max": 8
+  },
+  "pricing": {
+    "basePrice": 185,
+    "materialsIncluded": true
+  },
+  "schedule": [
+    {
+      "id": "tile-2026-04-10",
+      "date": "2026-04-10",
+      "startTime": "10:00",
+      "endTime": "14:00",
+      "spotsAvailable": 8,
+      "status": "open"
+    },
+    {
+      "id": "tile-2026-04-24",
+      "date": "2026-04-24",
+      "startTime": "10:00",
+      "endTime": "14:00",
+      "spotsAvailable": 0,
+      "status": "full"
+    }
+  ],
+  "status": "published",
+  "intakeSchemaRef": "craft",
+  "waiverRequired": true,
+  "specialInstructions": "Wear clothes that can handle clay and glaze splatter.",
+  "shippingFollowUp": {
+    "required": true,
+    "description": "Finished tiles may need firing pickup or freight follow-up depending on final glaze selection."
+  }
+}

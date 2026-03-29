@@ -1,0 +1,17 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "EquipmentReservation",
+  "type": "object",
+  "required": ["id", "assetId", "reservedBy", "startDate", "endDate", "purpose", "status", "createdAt"],
+  "properties": {
+    "id": { "type": "string" },
+    "assetId": { "type": "string" },
+    "reservedBy": { "type": "string" },
+    "startDate": { "type": "string" },
+    "endDate": { "type": "string" },
+    "purpose": { "type": "string" },
+    "status": { "type": "string", "enum": ["tentative", "confirmed", "completed", "cancelled"] },
+    "notes": { "type": "string" },
+    "createdAt": { "type": "string" }
+  }
+}

@@ -1,0 +1,5 @@
+Subject: Source-backed activism follow-up
+
+Hi {{guestName}},
+
+This draft should summarize only approved public updates, cite the linked source pack, and direct the reader toward one concrete next step.

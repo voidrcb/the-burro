@@ -1,0 +1,16 @@
+{
+  "id": "shop_order_capture_14058162-b69a-476e-937f-3b88d92ae501",
+  "template": "shop-order-confirmation",
+  "recipient": "guest@example.com",
+  "subject": "Big Bend Burro shop order captured",
+  "renderedAt": "2026-03-28T19:19:53.539Z",
+  "orderId": "shop_order_987ec183-779d-4d0d-9eb2-f27f497e022c",
+  "payload": {
+    "orderId": "shop_order_987ec183-779d-4d0d-9eb2-f27f497e022c",
+    "recipient": "guest@example.com",
+    "guestName": "Test Guest",
+    "shippingProfile": "print-on-demand",
+    "itemCount": 1,
+    "subtotalAmount": 48
+  }
+}

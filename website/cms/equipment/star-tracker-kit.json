@@ -1,0 +1,16 @@
+{
+  "id": "asset_tracker_star",
+  "slug": "star-tracker-kit",
+  "name": "Portable Star Tracker Kit",
+  "category": "telescope",
+  "description": "Portable equatorial tracker with alignment accessories for astrophotography demos.",
+  "dailyRate": 70,
+  "depositRequired": 180,
+  "status": "maintenance",
+  "maintenanceLog": [
+    {
+      "date": "2026-03-12",
+      "description": "Mount head drift noted during setup; recalibration pending."
+    }
+  ]
+}

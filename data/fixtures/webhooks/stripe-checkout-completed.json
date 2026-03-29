@@ -1,0 +1,15 @@
+{
+  "id": "evt_1_test_checkout_completed",
+  "type": "checkout.session.completed",
+  "created": 1773637200,
+  "data": {
+    "object": {
+      "id": "cs_test_001",
+      "amount_total": 72500,
+      "currency": "usd",
+      "customer_email": "guest@example.com",
+      "payment_status": "paid"
+    }
+  },
+  "source": "fixture"
+}

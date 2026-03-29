@@ -1,0 +1,10 @@
+<mjml>
+  <mj-body>
+    <mj-section>
+      <mj-column>
+        <mj-text font-size="24px" font-weight="700">Workshop confirmation</mj-text>
+        <mj-text>Your registration has been captured in scaffold mode for operator follow-up.</mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>

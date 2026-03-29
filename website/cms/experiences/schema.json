@@ -1,0 +1,25 @@
+{
+  "contract": "ExperienceProduct",
+  "canonicalPath": "website/frontend/lib/experience/types.ts",
+  "fields": [
+    "id",
+    "slug",
+    "name",
+    "category",
+    "deliveryModel",
+    "partnerRef",
+    "partnerName",
+    "locationSummary",
+    "meetingPoint",
+    "durationHours",
+    "priceUsd",
+    "maxGroupSize",
+    "seasonality",
+    "safetyLevel",
+    "waiverRequired",
+    "status",
+    "summary",
+    "description",
+    "images"
+  ]
+}

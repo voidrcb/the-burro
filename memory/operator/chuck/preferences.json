@@ -1,0 +1,35 @@
+{
+  "persona_id": "chuck",
+  "display_name": "Chuck Bell",
+  "created": "2026-03-21",
+  "last_updated": "2026-03-21",
+
+  "profile": {
+    "age_range": "50s",
+    "focus": "practical_operations",
+    "tech_comfort": "basic",
+    "primary_interests": ["equipment", "construction", "land_management", "dark_sky"]
+  },
+
+  "communication": {
+    "style": "direct",
+    "detail_level": "numbers_over_adjectives",
+    "patience_required": true,
+    "avoid": ["tech_jargon", "lengthy_explanations"]
+  },
+
+  "projects": {
+    "active": [],
+    "completed": []
+  },
+
+  "equipment": {
+    "owned": ["Kubota KX040 excavator", "skid steer"],
+    "rental_active": false
+  },
+
+  "learned_patterns": {
+    "successful_explanations": [],
+    "frustration_triggers": []
+  }
+}

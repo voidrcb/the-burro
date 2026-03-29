@@ -1,0 +1,17 @@
+{
+  "id": "asset_tile_tools",
+  "slug": "tile-tool-pack",
+  "name": "Tile Workshop Tool Pack",
+  "category": "craft-supplies",
+  "description": "Shared trimming, shaping, and glazing tools reserved for internal workshop prep.",
+  "dailyRate": 35,
+  "depositRequired": 75,
+  "status": "reserved",
+  "maintenanceLog": [
+    {
+      "date": "2026-03-08",
+      "description": "Brushes replaced and cutting mats inspected.",
+      "resolvedAt": "2026-03-08"
+    }
+  ]
+}

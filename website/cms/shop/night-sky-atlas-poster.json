@@ -1,0 +1,26 @@
+{
+  "id": "shop_003",
+  "slug": "night-sky-atlas-poster",
+  "title": "Night Sky Atlas Poster",
+  "description": "Print-on-demand sky map poster tuned to Big Bend viewing conditions.",
+  "category": "print-on-demand",
+  "price": {
+    "amount": 48,
+    "currency": "USD"
+  },
+  "images": [
+    {
+      "url": "/shop/night-sky-atlas-poster-1.jpg",
+      "alt": "Night Sky Atlas Poster"
+    }
+  ],
+  "story": "This is the safest early print-on-demand lane for Burro: educational, low breakage risk, and connected to the dark-sky programming already on the site.",
+  "shippingProfile": "print-on-demand",
+  "status": "available",
+  "inventory": {
+    "available": 999
+  },
+  "featured": false,
+  "badge": "Print-on-demand",
+  "leadTimeNote": "Produced after order confirmation and shipped by the print vendor."
+}

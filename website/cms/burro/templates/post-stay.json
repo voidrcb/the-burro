@@ -1,0 +1,6 @@
+{
+  "id": "post-stay",
+  "title": "Post-stay thank you",
+  "subject": "Thank you for staying with Big Bend Burro",
+  "body": "Hi {{guestName}},\n\nThank you for spending time with us at {{contextLabel}} from {{dateLabel}}. We wanted to send a short follow-up while the stay is still fresh.\n\nIf there was a moment that stood out, we would love to hear it. If you have a review to share, we would also appreciate that once you are home.\n\nWe are building this place carefully, so notes about comfort, access, and the landscape experience are especially useful.\n\nChuck, Susan, and Burro"
+}

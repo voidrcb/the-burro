@@ -1,0 +1,22 @@
+{
+  "id": "experience_tile_fire_circle",
+  "slug": "terlingua-tile-fire-circle",
+  "name": "Terlingua Tile Fire Circle",
+  "category": "craft",
+  "deliveryModel": "owned",
+  "locationSummary": "Slow craft add-on with kiln stories, field notes, and a sunset circle around Susan's process.",
+  "meetingPoint": "Workshop patio",
+  "durationHours": 2,
+  "priceUsd": 120,
+  "maxGroupSize": 10,
+  "seasonality": {
+    "available": ["jan", "feb", "mar", "apr", "sep", "oct", "nov", "dec"],
+    "peakMonths": ["feb", "mar", "oct"]
+  },
+  "safetyLevel": "low",
+  "waiverRequired": false,
+  "status": "available",
+  "summary": "Gather around Susan's kiln at sunset to shape clay, hear the stories behind each glaze, and take home something you made with your own hands.",
+  "description": "This intimate evening experience brings small groups to Susan's outdoor studio as the desert cools. She walks you through her tile-making process, shares the Big Bend inspirations behind her color palette, and guides you in creating your own piece. Wine, conversation, and the smell of mesquite smoke included.",
+  "images": ["/images/experiences/tile-fire-circle-1.jpg"]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "experience_boquillas_story_route",
+  "slug": "boquillas-story-route",
+  "name": "Boquillas Story Route",
+  "category": "boquillas_partner",
+  "deliveryModel": "partner_led",
+  "partnerRef": "partner_borderlands_story_collective",
+  "partnerName": "Borderlands Story Collective",
+  "locationSummary": "A cultural journey exploring the stories, history, and living connections along the Texas-Mexico border.",
+  "meetingPoint": "Terlingua trading post lot",
+  "durationHours": 4,
+  "priceUsd": 210,
+  "maxGroupSize": 6,
+  "seasonality": {
+    "available": ["jan", "feb", "mar", "oct", "nov", "dec"]
+  },
+  "safetyLevel": "medium",
+  "waiverRequired": true,
+  "status": "coming-soon",
+  "summary": "A guided cultural experience exploring the border region's rich history and living traditions.",
+  "description": "Coming soon. We're working closely with the Borderlands Story Collective to craft an experience that honors the deep history and ongoing life of this remarkable border region. Sign up for updates to be first to know when bookings open.",
+  "images": ["/images/experiences/boquillas-story-route-1.jpg"]
+}

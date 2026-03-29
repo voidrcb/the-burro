@@ -1,0 +1,17 @@
+{
+  "id": "asset_camera_a7r",
+  "slug": "sony-a7r-kit",
+  "name": "Sony A7R Night Kit",
+  "category": "camera",
+  "description": "Mirrorless body, wide lens, spare batteries, and red-light accessories for field instruction.",
+  "dailyRate": 95,
+  "depositRequired": 250,
+  "status": "available",
+  "maintenanceLog": [
+    {
+      "date": "2026-03-10",
+      "description": "Sensor cleaned and spare battery cycle checked.",
+      "resolvedAt": "2026-03-10"
+    }
+  ]
+}

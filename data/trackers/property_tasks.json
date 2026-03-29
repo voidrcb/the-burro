@@ -1,0 +1,83 @@
+{
+  "schema_version": "0.1.0",
+  "generated_at": "2026-03-15T19:15:31-05:00",
+  "schema": {
+    "primary_key": "task_id",
+    "source_contract": "Blueprint property_task",
+    "fields": [
+      "task_id",
+      "task_group",
+      "title",
+      "priority",
+      "status",
+      "dependency_ids",
+      "owner"
+    ]
+  },
+  "tasks": [
+    {
+      "task_id": "TASK-001",
+      "task_group": "land",
+      "title": "Document probate and lien blockers in one tracker",
+      "priority": "P0",
+      "status": "done",
+      "dependency_ids": [],
+      "owner": "JEKYLL"
+    },
+    {
+      "task_id": "TASK-002",
+      "task_group": "land",
+      "title": "Confirm heir contacts and lien-release requirements",
+      "priority": "P0",
+      "status": "blocked",
+      "dependency_ids": [
+        "TASK-001"
+      ],
+      "owner": "Chuck and Susan"
+    },
+    {
+      "task_id": "TASK-003",
+      "task_group": "land",
+      "title": "Capture wrong-tax parcel history and supporting documents",
+      "priority": "P0",
+      "status": "active",
+      "dependency_ids": [
+        "TASK-001"
+      ],
+      "owner": "Susan"
+    },
+    {
+      "task_id": "TASK-004",
+      "task_group": "land",
+      "title": "Research adjoining parcel seller and price",
+      "priority": "P1",
+      "status": "backlog",
+      "dependency_ids": [
+        "TASK-001"
+      ],
+      "owner": "Chuck and Susan"
+    },
+    {
+      "task_id": "TASK-005",
+      "task_group": "utilities",
+      "title": "Define water-project equipment assumptions for pilot budgeting",
+      "priority": "P1",
+      "status": "active",
+      "dependency_ids": [
+        "TASK-001"
+      ],
+      "owner": "Chuck"
+    },
+    {
+      "task_id": "TASK-006",
+      "task_group": "activism",
+      "title": "Track activism actions that affect tourism and land strategy",
+      "priority": "P1",
+      "status": "active",
+      "dependency_ids": [
+        "TASK-001"
+      ],
+      "owner": "Susan"
+    }
+  ]
+}

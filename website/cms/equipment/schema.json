@@ -1,0 +1,32 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "EquipmentAsset",
+  "type": "object",
+  "required": ["id", "slug", "name", "category", "description", "dailyRate", "depositRequired", "status", "maintenanceLog"],
+  "properties": {
+    "id": { "type": "string" },
+    "slug": { "type": "string" },
+    "name": { "type": "string" },
+    "category": { "type": "string", "enum": ["camera", "telescope", "outdoor-gear", "craft-supplies"] },
+    "description": { "type": "string" },
+    "dailyRate": { "type": "number", "minimum": 0 },
+    "depositRequired": { "type": "number", "minimum": 0 },
+    "status": { "type": "string", "enum": ["available", "reserved", "maintenance", "retired"] },
+    "maintenanceLog": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["date", "description"],
+        "properties": {
+          "date": { "type": "string" },
+          "description": { "type": "string" },
+          "resolvedAt": { "type": "string" }
+        }
+      }
+    },
+    "images": {
+      "type": "array",
+      "items": { "type": "string" }
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "id": "print_road_to_chisos",
+  "slug": "road-to-chisos-print",
+  "title": "The Road to Chisos",
+  "description": "The open highway pulls toward purple mountain haze, a Jeep heading into the heart of Big Bend.",
+  "category": "prints",
+  "price": {
+    "amount": 85,
+    "currency": "USD"
+  },
+  "images": [
+    {
+      "url": "/images/palette/chisos-road.jpg",
+      "alt": "Highway leading toward the Chisos Mountains with a Jeep in the distance"
+    }
+  ],
+  "story": "This photograph captures what every Big Bend visitor knows: that moment when the mountains finally rise from the desert floor and you realize you're almost there. Susan shot this on one of her first trips down, and it became the anchor for the dusty tan and purple-blue tones throughout the Burro palette.",
+  "shippingProfile": "parcel",
+  "status": "available",
+  "inventory": {
+    "available": 15
+  },
+  "featured": true,
+  "badge": "Susan's Collection",
+  "leadTimeNote": "Archival pigment print on cotton rag. Ships flat within 5 business days.",
+  "highlights": [
+    "11x14 archival cotton rag",
+    "Signed by Susan",
+    "Ships flat in rigid mailer"
+  ]
+}

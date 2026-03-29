@@ -1,0 +1,35 @@
+{
+  "id": "unit_casa_de_la_luna",
+  "slug": "casa-de-la-luna",
+  "name": "Casa de la Luna",
+  "description": "A low-light desert cabin plan for guests who want night air, quiet mornings, and practical comfort near the field base.",
+  "shortDescription": "Solar-backed desert cabin with private bath and direct dark-sky orientation.",
+  "capacity": {
+    "adults": 2,
+    "children": 1
+  },
+  "amenities": [
+    "Private bath",
+    "Solar-backed power",
+    "Covered outdoor seating",
+    "Dark-sky viewing deck"
+  ],
+  "photos": [
+    {
+      "url": "/images/stay/casa-de-la-luna-01.jpg",
+      "alt": "Concept card for Casa de la Luna under a dark desert sky"
+    }
+  ],
+  "policies": {
+    "checkIn": "After 4:00 PM",
+    "checkOut": "By 10:00 AM",
+    "cancellation": "Full refund with 14 days notice; weather exceptions handled manually.",
+    "pets": "Case-by-case only with advance approval.",
+    "smoking": "No smoking indoors or near dry grass zones.",
+    "access": "Remote roads require careful arrival planning before sunset.",
+    "weather": "Heat, wind, and dust are normal realities; pack accordingly."
+  },
+  "lodgifyPropertyId": "lodgify_casa_luna",
+  "status": "available",
+  "featured": true
+}

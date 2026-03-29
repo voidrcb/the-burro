@@ -1,0 +1,10 @@
+{
+  "RecordType": "Delivery",
+  "MessageID": "postmark-msg-001",
+  "Recipient": "guest@example.com",
+  "DeliveredAt": "2026-03-15T21:15:00Z",
+  "Tag": "booking-confirmation",
+  "Metadata": {
+    "environment": "fixture"
+  }
+}

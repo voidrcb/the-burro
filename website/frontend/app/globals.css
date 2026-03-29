@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Cache-bust comment to rotate the compiled stylesheet asset. */
+
+:root {
+  --burro-build-20260328: 1;
+  color-scheme: light;
+}
+
+body {
+  @apply bg-surface-base text-text-strong font-body antialiased;
+  background-image: radial-gradient(circle at top, rgba(238, 211, 153, 0.28), transparent 32%), linear-gradient(180deg, #f0f1f2 0%, #e6ece9 100%);
+  min-height: 100vh;
+}
+
+a {
+  @apply text-accent-primary underline-offset-4 transition-colors;
+}
+
+a:hover {
+  @apply text-accent-earth;
+}
+
+::selection {
+  background: rgba(84, 45, 20, 0.18);
+}
